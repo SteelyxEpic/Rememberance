@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://bth741it2xcee"]
+
+[ext_resource type="PackedScene" uid="uid://eh0gsescjwr5" path="res://character_body_2d.tscn" id="1_xal5j"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4kxuq"]
+
+[node name="living room" type="Node2D" unique_id=23302581]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=72369958]
+position = Vector2(312, 718)
+scale = Vector2(262.03738, 14.345722)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=432003416]
+shape = SubResource("RectangleShape2D_4kxuq")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D" unique_id=1434919820]
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 10.0
+offset_bottom = 10.0
+
+[node name="CharacterBody2D" parent="." unique_id=2047407862 instance=ExtResource("1_xal5j")]
+position = Vector2(109, 99)
