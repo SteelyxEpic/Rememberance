@@ -1,23 +1,101 @@
 [gd_scene format=3 uid="uid://bth741it2xcee"]
 
-[ext_resource type="PackedScene" uid="uid://eh0gsescjwr5" path="res://character_body_2d.tscn" id="1_xal5j"]
+[ext_resource type="Script" uid="uid://b8wh2rp5fw56g" path="res://spinlock.gd" id="1_378y4"]
+[ext_resource type="Texture2D" uid="uid://dc2qvuao7hvus" path="res://dial.png" id="1_efgsu"]
+[ext_resource type="Texture2D" uid="uid://p5gwhgg1wmfd" path="res://dark.png" id="1_sigte"]
+[ext_resource type="Script" uid="uid://ci587d5fhnpxi" path="res://darkness.gd" id="2_6sk78"]
+[ext_resource type="Texture2D" uid="uid://yxrlp5idioeg" path="res://arrow.png" id="2_378y4"]
+[ext_resource type="Texture2D" uid="uid://wjjtng042kom" path="res://safe.png" id="4_jeppt"]
+[ext_resource type="Texture2D" uid="uid://bni2m0bkpkm17" path="res://key.png" id="5_parq5"]
+[ext_resource type="Script" uid="uid://dcobh3tp56ctr" path="res://safe.gd" id="5_w7u4w"]
+[ext_resource type="Texture2D" uid="uid://d3htm0rj3c6vv" path="res://bedroom.png" id="6_amcw0"]
+[ext_resource type="Script" uid="uid://b2mqbrt7bacbr" path="res://reward.gd" id="6_pd0i2"]
+[ext_resource type="Texture2D" uid="uid://dedqgub38vwop" path="res://bed.png" id="7_sigte"]
+[ext_resource type="Texture2D" uid="uid://b23nq0td6651n" path="res://weirdroom.png" id="8_6sk78"]
+[ext_resource type="Script" uid="uid://dqawkdg0mffek" path="res://weirdroom.gd" id="9_parq5"]
+[ext_resource type="Texture2D" uid="uid://dbl2fxkoq15ng" path="res://god.png" id="10_pd0i2"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_4kxuq"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mti6b"]
+size = Vector2(326.25, 265)
 
 [node name="living room" type="Node2D" unique_id=23302581]
 
-[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=72369958]
-position = Vector2(312, 718)
-scale = Vector2(262.03738, 14.345722)
+[node name="Ligth" type="Sprite2D" parent="." unique_id=1402283668]
+modulate = Color(1, 1, 1, 0.5137255)
+top_level = true
+position = Vector2(579, 328)
+scale = Vector2(1.1289063, 1.265625)
+texture = ExtResource("1_sigte")
+script = ExtResource("2_6sk78")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=432003416]
-shape = SubResource("RectangleShape2D_4kxuq")
+[node name="safe" type="Area2D" parent="." unique_id=1964514005]
+position = Vector2(182, 30)
+script = ExtResource("5_w7u4w")
 
-[node name="ColorRect" type="ColorRect" parent="StaticBody2D" unique_id=1434919820]
-offset_left = -10.0
-offset_top = -10.0
-offset_right = 10.0
-offset_bottom = 10.0
+[node name="Safe" type="Sprite2D" parent="safe" unique_id=485739608]
+position = Vector2(533, 297)
+texture = ExtResource("4_jeppt")
 
-[node name="CharacterBody2D" parent="." unique_id=2047407862 instance=ExtResource("1_xal5j")]
-position = Vector2(109, 99)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="safe" unique_id=272726614]
+position = Vector2(401.875, 294.5)
+shape = SubResource("RectangleShape2D_mti6b")
+
+[node name="Rewards" type="Node2D" parent="safe" unique_id=1059582514]
+visible = false
+position = Vector2(400, 291)
+
+[node name="Key" type="TextureButton" parent="safe/Rewards" unique_id=1103730891]
+offset_left = -68.0
+offset_top = -33.0
+offset_right = 217.0
+offset_bottom = 88.0
+scale = Vector2(0.44840068, 0.5847995)
+texture_normal = ExtResource("5_parq5")
+script = ExtResource("6_pd0i2")
+
+[node name="Bedroom" type="Sprite2D" parent="." unique_id=1285169866]
+visible = false
+position = Vector2(572.5, 326)
+scale = Vector2(1.7342342, 1.5023475)
+texture = ExtResource("6_amcw0")
+
+[node name="Bed" type="Sprite2D" parent="Bedroom" unique_id=1511173313]
+position = Vector2(82.16884, 93.853134)
+scale = Vector2(0.5766233, 0.6656249)
+texture = ExtResource("7_sigte")
+
+[node name="Weirdroom" type="Sprite2D" parent="." unique_id=1014212271]
+visible = false
+position = Vector2(566.5, 324)
+scale = Vector2(1.7162162, 1.5305164)
+texture = ExtResource("8_6sk78")
+script = ExtResource("9_parq5")
+
+[node name="Godcon" type="Node2D" parent="Weirdroom" unique_id=2091198225]
+show_behind_parent = true
+
+[node name="God" type="Sprite2D" parent="Weirdroom/Godcon" unique_id=2037145972]
+show_behind_parent = true
+scale = Vector2(0.58267707, 0.65337425)
+texture = ExtResource("10_pd0i2")
+
+[node name="spinlock" type="Node2D" parent="." unique_id=866412384]
+visible = false
+top_level = true
+script = ExtResource("1_378y4")
+
+[node name="lock" type="Sprite2D" parent="spinlock" unique_id=1787701732]
+position = Vector2(594, 341)
+scale = Vector2(1.015625, 1)
+texture = ExtResource("1_efgsu")
+
+[node name="Arrow" type="Sprite2D" parent="spinlock" unique_id=317766638]
+position = Vector2(883, 331)
+texture = ExtResource("2_378y4")
+
+[node name="Panel" type="Panel" parent="spinlock" unique_id=757962336]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(28.784903, 16.39714)
+
+[connection signal="input_event" from="safe" to="safe" method="_on_input_event"]
