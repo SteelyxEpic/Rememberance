@@ -1,12 +1,22 @@
 extends Node
 
 var inventory:Array[String]
+var object:Array
+@onready var current:Node2D = $"../living room/Saferoom"
+@onready var lock: Node2D = $"../living room/spinlock" 
+signal speech(text:Dictionary)
+signal clicked
 
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
+func switch():
+	if current.find_child("front").visible:
+		current.find_child("back").show()
+		current.find_child("front").hide()
+	else:
+		current.find_child("front").show()
+		current.find_child("back").hide()
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+func mouse(obj, remove):
+	if remove:
+		object.erase(obj)
+	else:
+		object.append(obj)

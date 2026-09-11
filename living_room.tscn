@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://p5gwhgg1wmfd" path="res://dark.png" id="1_sigte"]
 [ext_resource type="Script" uid="uid://ci587d5fhnpxi" path="res://darkness.gd" id="2_6sk78"]
 [ext_resource type="Texture2D" uid="uid://yxrlp5idioeg" path="res://arrow.png" id="2_378y4"]
+[ext_resource type="Texture2D" uid="uid://4ayrts8wm6x0" path="res://table.png" id="3_6utvc"]
 [ext_resource type="Texture2D" uid="uid://wjjtng042kom" path="res://safe.png" id="4_jeppt"]
 [ext_resource type="Texture2D" uid="uid://bni2m0bkpkm17" path="res://key.png" id="5_parq5"]
 [ext_resource type="Script" uid="uid://dcobh3tp56ctr" path="res://safe.gd" id="5_w7u4w"]
@@ -12,76 +13,27 @@
 [ext_resource type="Script" uid="uid://b2mqbrt7bacbr" path="res://reward.gd" id="6_pd0i2"]
 [ext_resource type="Texture2D" uid="uid://dedqgub38vwop" path="res://bed.png" id="7_sigte"]
 [ext_resource type="Texture2D" uid="uid://b23nq0td6651n" path="res://weirdroom.png" id="8_6sk78"]
+[ext_resource type="Texture2D" uid="uid://cgv1q4phslu62" path="res://entrance.png" id="8_nrb5j"]
 [ext_resource type="Script" uid="uid://dqawkdg0mffek" path="res://weirdroom.gd" id="9_parq5"]
 [ext_resource type="Texture2D" uid="uid://dbl2fxkoq15ng" path="res://god.png" id="10_pd0i2"]
+[ext_resource type="Script" uid="uid://cjug74xpi40mo" path="res://item.gd" id="12_mogh0"]
+[ext_resource type="Script" uid="uid://bsgjhe1usgguj" path="res://room.gd" id="12_s8sbf"]
+[ext_resource type="Script" uid="uid://cmmbm18e5ff1s" path="res://captions.gd" id="16_2uuqs"]
+[ext_resource type="Texture2D" uid="uid://bw75qum0vpw5i" path="res://turnaround.png" id="18_j7inc"]
+[ext_resource type="Script" uid="uid://bbpcddsouww4p" path="res://rotate.gd" id="19_joy5l"]
+[ext_resource type="Script" uid="uid://b6vfr40v0qjyy" path="res://interact.gd" id="19_mj6ii"]
+[ext_resource type="Texture2D" uid="uid://bag2geh2gihu6" path="res://inter.png" id="19_weu2t"]
+[ext_resource type="Texture2D" uid="uid://upeiucolr3dk" path="res://interactables.png" id="24_is08k"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mti6b"]
-size = Vector2(326.25, 265)
+size = Vector2(300.83527, 211.8195)
 
 [node name="living room" type="Node2D" unique_id=23302581]
-
-[node name="Ligth" type="Sprite2D" parent="." unique_id=1402283668]
-modulate = Color(1, 1, 1, 0.5137255)
-top_level = true
-position = Vector2(579, 328)
-scale = Vector2(1.1289063, 1.265625)
-texture = ExtResource("1_sigte")
-script = ExtResource("2_6sk78")
-
-[node name="safe" type="Area2D" parent="." unique_id=1964514005]
-position = Vector2(182, 30)
-script = ExtResource("5_w7u4w")
-
-[node name="Safe" type="Sprite2D" parent="safe" unique_id=485739608]
-position = Vector2(533, 297)
-texture = ExtResource("4_jeppt")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="safe" unique_id=272726614]
-position = Vector2(401.875, 294.5)
-shape = SubResource("RectangleShape2D_mti6b")
-
-[node name="Rewards" type="Node2D" parent="safe" unique_id=1059582514]
-visible = false
-position = Vector2(400, 291)
-
-[node name="Key" type="TextureButton" parent="safe/Rewards" unique_id=1103730891]
-offset_left = -68.0
-offset_top = -33.0
-offset_right = 217.0
-offset_bottom = 88.0
-scale = Vector2(0.44840068, 0.5847995)
-texture_normal = ExtResource("5_parq5")
-script = ExtResource("6_pd0i2")
-
-[node name="Bedroom" type="Sprite2D" parent="." unique_id=1285169866]
-visible = false
-position = Vector2(572.5, 326)
-scale = Vector2(1.7342342, 1.5023475)
-texture = ExtResource("6_amcw0")
-
-[node name="Bed" type="Sprite2D" parent="Bedroom" unique_id=1511173313]
-position = Vector2(82.16884, 93.853134)
-scale = Vector2(0.5766233, 0.6656249)
-texture = ExtResource("7_sigte")
-
-[node name="Weirdroom" type="Sprite2D" parent="." unique_id=1014212271]
-visible = false
-position = Vector2(566.5, 324)
-scale = Vector2(1.7162162, 1.5305164)
-texture = ExtResource("8_6sk78")
-script = ExtResource("9_parq5")
-
-[node name="Godcon" type="Node2D" parent="Weirdroom" unique_id=2091198225]
-show_behind_parent = true
-
-[node name="God" type="Sprite2D" parent="Weirdroom/Godcon" unique_id=2037145972]
-show_behind_parent = true
-scale = Vector2(0.58267707, 0.65337425)
-texture = ExtResource("10_pd0i2")
 
 [node name="spinlock" type="Node2D" parent="." unique_id=866412384]
 visible = false
 top_level = true
+z_index = 199
 script = ExtResource("1_378y4")
 
 [node name="lock" type="Sprite2D" parent="spinlock" unique_id=1787701732]
@@ -98,4 +50,215 @@ offset_right = 40.0
 offset_bottom = 40.0
 scale = Vector2(28.784903, 16.39714)
 
-[connection signal="input_event" from="safe" to="safe" method="_on_input_event"]
+[node name="Button" type="Button" parent="spinlock" unique_id=1204621195]
+offset_left = 1026.0
+offset_top = 25.0
+offset_right = 1124.0
+offset_bottom = 78.0
+theme_override_font_sizes/font_size = 32
+text = "Leave"
+
+[node name="Ligth" type="Sprite2D" parent="." unique_id=1402283668]
+modulate = Color(1, 1, 1, 0.5137255)
+top_level = true
+position = Vector2(576, 324)
+scale = Vector2(1.1249999, 1.265625)
+texture = ExtResource("1_sigte")
+script = ExtResource("2_6sk78")
+
+[node name="Saferoom" type="Sprite2D" parent="." unique_id=1787819489]
+position = Vector2(593, 318)
+scale = Vector2(1.2304688, 1.2578125)
+texture = ExtResource("3_6utvc")
+script = ExtResource("12_s8sbf")
+front = ExtResource("3_6utvc")
+back = ExtResource("8_nrb5j")
+
+[node name="front" type="Node2D" parent="Saferoom" unique_id=499972514]
+
+[node name="safe" type="Area2D" parent="Saferoom/front" unique_id=1964514005]
+position = Vector2(-321.82858, -238.50932)
+scale = Vector2(0.8126984, 0.7950311)
+script = ExtResource("5_w7u4w")
+speech = Dictionary[String, AudioStreamMP3]({
+"I don't remember having one like this": null,
+"Why is there a safe in my house?": null
+})
+
+[node name="Safe" type="Sprite2D" parent="Saferoom/front/safe" unique_id=485739608]
+position = Vector2(533, 297)
+texture = ExtResource("4_jeppt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Saferoom/front/safe" unique_id=272726614]
+position = Vector2(401.875, 294.5)
+shape = SubResource("RectangleShape2D_mti6b")
+
+[node name="Rewards" type="Node2D" parent="Saferoom/front/safe" unique_id=1059582514]
+visible = false
+position = Vector2(400, 291)
+
+[node name="Key" type="TextureButton" parent="Saferoom/front/safe/Rewards" unique_id=1103730891]
+offset_left = -68.0
+offset_top = -33.0
+offset_right = 217.0
+offset_bottom = 88.0
+scale = Vector2(0.44840068, 0.5847995)
+texture_normal = ExtResource("5_parq5")
+script = ExtResource("6_pd0i2")
+
+[node name="back" type="Node2D" parent="Saferoom" unique_id=96571046]
+visible = false
+
+[node name="Bedroom" type="Sprite2D" parent="." unique_id=1285169866]
+visible = false
+position = Vector2(572.5, 326)
+scale = Vector2(1.7342342, 1.5023475)
+texture = ExtResource("6_amcw0")
+script = ExtResource("12_s8sbf")
+
+[node name="front" type="Node2D" parent="Bedroom" unique_id=1352164265]
+
+[node name="bed" type="Area2D" parent="Bedroom/front" unique_id=347659983]
+position = Vector2(-321.82855, -238.50931)
+scale = Vector2(0.8126983, 0.795031)
+script = ExtResource("12_mogh0")
+speech = Dictionary[String, AudioStreamMP3]({
+"My bed? The colour is off.....": null,
+"Still feels comfy tho": null
+})
+
+[node name="Bed" type="Sprite2D" parent="Bedroom/front/bed" unique_id=1511173313]
+position = Vector2(497.1062, 418.04962)
+scale = Vector2(0.709517, 0.8372313)
+texture = ExtResource("7_sigte")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bedroom/front/bed" unique_id=270660297]
+position = Vector2(502.0728, 415.95654)
+shape = SubResource("RectangleShape2D_mti6b")
+
+[node name="back" type="Node2D" parent="Bedroom" unique_id=1243272265]
+visible = false
+
+[node name="Weirdroom" type="Sprite2D" parent="." unique_id=1014212271]
+visible = false
+position = Vector2(575.00006, 324)
+scale = Vector2(1.7297297, 1.5211266)
+texture = ExtResource("8_6sk78")
+script = ExtResource("9_parq5")
+
+[node name="front" type="Node2D" parent="Weirdroom" unique_id=1358478855]
+show_behind_parent = true
+
+[node name="Godcon" type="Node2D" parent="Weirdroom/front" unique_id=2091198225]
+show_behind_parent = true
+scale = Vector2(0.99999994, 1)
+
+[node name="God" type="Sprite2D" parent="Weirdroom/front/Godcon" unique_id=2037145972]
+show_behind_parent = true
+scale = Vector2(0.58267707, 0.65337425)
+texture = ExtResource("10_pd0i2")
+
+[node name="back" type="Node2D" parent="Weirdroom" unique_id=996740822]
+visible = false
+
+[node name="rotate" type="TextureButton" parent="." unique_id=1174566186]
+top_level = true
+z_index = 10
+offset_left = 478.00003
+offset_top = 451.0
+offset_right = 1144.0
+offset_bottom = 877.0
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("18_j7inc")
+script = ExtResource("19_joy5l")
+
+[node name="interact" type="Node2D" parent="." unique_id=1397999699]
+visible = false
+z_index = 100
+position = Vector2(207, 288)
+script = ExtResource("19_mj6ii")
+distance = 150
+
+[node name="Inter" type="Sprite2D" parent="interact" unique_id=1790647894]
+position = Vector2(46, -66)
+texture = ExtResource("19_weu2t")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="interact/Inter" unique_id=2040349204]
+offset_left = 140.0
+offset_top = -175.0
+offset_right = 689.0
+offset_bottom = -63.0
+theme_override_font_sizes/normal_font_size = 80
+text = "Use"
+fit_content = true
+
+[node name="Inter2" type="Sprite2D" parent="interact" unique_id=1553998188]
+position = Vector2(73, 34)
+rotation = 1.5707964
+texture = ExtResource("19_weu2t")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="interact/Inter2" unique_id=322112482]
+offset_left = 117.0
+offset_top = -115.0
+offset_right = 449.0
+offset_bottom = -3.0
+rotation = -1.5707964
+theme_override_font_sizes/normal_font_size = 80
+text = "Back"
+fit_content = true
+
+[node name="Inter3" type="Sprite2D" parent="interact" unique_id=1338679407]
+position = Vector2(-30, 63)
+rotation = 3.1415927
+texture = ExtResource("19_weu2t")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="interact/Inter3" unique_id=883313156]
+offset_left = 574.85016
+offset_top = -92.99999
+offset_right = 1002.7003
+offset_bottom = 19.000008
+rotation = 3.1415927
+theme_override_font_sizes/normal_font_size = 80
+text = "Items"
+fit_content = true
+horizontal_alignment = 2
+
+[node name="Inter4" type="Sprite2D" parent="interact" unique_id=1655405652]
+position = Vector2(-61, -40)
+rotation = 4.712389
+texture = ExtResource("19_weu2t")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="interact/Inter4" unique_id=784473900]
+offset_left = 204.0
+offset_top = -549.0
+offset_right = 631.85016
+offset_bottom = -437.0
+rotation = 1.5707964
+theme_override_font_sizes/normal_font_size = 80
+text = "Interact"
+fit_content = true
+horizontal_alignment = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=304538904]
+visible = false
+top_level = true
+z_index = 12
+offset_left = 2.0
+offset_top = 574.0
+offset_right = 1152.0
+offset_bottom = 647.0
+theme_override_font_sizes/normal_font_size = 30
+text = "My bed? The color is off....."
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("16_2uuqs")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="RichTextLabel" unique_id=55560851]
+
+[node name="interactables" type="Sprite2D" parent="." unique_id=1969986754]
+z_index = 999
+position = Vector2(1334.6699, 249.08203)
+scale = Vector2(0.15889575, 0.19278646)
+texture = ExtResource("24_is08k")
+
+[connection signal="pressed" from="spinlock/Button" to="spinlock" method="hidenow"]
