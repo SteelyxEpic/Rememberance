@@ -11,6 +11,10 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	if Global.captions.modulate.a == 1:
+		$"../interactables".texture = load("res://interactablesnot.png")
+	else:
+		$"../interactables".texture = load("res://interactables.png")
 	if len(Global.object) > 0 and not visible:
 		global_position = get_global_mouse_position()
 		$"../interactables".show()
@@ -24,26 +28,34 @@ func _process(delta: float) -> void:
 	if diff < distance:
 		index = ceil(angle/PI*2)
 		get_child(index).scale = Vector2(1.1, 1.1)
+	else:
+		back()
 		
 
 func _input(event):
 	if event is InputEventMouseButton:
 		if event.button_index == MOUSE_BUTTON_LEFT and event.pressed and visible:
-			if index == 1:
-				back()
-			elif index == -1:
+			if index == -1:
 				Global.emit_signal("speech", current.speech)
 			elif index == 0:
 				current.click()
-				back()
+			elif index == 2:
+				current.use()
+			back()
 
 func click():
-	current = Global.object[-1]
-	show()
-	scale = Vector2(0, 0)
-	var tween:Tween = get_tree().create_tween()
-	tween.tween_property(self, "scale", Vector2(0.4, 0.4), 0.2)
-	await tween.finished
+	if not Global.captions.modulate.a == 1:
+		current = Global.object[-1]
+		if current.door or current.container:
+			if current.opentexture == current.sprite.texture:
+				get_child(2).hide()
+			else:
+				get_child(2).show()
+		show()
+		scale = Vector2(0, 0)
+		var tween:Tween = get_tree().create_tween()
+		tween.tween_property(self, "scale", Vector2(0.4, 0.4), 0.2)
+		await tween.finished
 func back():
 	var tween:Tween = get_tree().create_tween()
 	tween.tween_property(self, "scale", Vector2(0, 0), 0.2)

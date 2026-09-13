@@ -1,8 +1,13 @@
 extends TextureButton 
 
+@export var key: bool
+
 func _ready() -> void:
 	pressed.connect(pressing)
 
 func pressing():
-	Global.inventory.append(name)
+	if key:
+		Global.keys += 1
+	else:
+		Global.inventory.append(name)
 	hide()

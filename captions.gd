@@ -6,16 +6,15 @@ var tween:Tween
 
 func _ready() -> void:
 	Global.speech.connect(texting)
+	Global.captions = self
 
-func texting(captions):
-	if not visible:
+func texting(captions:Array[Dialogue]):
+	if not modulate.a == 1:
 		show()
 		modulate.a = 1
-		var keys = captions.keys()
-		keys.reverse()
-		for i in range(keys.size()):
-			var caption = keys[i]
-			var audio:AudioStreamMP3 = captions[caption]
+		for i in captions:
+			var caption = i.caption
+			var audio:AudioStreamMP3 = i.audio
 			if tween:
 				tween.stop()
 			text = caption
@@ -25,7 +24,7 @@ func texting(captions):
 				await audioplayer.finished
 			else:
 				await get_tree().create_timer(1).timeout
-			if i == keys.size() - 1:
+			if i == captions[-1]:
 				tween = get_tree().create_tween()
 				tween.tween_property(self, "modulate:a", 0, 0.5)
 				await tween.finished
