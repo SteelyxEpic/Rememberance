@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://yxrlp5idioeg" path="res://arrow.png" id="2_378y4"]
 [ext_resource type="Texture2D" uid="uid://4ayrts8wm6x0" path="res://table.png" id="3_6utvc"]
 [ext_resource type="Texture2D" uid="uid://wjjtng042kom" path="res://safe.png" id="4_jeppt"]
+[ext_resource type="Texture2D" uid="uid://dou52225trr3n" path="res://light.png" id="4_n8djb"]
 [ext_resource type="Texture2D" uid="uid://de0yuxs2vi4q" path="res://tableout.png" id="4_ppm0j"]
 [ext_resource type="Texture2D" uid="uid://bni2m0bkpkm17" path="res://key.png" id="5_parq5"]
 [ext_resource type="Texture2D" uid="uid://d3htm0rj3c6vv" path="res://bedroom.png" id="6_amcw0"]
@@ -15,28 +16,52 @@
 [ext_resource type="Texture2D" uid="uid://dedqgub38vwop" path="res://bed.png" id="7_sigte"]
 [ext_resource type="Texture2D" uid="uid://b23nq0td6651n" path="res://weirdroom.png" id="8_6sk78"]
 [ext_resource type="Script" uid="uid://dqawkdg0mffek" path="res://weirdroom.gd" id="9_parq5"]
+[ext_resource type="AudioStream" uid="uid://b3nophagduloa" path="res://voicelines/cassette1/1.mp3" id="9_sxe3q"]
+[ext_resource type="AudioStream" uid="uid://caqrkd2nk7gj5" path="res://voicelines/safe/1.mp3" id="10_8dcqi"]
 [ext_resource type="Texture2D" uid="uid://dbl2fxkoq15ng" path="res://god.png" id="10_pd0i2"]
+[ext_resource type="AudioStream" uid="uid://dfn68pv5gvsu4" path="res://voicelines/cassette1/2.mp3" id="10_rlgpa"]
+[ext_resource type="AudioStream" uid="uid://8bpr713nyntx" path="res://voicelines/cassette1/3.mp3" id="11_c3dvt"]
+[ext_resource type="AudioStream" uid="uid://cmph4vmej4uyc" path="res://voicelines/safe/2.mp3" id="11_u7g2v"]
+[ext_resource type="AudioStream" uid="uid://dycurwuqgneyn" path="res://voicelines/lockeddoor/4.mp3" id="12_7x8n8"]
 [ext_resource type="Script" uid="uid://cjug74xpi40mo" path="res://item.gd" id="12_mogh0"]
+[ext_resource type="AudioStream" uid="uid://bfjf3082trjfi" path="res://voicelines/cassette1/4.mp3" id="12_orte0"]
 [ext_resource type="Script" uid="uid://bsgjhe1usgguj" path="res://room.gd" id="12_s8sbf"]
+[ext_resource type="AudioStream" uid="uid://nq6frimgmcx3" path="res://voicelines/safe/3.mp3" id="12_takd2"]
 [ext_resource type="Texture2D" uid="uid://b7gkk5uynucu" path="res://lightroom.png" id="13_fft52"]
+[ext_resource type="AudioStream" uid="uid://t43rdvumdvy8" path="res://voicelines/safe/4.mp3" id="13_lhtmp"]
+[ext_resource type="Texture2D" uid="uid://d17yayo3rulgq" path="res://boombox.png" id="13_rwr8x"]
+[ext_resource type="AudioStream" uid="uid://hbxmqii1r5bw" path="res://cassette.mp3" id="14_4xyse"]
 [ext_resource type="Script" uid="uid://cpahbsfacxfqc" path="res://Dialogue.gd" id="14_5m0m6"]
 [ext_resource type="Texture2D" uid="uid://bf6pmh73t4vfh" path="res://shelf.png" id="14_lqcwe"]
 [ext_resource type="Texture2D" uid="uid://p52kqjhsbwsj" path="res://roomdooropen.png" id="14_vi1qt"]
 [ext_resource type="Texture2D" uid="uid://bnyy38cotj02u" path="res://roomdoor.png" id="14_wvrob"]
+[ext_resource type="Texture2D" uid="uid://dkb56l5jyih2h" path="res://cassette.png" id="14_xstq6"]
 [ext_resource type="Texture2D" uid="uid://b2xqoljxhtl55" path="res://painting.png" id="15_is08k"]
 [ext_resource type="Script" uid="uid://cmmbm18e5ff1s" path="res://captions.gd" id="16_2uuqs"]
+[ext_resource type="AudioStream" uid="uid://brh5pvcwfa1mp" path="res://voicelines/cassette1/5.mp3" id="18_1lqyu"]
 [ext_resource type="Texture2D" uid="uid://bw75qum0vpw5i" path="res://turnaround.png" id="18_j7inc"]
+[ext_resource type="AudioStream" uid="uid://cairkkngwrm7e" path="res://voicelines/cassette1/6.mp3" id="19_4xyse"]
 [ext_resource type="Script" uid="uid://bbpcddsouww4p" path="res://rotate.gd" id="19_joy5l"]
 [ext_resource type="Script" uid="uid://b6vfr40v0qjyy" path="res://interact.gd" id="19_mj6ii"]
 [ext_resource type="Texture2D" uid="uid://bag2geh2gihu6" path="res://inter.png" id="19_weu2t"]
+[ext_resource type="AudioStream" uid="uid://b6c5br1j5w6a7" path="res://voicelines/cassette1/7.mp3" id="20_72cii"]
+[ext_resource type="Texture2D" uid="uid://dkxa8cv1sp7ut" path="res://sink.png" id="20_rotqu"]
 [ext_resource type="Texture2D" uid="uid://du3jw1lvfvjvx" path="res://hallway.png" id="20_tgelg"]
+[ext_resource type="AudioStream" uid="uid://d2xrp0emv0bk3" path="res://voicelines/cassette1/8.mp3" id="21_f6usa"]
 [ext_resource type="Texture2D" uid="uid://ba30jenodq3o" path="res://chestpainting.png" id="21_ftaf3"]
 [ext_resource type="Texture2D" uid="uid://dslg5p5ali0vk" path="res://carbinet.png" id="22_bo7r3"]
 [ext_resource type="Texture2D" uid="uid://gim1w6hf3xmr" path="res://carbinetclose.png" id="23_ipsaa"]
+[ext_resource type="AudioStream" uid="uid://c40hlracso4lw" path="res://voicelines/cassette1/9.mp3" id="23_ywf86"]
 [ext_resource type="Texture2D" uid="uid://biibc87k1fsw6" path="res://paintingblack.png" id="24_bo7r3"]
 [ext_resource type="Texture2D" uid="uid://upeiucolr3dk" path="res://interactables.png" id="24_is08k"]
+[ext_resource type="AudioStream" uid="uid://cl3mb5j8pr8wy" path="res://voicelines/cassette1/10.mp3" id="24_op65r"]
+[ext_resource type="AudioStream" uid="uid://dr3rmco122a1j" path="res://voicelines/cassette1/11.mp3" id="25_crfap"]
+[ext_resource type="AudioStream" uid="uid://kkxluc8wh0gl" path="res://voicelines/cassette1/12.mp3" id="26_7x8n8"]
+[ext_resource type="AudioStream" uid="uid://d3fokc2n1x238" path="res://voicelines/cassette1/14.mp3" id="27_n8djb"]
+[ext_resource type="AudioStream" uid="uid://dbg01dr5u0jgf" path="res://voicelines/cassette1/13.mp3" id="27_op65r"]
+[ext_resource type="AudioStream" uid="uid://0ri66ky0uds8" path="res://voicelines/cassette1/15.mp3" id="28_jtheq"]
+[ext_resource type="AudioStream" uid="uid://bvmxbfpoybtcu" path="res://voicelines/cassette1/16.mp3" id="29_66q48"]
 [ext_resource type="Script" uid="uid://no7qb7nev305" path="res://keys.gd" id="29_ppm0j"]
-[ext_resource type="AudioStream" uid="uid://dwhfkvtuggmgd" path="res://click.mp3" id="31_ftaf3"]
 [ext_resource type="Texture2D" uid="uid://botbvruts0hgo" path="res://rotate.png" id="33_wscf1"]
 [ext_resource type="Script" uid="uid://6wugto33vlf2" path="res://rotateinteract.gd" id="34_2bbgs"]
 [ext_resource type="Script" uid="uid://bii5tc0n55sk4" path="res://light.gd" id="36_ipsaa"]
@@ -44,25 +69,47 @@
 [ext_resource type="Texture2D" uid="uid://bbweor2egc2e1" path="res://mirror.png" id="39_jt01b"]
 [ext_resource type="Script" uid="uid://diw1ikke3n770" path="res://mirror.gd" id="40_jt01b"]
 [ext_resource type="Script" uid="uid://b651bgslxvmtj" path="res://mirrorcollision.gd" id="42_2bbgs"]
+[ext_resource type="AudioStream" uid="uid://28mt8h8j7d0n" path="res://voicelines/bed/1.mp3" id="43_ku0k8"]
+[ext_resource type="AudioStream" uid="uid://bh21pjp5ygmbm" path="res://voicelines/lockeddoor/locked.mp3" id="44_n8djb"]
+[ext_resource type="AudioStream" uid="uid://4ikaesapngpg" path="res://voicelines/bed/2.mp3" id="44_tcxto"]
+[ext_resource type="AudioStream" uid="uid://duu8osbgnji3y" path="res://voicelines/bed/3.mp3" id="45_eq6vi"]
+[ext_resource type="AudioStream" uid="uid://cc07ngx83rcro" path="res://voicelines/lockeddoor/2.mp3" id="45_jtheq"]
+[ext_resource type="AudioStream" uid="uid://dpsxoylyv0lut" path="res://voicelines/bed/4.mp3" id="46_muxel"]
+[ext_resource type="Script" uid="uid://dmvhb657u5df6" path="res://boombox.gd" id="47_02fm1"]
+[ext_resource type="AudioStream" uid="uid://cahay8xd5bl77" path="res://voicelines/mountains/1.mp3" id="48_o06lw"]
+[ext_resource type="AudioStream" uid="uid://c4nq2hgo4odc6" path="res://voicelines/mountains/2.mp3" id="49_08iss"]
+[ext_resource type="AudioStream" uid="uid://vuxmr115wfsh" path="res://ambience.mp3" id="50_p5vim"]
+[ext_resource type="AudioStream" uid="uid://cxn2a1mq6dhpu" path="res://voicelines/mountains/3.mp3" id="50_s8n4o"]
+[ext_resource type="AudioStream" uid="uid://b4wxk6lshptlf" path="res://voicelines/mountains/4.mp3" id="51_mnwqs"]
+[ext_resource type="Texture2D" uid="uid://c636f65gfl547" path="res://hallentrance.png" id="69_f2fag"]
+[ext_resource type="AudioStream" uid="uid://dmkh48re5g25f" path="res://alexzavesa-clinking-coins-7-468427.mp3" id="69_n8djb"]
+[ext_resource type="Texture2D" uid="uid://dwuimrd8u832e" path="res://backhall.png" id="70_1igcq"]
+[ext_resource type="Texture2D" uid="uid://b8xpglxgsrliw" path="res://dooropen.png" id="71_jmj6u"]
+[ext_resource type="Texture2D" uid="uid://bqelitqvnk77g" path="res://door.png" id="72_c7unm"]
+[ext_resource type="Texture2D" uid="uid://d2q680d7n82ta" path="res://wires.png" id="73_c7unm"]
 
 [sub_resource type="Resource" id="Resource_wvrob"]
 script = ExtResource("14_5m0m6")
 caption = "A safe?"
+audio = ExtResource("10_8dcqi")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_vi1qt"]
 script = ExtResource("14_5m0m6")
 caption = "I don't remember owning a safe?"
+audio = ExtResource("11_u7g2v")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_e8d8u"]
 script = ExtResource("14_5m0m6")
 caption = "Who placed this here?"
+audio = ExtResource("12_takd2")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_ppm0j"]
 script = ExtResource("14_5m0m6")
 caption = "and what's the passcode?"
+audio = ExtResource("13_lhtmp")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_e8d8u"]
@@ -76,10 +123,124 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="Resource" id="Resource_ftaf3"]
 script = ExtResource("14_5m0m6")
 caption = "And why is this one locked?"
+audio = ExtResource("12_7x8n8")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mti6b"]
 size = Vector2(205.75992, 304.7522)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_amo6q"]
+size = Vector2(318, 155)
+
+[sub_resource type="Resource" id="Resource_1lqyu"]
+script = ExtResource("14_5m0m6")
+audio = ExtResource("14_4xyse")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_c3dvt"]
+script = ExtResource("14_5m0m6")
+caption = "[Silence]"
+audio = ExtResource("9_sxe3q")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_orte0"]
+script = ExtResource("14_5m0m6")
+caption = "I know I haven't been the best...."
+audio = ExtResource("10_rlgpa")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_e6l81"]
+script = ExtResource("14_5m0m6")
+caption = "I- I don't even know why I'm creating this video..."
+audio = ExtResource("11_c3dvt")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_xfhfs"]
+script = ExtResource("14_5m0m6")
+caption = "I don't think...."
+audio = ExtResource("12_orte0")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_n8djb"]
+script = ExtResource("14_5m0m6")
+caption = "you're going to listen to it anytime soon...."
+audio = ExtResource("18_1lqyu")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_4xyse"]
+script = ExtResource("14_5m0m6")
+caption = "I just wanna say..."
+audio = ExtResource("19_4xyse")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_72cii"]
+script = ExtResource("14_5m0m6")
+caption = "that I'm sorry...."
+audio = ExtResource("20_72cii")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_f6usa"]
+script = ExtResource("14_5m0m6")
+caption = "I'm sorry...."
+audio = ExtResource("21_f6usa")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_fktf3"]
+script = ExtResource("14_5m0m6")
+caption = "that I made your life hard...."
+audio = ExtResource("23_ywf86")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_utkak"]
+script = ExtResource("14_5m0m6")
+caption = "I'm sorry that...."
+audio = ExtResource("24_op65r")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_evf0l"]
+script = ExtResource("14_5m0m6")
+caption = "everything I touch, everything I do..."
+audio = ExtResource("25_crfap")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_tq8wt"]
+script = ExtResource("14_5m0m6")
+caption = "just ends in failure"
+audio = ExtResource("26_7x8n8")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_ywf86"]
+script = ExtResource("14_5m0m6")
+caption = "It- I wasn't trying...."
+audio = ExtResource("27_op65r")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_op65r"]
+script = ExtResource("14_5m0m6")
+caption = "to make it hard...."
+audio = ExtResource("27_n8djb")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_crfap"]
+script = ExtResource("14_5m0m6")
+caption = "I just wanted you...."
+audio = ExtResource("28_jtheq")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_7x8n8"]
+script = ExtResource("14_5m0m6")
+caption = "to had a life I didn't get..."
+audio = ExtResource("29_66q48")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p5vim"]
+size = Vector2(258.6726, 155)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_rotqu"]
+radius = 51.54541
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lqcwe"]
+size = Vector2(446.153, 53.307686)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4kxuq"]
 size = Vector2(160.69588, 7.303196)
@@ -96,21 +257,25 @@ size = Vector2(1601.468, 181.2461)
 [sub_resource type="Resource" id="Resource_5m0m6"]
 script = ExtResource("14_5m0m6")
 caption = "My bed?"
+audio = ExtResource("43_ku0k8")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_m0q5w"]
 script = ExtResource("14_5m0m6")
 caption = "It looks different....."
+audio = ExtResource("44_tcxto")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_x3nxe"]
 script = ExtResource("14_5m0m6")
 caption = "Looks more...."
+audio = ExtResource("45_eq6vi")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_lvk6u"]
 script = ExtResource("14_5m0m6")
 caption = "Comfier...."
+audio = ExtResource("46_muxel")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ppm0j"]
@@ -119,39 +284,121 @@ size = Vector2(287.35443, 201.77275)
 [sub_resource type="Resource" id="Resource_bo7r3"]
 script = ExtResource("14_5m0m6")
 caption = "A picture of mountains"
+audio = ExtResource("48_o06lw")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_ipsaa"]
 script = ExtResource("14_5m0m6")
 caption = "Mountains?"
+audio = ExtResource("49_08iss")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_fft52"]
 script = ExtResource("14_5m0m6")
 caption = "I...."
+audio = ExtResource("50_s8n4o")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_n24go"]
 script = ExtResource("14_5m0m6")
 caption = "Do I like mountains?"
+audio = ExtResource("51_mnwqs")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m0q5w"]
 size = Vector2(303.59488, 302.768)
 
+[sub_resource type="Resource" id="Resource_32ixd"]
+script = ExtResource("14_5m0m6")
+caption = "Locked"
+audio = ExtResource("44_n8djb")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_r1r5v"]
+script = ExtResource("14_5m0m6")
+caption = "I- I don't remember locking my doors"
+audio = ExtResource("45_jtheq")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_uwenr"]
+script = ExtResource("14_5m0m6")
+caption = "..."
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_8dcqi"]
+script = ExtResource("14_5m0m6")
+caption = "Treasure chest?"
+audio = ExtResource("48_o06lw")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_u7g2v"]
+script = ExtResource("14_5m0m6")
+caption = "It looks..."
+audio = ExtResource("49_08iss")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_takd2"]
+script = ExtResource("14_5m0m6")
+caption = "Wrong..."
+audio = ExtResource("50_s8n4o")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_lhtmp"]
+script = ExtResource("14_5m0m6")
+caption = "Did I draw this?"
+audio = ExtResource("51_mnwqs")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f2fag"]
+size = Vector2(315.10358, 264.66434)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fft52"]
 size = Vector2(273.28894, 404.45172)
+
+[sub_resource type="Resource" id="Resource_1igcq"]
+script = ExtResource("14_5m0m6")
+caption = "Why is this wall exposed?"
+audio = ExtResource("48_o06lw")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_jmj6u"]
+script = ExtResource("14_5m0m6")
+caption = "Wires?"
+audio = ExtResource("49_08iss")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_c7unm"]
+script = ExtResource("14_5m0m6")
+caption = "There's so many wires in there...."
+audio = ExtResource("50_s8n4o")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_10187"]
+script = ExtResource("14_5m0m6")
+caption = "White, red, blue, yellow?"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_628id"]
+size = Vector2(728.24304, 570.74646)
 
 [node name="living room" type="Node2D" unique_id=23302581]
 script = ExtResource("1_e8d8u")
 
-[node name="Ligth" type="Sprite2D" parent="." unique_id=1402283668]
+[node name="dark" type="Sprite2D" parent="." unique_id=1402283668]
 visible = false
 modulate = Color(1, 1, 1, 0.5137255)
 top_level = true
 position = Vector2(576, 324)
 scale = Vector2(1.1249999, 1.265625)
 texture = ExtResource("1_sigte")
+script = ExtResource("2_6sk78")
+
+[node name="light" type="Sprite2D" parent="." unique_id=1086704719]
+modulate = Color(1, 1, 1, 0.5137255)
+top_level = true
+position = Vector2(572, 324)
+scale = Vector2(0.7242026, 0.6424242)
+texture = ExtResource("4_n8djb")
 script = ExtResource("2_6sk78")
 
 [node name="Saferoom" type="Sprite2D" parent="." unique_id=1787819489]
@@ -214,6 +461,69 @@ texture = ExtResource("14_vi1qt")
 position = Vector2(404.1595, 343.53604)
 shape = SubResource("RectangleShape2D_mti6b")
 
+[node name="Cassetteroom" type="Sprite2D" parent="." unique_id=1701873629]
+visible = false
+position = Vector2(593, 318)
+scale = Vector2(1.2304688, 1.2578125)
+texture = ExtResource("3_6utvc")
+script = ExtResource("12_s8sbf")
+front = ExtResource("3_6utvc")
+back = ExtResource("4_ppm0j")
+
+[node name="front" type="Node2D" parent="Cassetteroom" unique_id=321940081]
+
+[node name="boombox" type="Area2D" parent="Cassetteroom/front" unique_id=877783395]
+position = Vector2(-320.2032, -202.73293)
+scale = Vector2(0.8126984, 0.7950311)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_wvrob"), SubResource("Resource_vi1qt"), SubResource("Resource_e8d8u"), SubResource("Resource_ppm0j")])
+boombox = true
+
+[node name="Safe" type="Sprite2D" parent="Cassetteroom/front/boombox" unique_id=2098750623]
+position = Vector2(401, 284)
+scale = Vector2(0.26172608, 0.26161617)
+texture = ExtResource("13_rwr8x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cassetteroom/front/boombox" unique_id=637591558]
+position = Vector2(398, 282.5)
+shape = SubResource("RectangleShape2D_amo6q")
+
+[node name="cassette" type="Area2D" parent="Cassetteroom/front" unique_id=1420115736]
+position = Vector2(108.08888, -41.34163)
+scale = Vector2(0.31697991, 0.33230287)
+script = ExtResource("12_mogh0")
+cassette = Array[ExtResource("14_5m0m6")]([SubResource("Resource_1lqyu"), SubResource("Resource_c3dvt"), SubResource("Resource_orte0"), SubResource("Resource_e6l81"), SubResource("Resource_xfhfs"), SubResource("Resource_n8djb"), SubResource("Resource_4xyse"), SubResource("Resource_72cii"), SubResource("Resource_f6usa"), SubResource("Resource_fktf3"), SubResource("Resource_utkak"), SubResource("Resource_evf0l"), SubResource("Resource_tq8wt"), SubResource("Resource_ywf86"), SubResource("Resource_op65r"), SubResource("Resource_crfap"), SubResource("Resource_7x8n8")])
+
+[node name="Safe" type="Sprite2D" parent="Cassetteroom/front/cassette" unique_id=117286252]
+position = Vector2(401, 284)
+scale = Vector2(0.26172608, 0.26161617)
+texture = ExtResource("14_xstq6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cassetteroom/front/cassette" unique_id=860787775]
+position = Vector2(401.3871, 282.31378)
+shape = SubResource("RectangleShape2D_p5vim")
+
+[node name="back" type="Node2D" parent="Cassetteroom" unique_id=263393125]
+visible = false
+
+[node name="door" type="Area2D" parent="Cassetteroom/back" unique_id=1755424345]
+position = Vector2(-558.3238, -391.95032)
+scale = Vector2(1.4530126, 1.3285084)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_wvrob"), SubResource("Resource_vi1qt"), SubResource("Resource_e8d8u"), SubResource("Resource_ppm0j"), SubResource("Resource_tgelg"), SubResource("Resource_ftaf3")])
+opentexture = ExtResource("14_vi1qt")
+door = "Hallway"
+doorback = true
+
+[node name="Safe" type="Sprite2D" parent="Cassetteroom/back/door" unique_id=1726681470]
+position = Vector2(403.2694, 338.11798)
+scale = Vector2(1, 1.2451648)
+texture = ExtResource("14_vi1qt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cassetteroom/back/door" unique_id=1041864507]
+position = Vector2(404.1595, 343.53604)
+shape = SubResource("RectangleShape2D_mti6b")
+
 [node name="Lightroom" type="Sprite2D" parent="." unique_id=1543563354]
 position = Vector2(573.5, 320)
 scale = Vector2(0.7160726, 0.65656567)
@@ -224,20 +534,86 @@ back = ExtResource("13_fft52")
 
 [node name="front" type="Node2D" parent="Lightroom" unique_id=106339114]
 
+[node name="Sink" type="Sprite2D" parent="Lightroom/front" unique_id=831225322]
+modulate = Color(0.4745098, 0.47058824, 0.44705883, 1)
+position = Vector2(-729.6745, -140.12308)
+scale = Vector2(0.3522056, 0.35710266)
+texture = ExtResource("20_rotqu")
+
+[node name="sink" type="StaticBody2D" parent="Lightroom/front/Sink" unique_id=28549455]
+position = Vector2(-833, -526)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Sink/sink" unique_id=809460633]
+position = Vector2(832.99963, 525.9998)
+scale = Vector2(0.99999946, 1)
+shape = SubResource("CircleShape2D_rotqu")
+
+[node name="Sink2" type="Sprite2D" parent="Lightroom/front" unique_id=18843425]
+modulate = Color(0.4745098, 0.47058824, 0.44705883, 1)
+position = Vector2(-528.5777, 167.53842)
+scale = Vector2(0.3522056, 0.35710266)
+texture = ExtResource("20_rotqu")
+
+[node name="sink" type="StaticBody2D" parent="Lightroom/front/Sink2" unique_id=2070450880]
+position = Vector2(-833, -526)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Sink2/sink" unique_id=1899589840]
+position = Vector2(832.99963, 525.9998)
+scale = Vector2(0.99999946, 1)
+shape = SubResource("CircleShape2D_rotqu")
+
+[node name="Sink3" type="Sprite2D" parent="Lightroom/front" unique_id=1303433836]
+modulate = Color(0.4745098, 0.47058824, 0.44705883, 1)
+position = Vector2(203.19168, 217.80002)
+scale = Vector2(0.3522056, 0.35710266)
+texture = ExtResource("20_rotqu")
+
+[node name="sink" type="StaticBody2D" parent="Lightroom/front/Sink3" unique_id=80077606]
+position = Vector2(-833, -526)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Sink3/sink" unique_id=1991889306]
+position = Vector2(832.99963, 525.9998)
+scale = Vector2(0.99999946, 1)
+shape = SubResource("CircleShape2D_rotqu")
+
 [node name="Shelf" type="Sprite2D" parent="Lightroom/front" unique_id=755155709]
 position = Vector2(479.69992, -132.50768)
 scale = Vector2(0.6, 0.6)
 texture = ExtResource("14_lqcwe")
+
+[node name="mirror2" type="StaticBody2D" parent="Lightroom/front/Shelf" unique_id=1543938444]
+position = Vector2(-833, -526)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Shelf/mirror2" unique_id=1650606299]
+position = Vector2(842.3101, 493)
+scale = Vector2(0.99999946, 1)
+shape = SubResource("RectangleShape2D_lqcwe")
 
 [node name="Shelf2" type="Sprite2D" parent="Lightroom/front" unique_id=672453346]
 position = Vector2(-577.4553, 10.66156)
 scale = Vector2(0.6, 0.6)
 texture = ExtResource("14_lqcwe")
 
+[node name="mirror2" type="StaticBody2D" parent="Lightroom/front/Shelf2" unique_id=2040221919]
+position = Vector2(-833, -526)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Shelf2/mirror2" unique_id=1011332810]
+position = Vector2(842.3101, 493)
+scale = Vector2(0.99999946, 1)
+shape = SubResource("RectangleShape2D_lqcwe")
+
 [node name="Shelf3" type="Sprite2D" parent="Lightroom/front" unique_id=545270809]
 position = Vector2(-159.89996, 258.9231)
 scale = Vector2(0.6, 0.6)
 texture = ExtResource("14_lqcwe")
+
+[node name="mirror2" type="StaticBody2D" parent="Lightroom/front/Shelf3" unique_id=935892165]
+position = Vector2(-833, -526)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Shelf3/mirror2" unique_id=111001125]
+position = Vector2(842.3101, 493)
+scale = Vector2(0.99999946, 1)
+shape = SubResource("RectangleShape2D_lqcwe")
 
 [node name="Mirrorstand" type="Sprite2D" parent="Lightroom/front" unique_id=1145676969]
 position = Vector2(453.16635, 293.95386)
@@ -260,10 +636,10 @@ position = Vector2(831.0171, 522.09406)
 rotation = -0.75049156
 shape = SubResource("RectangleShape2D_4kxuq")
 
-[node name="back" type="StaticBody2D" parent="Lightroom/front/Mirrorstand/Mirror" unique_id=2045539148]
+[node name="backs" type="StaticBody2D" parent="Lightroom/front/Mirrorstand/Mirror" unique_id=2045539148]
 position = Vector2(-833, -526)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Mirrorstand/Mirror/back" unique_id=1192983260]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Mirrorstand/Mirror/backs" unique_id=1192983260]
 position = Vector2(839.1011, 528.7888)
 rotation = -0.75049156
 shape = SubResource("RectangleShape2D_4kxuq")
@@ -298,10 +674,10 @@ position = Vector2(831.0171, 522.09406)
 rotation = -0.75049156
 shape = SubResource("RectangleShape2D_4kxuq")
 
-[node name="back" type="StaticBody2D" parent="Lightroom/front/Mirrorstand2/Mirror" unique_id=1049094818]
+[node name="backs" type="StaticBody2D" parent="Lightroom/front/Mirrorstand2/Mirror" unique_id=1049094818]
 position = Vector2(-833, -526)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Mirrorstand2/Mirror/back" unique_id=353585914]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Mirrorstand2/Mirror/backs" unique_id=353585914]
 position = Vector2(839.1011, 528.7888)
 rotation = -0.75049156
 shape = SubResource("RectangleShape2D_4kxuq")
@@ -336,10 +712,10 @@ position = Vector2(831.0171, 522.09406)
 rotation = -0.75049156
 shape = SubResource("RectangleShape2D_4kxuq")
 
-[node name="back" type="StaticBody2D" parent="Lightroom/front/Mirrorstand3/Mirror" unique_id=803156686]
+[node name="backs" type="StaticBody2D" parent="Lightroom/front/Mirrorstand3/Mirror" unique_id=803156686]
 position = Vector2(-833, -526)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Mirrorstand3/Mirror/back" unique_id=581172483]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Mirrorstand3/Mirror/backs" unique_id=581172483]
 position = Vector2(839.1011, 528.7888)
 rotation = -0.75049156
 shape = SubResource("RectangleShape2D_4kxuq")
@@ -374,10 +750,10 @@ position = Vector2(831.0171, 522.09406)
 rotation = -0.75049156
 shape = SubResource("RectangleShape2D_4kxuq")
 
-[node name="back" type="StaticBody2D" parent="Lightroom/front/Mirrorstand4/Mirror" unique_id=1412072225]
+[node name="backs" type="StaticBody2D" parent="Lightroom/front/Mirrorstand4/Mirror" unique_id=1412072225]
 position = Vector2(-833, -526)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Mirrorstand4/Mirror/back" unique_id=601314664]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lightroom/front/Mirrorstand4/Mirror/backs" unique_id=601314664]
 position = Vector2(839.1011, 528.7888)
 rotation = -0.75049156
 shape = SubResource("RectangleShape2D_4kxuq")
@@ -396,6 +772,8 @@ position = Vector2(-750.62213, 306.13846)
 scale = Vector2(1.3965064, 1.523077)
 points = PackedVector2Array(4, 3.0517574e-05)
 script = ExtResource("36_ipsaa")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Lightroom/front/Line2D" unique_id=856912677]
 
 [node name="walls" type="StaticBody2D" parent="Lightroom/front" unique_id=501088532]
 position = Vector2(-833, -526)
@@ -430,8 +808,8 @@ shape = SubResource("RectangleShape2D_tjfjw")
 visible = false
 
 [node name="door" type="Area2D" parent="Lightroom/back" unique_id=1945012282]
-position = Vector2(-558.3238, -391.95032)
-scale = Vector2(1.4530126, 1.3285084)
+position = Vector2(-967.0807, -665.5846)
+scale = Vector2(2.3987634, 2.4040534)
 script = ExtResource("12_mogh0")
 speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_wvrob"), SubResource("Resource_vi1qt"), SubResource("Resource_e8d8u"), SubResource("Resource_ppm0j"), SubResource("Resource_tgelg"), SubResource("Resource_ftaf3")])
 opentexture = ExtResource("14_vi1qt")
@@ -456,6 +834,7 @@ front = ExtResource("6_amcw0")
 back = ExtResource("6_amcw0")
 
 [node name="front" type="Node2D" parent="Bedroom" unique_id=1352164265]
+visible = false
 
 [node name="bed" type="Area2D" parent="Bedroom/front" unique_id=347659983]
 position = Vector2(-321.82855, -238.50931)
@@ -499,14 +878,33 @@ texture_normal = ExtResource("5_parq5")
 script = ExtResource("6_pd0i2")
 key = true
 
+[node name="Key3" type="TextureButton" parent="Bedroom/front" unique_id=1442442992]
+offset_left = -224.01817
+offset_top = 120.47812
+offset_right = 60.981827
+offset_bottom = 241.47812
+scale = Vector2(0.21039604, 0.31080544)
+texture_normal = ExtResource("5_parq5")
+script = ExtResource("6_pd0i2")
+key = true
+
+[node name="Key4" type="TextureButton" parent="Bedroom/front" unique_id=530091665]
+offset_left = -224.01817
+offset_top = 120.47812
+offset_right = 60.981827
+offset_bottom = 241.47812
+scale = Vector2(0.21039604, 0.31080544)
+texture_normal = ExtResource("5_parq5")
+script = ExtResource("6_pd0i2")
+key = true
+
 [node name="back" type="Node2D" parent="Bedroom" unique_id=1243272265]
-visible = false
 
 [node name="door" type="Area2D" parent="Bedroom/back" unique_id=338845586]
 position = Vector2(-321.82858, -238.50932)
 scale = Vector2(0.8126984, 0.7950311)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_wvrob"), SubResource("Resource_vi1qt"), SubResource("Resource_e8d8u"), SubResource("Resource_ppm0j"), SubResource("Resource_tgelg"), SubResource("Resource_ftaf3")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_32ixd"), SubResource("Resource_r1r5v"), SubResource("Resource_uwenr"), SubResource("Resource_tgelg"), SubResource("Resource_ftaf3")])
 opentexture = ExtResource("14_vi1qt")
 door = "Hallway"
 doorback = true
@@ -557,7 +955,7 @@ back = ExtResource("20_tgelg")
 position = Vector2(-194.70808, -284.21576)
 scale = Vector2(0.387461, 0.34735754)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_bo7r3"), SubResource("Resource_ipsaa"), SubResource("Resource_fft52"), SubResource("Resource_n24go")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_8dcqi"), SubResource("Resource_u7g2v"), SubResource("Resource_takd2"), SubResource("Resource_lhtmp")])
 
 [node name="Bed" type="Sprite2D" parent="Hallway/front/picture" unique_id=1748786938]
 position = Vector2(505.62045, 415.53796)
@@ -569,12 +967,52 @@ position = Vector2(507.47955, 410.0782)
 scale = Vector2(0.9999998, 1)
 shape = SubResource("RectangleShape2D_m0q5w")
 
+[node name="hall" type="Area2D" parent="Hallway/front" unique_id=1390576161]
+position = Vector2(228.8471, 102.29177)
+rotation = -1.5707964
+scale = Vector2(0.187, 0.168)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_8dcqi"), SubResource("Resource_u7g2v"), SubResource("Resource_takd2"), SubResource("Resource_lhtmp")])
+door = "Entrance"
+doorback = true
+direct = true
+
+[node name="Bed" type="Sprite2D" parent="Hallway/front/hall" unique_id=1682872754]
+position = Vector2(505.62045, 415.53796)
+scale = Vector2(0.709517, 0.8372313)
+texture = ExtResource("18_j7inc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hallway/front/hall" unique_id=243432819]
+position = Vector2(544.33777, 445.45605)
+scale = Vector2(0.9999998, 1)
+shape = SubResource("RectangleShape2D_f2fag")
+
+[node name="hall2" type="Area2D" parent="Hallway/front" unique_id=1934670962]
+position = Vector2(-224.21806, -99.05474)
+rotation = -4.712389
+scale = Vector2(0.187, 0.168)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_8dcqi"), SubResource("Resource_u7g2v"), SubResource("Resource_takd2"), SubResource("Resource_lhtmp")])
+door = "Entrance"
+direct = true
+
+[node name="Bed" type="Sprite2D" parent="Hallway/front/hall2" unique_id=1672009580]
+position = Vector2(505.62045, 415.53796)
+scale = Vector2(0.709517, 0.8372313)
+texture = ExtResource("18_j7inc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hallway/front/hall2" unique_id=595333257]
+position = Vector2(544.33777, 445.45605)
+scale = Vector2(0.9999998, 1)
+shape = SubResource("RectangleShape2D_f2fag")
+
 [node name="drawer" type="Area2D" parent="Hallway/front" unique_id=26536281]
 position = Vector2(-198.75845, -58.26747)
 scale = Vector2(0.387461, 0.34735754)
 script = ExtResource("12_mogh0")
 speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_bo7r3"), SubResource("Resource_ipsaa"), SubResource("Resource_fft52"), SubResource("Resource_n24go")])
 opentexture = ExtResource("22_bo7r3")
+container = true
 
 [node name="Bed" type="Sprite2D" parent="Hallway/front/drawer" unique_id=1338347561]
 position = Vector2(392.75946, 402.58795)
@@ -606,6 +1044,7 @@ scale = Vector2(0.9726187, 0.9462862)
 script = ExtResource("12_mogh0")
 speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_wvrob"), SubResource("Resource_vi1qt"), SubResource("Resource_e8d8u"), SubResource("Resource_ppm0j"), SubResource("Resource_tgelg"), SubResource("Resource_ftaf3")])
 opentexture = ExtResource("14_vi1qt")
+door = "Cassetteroom"
 
 [node name="Safe" type="Sprite2D" parent="Hallway/front/door" unique_id=499809629]
 position = Vector2(400.6119, 339.34988)
@@ -659,6 +1098,7 @@ scale = Vector2(0.9726187, 0.9462862)
 script = ExtResource("12_mogh0")
 speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_wvrob"), SubResource("Resource_vi1qt"), SubResource("Resource_e8d8u"), SubResource("Resource_ppm0j"), SubResource("Resource_tgelg"), SubResource("Resource_ftaf3")])
 opentexture = ExtResource("14_vi1qt")
+door = "Lightroom"
 
 [node name="Safe" type="Sprite2D" parent="Hallway/back/door2" unique_id=1207917250]
 position = Vector2(400.6119, 339.34988)
@@ -685,9 +1125,175 @@ position = Vector2(507.47955, 410.0782)
 scale = Vector2(0.9999998, 1)
 shape = SubResource("RectangleShape2D_m0q5w")
 
+[node name="hall" type="Area2D" parent="Hallway/back" unique_id=1286661361]
+position = Vector2(228.8471, 102.29177)
+rotation = -1.5707964
+scale = Vector2(0.187, 0.168)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_8dcqi"), SubResource("Resource_u7g2v"), SubResource("Resource_takd2"), SubResource("Resource_lhtmp")])
+door = "Entrance"
+direct = true
+
+[node name="Bed" type="Sprite2D" parent="Hallway/back/hall" unique_id=1161203837]
+position = Vector2(505.62045, 415.53796)
+scale = Vector2(0.709517, 0.8372313)
+texture = ExtResource("18_j7inc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hallway/back/hall" unique_id=1933819383]
+position = Vector2(544.33777, 445.45605)
+scale = Vector2(0.9999998, 1)
+shape = SubResource("RectangleShape2D_f2fag")
+
+[node name="hall2" type="Area2D" parent="Hallway/back" unique_id=1699072085]
+position = Vector2(-224.21806, -99.05474)
+rotation = -4.712389
+scale = Vector2(0.187, 0.168)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_8dcqi"), SubResource("Resource_u7g2v"), SubResource("Resource_takd2"), SubResource("Resource_lhtmp")])
+door = "Entrance"
+doorback = true
+direct = true
+
+[node name="Bed" type="Sprite2D" parent="Hallway/back/hall2" unique_id=630411527]
+position = Vector2(505.62045, 415.53796)
+scale = Vector2(0.709517, 0.8372313)
+texture = ExtResource("18_j7inc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hallway/back/hall2" unique_id=619935303]
+position = Vector2(544.33777, 445.45605)
+scale = Vector2(0.9999998, 1)
+shape = SubResource("RectangleShape2D_f2fag")
+
+[node name="Entrance" type="Sprite2D" parent="." unique_id=1573213928]
+position = Vector2(577.5, 323)
+scale = Vector2(1.7282282, 1.544601)
+texture = ExtResource("70_1igcq")
+script = ExtResource("12_s8sbf")
+front = ExtResource("69_f2fag")
+back = ExtResource("70_1igcq")
+
+[node name="front" type="Node2D" parent="Entrance" unique_id=1901765013]
+visible = false
+
+[node name="door2" type="Area2D" parent="Entrance/front" unique_id=1621788438]
+position = Vector2(-468.3988, -333.41946)
+scale = Vector2(1.1823822, 1.0947253)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_wvrob"), SubResource("Resource_vi1qt"), SubResource("Resource_e8d8u"), SubResource("Resource_ppm0j"), SubResource("Resource_tgelg"), SubResource("Resource_ftaf3")])
+opentexture = ExtResource("71_jmj6u")
+door = "Weirdroom"
+
+[node name="Safe" type="Sprite2D" parent="Entrance/front/door2" unique_id=790114820]
+position = Vector2(396.21463, 299.66452)
+scale = Vector2(0.66730815, 0.7646339)
+texture = ExtResource("72_c7unm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Entrance/front/door2" unique_id=1093716592]
+position = Vector2(404.1595, 343.53604)
+shape = SubResource("RectangleShape2D_mti6b")
+
+[node name="hall" type="Area2D" parent="Entrance/front" unique_id=1677107600]
+position = Vector2(228.8471, 102.29177)
+rotation = -1.5707964
+scale = Vector2(0.187, 0.168)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_8dcqi"), SubResource("Resource_u7g2v"), SubResource("Resource_takd2"), SubResource("Resource_lhtmp")])
+door = "Hallway"
+direct = true
+
+[node name="Bed" type="Sprite2D" parent="Entrance/front/hall" unique_id=105668020]
+position = Vector2(505.62045, 415.53796)
+scale = Vector2(0.709517, 0.8372313)
+texture = ExtResource("18_j7inc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Entrance/front/hall" unique_id=129786110]
+position = Vector2(544.33777, 445.45605)
+scale = Vector2(0.9999998, 1)
+shape = SubResource("RectangleShape2D_f2fag")
+
+[node name="hall2" type="Area2D" parent="Entrance/front" unique_id=915316219]
+position = Vector2(-224.21806, -99.05474)
+rotation = -4.712389
+scale = Vector2(0.187, 0.168)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_8dcqi"), SubResource("Resource_u7g2v"), SubResource("Resource_takd2"), SubResource("Resource_lhtmp")])
+door = "Hallway"
+doorback = true
+direct = true
+
+[node name="Bed" type="Sprite2D" parent="Entrance/front/hall2" unique_id=637811120]
+position = Vector2(505.62045, 415.53796)
+scale = Vector2(0.709517, 0.8372313)
+texture = ExtResource("18_j7inc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Entrance/front/hall2" unique_id=1686907229]
+position = Vector2(544.33777, 445.45605)
+scale = Vector2(0.9999998, 1)
+shape = SubResource("RectangleShape2D_f2fag")
+
+[node name="back" type="Node2D" parent="Entrance" unique_id=848697005]
+
+[node name="hall" type="Area2D" parent="Entrance/back" unique_id=850000280]
+position = Vector2(228.8471, 102.29177)
+rotation = -1.5707964
+scale = Vector2(0.187, 0.168)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_8dcqi"), SubResource("Resource_u7g2v"), SubResource("Resource_takd2"), SubResource("Resource_lhtmp")])
+door = "Hallway"
+doorback = true
+direct = true
+
+[node name="Bed" type="Sprite2D" parent="Entrance/back/hall" unique_id=1525161620]
+position = Vector2(505.62045, 415.53796)
+scale = Vector2(0.709517, 0.8372313)
+texture = ExtResource("18_j7inc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Entrance/back/hall" unique_id=197872516]
+position = Vector2(544.33777, 445.45605)
+scale = Vector2(0.9999998, 1)
+shape = SubResource("RectangleShape2D_f2fag")
+
+[node name="hall2" type="Area2D" parent="Entrance/back" unique_id=959482392]
+position = Vector2(-224.21806, -99.05474)
+rotation = -4.712389
+scale = Vector2(0.187, 0.168)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_8dcqi"), SubResource("Resource_u7g2v"), SubResource("Resource_takd2"), SubResource("Resource_lhtmp")])
+door = "Hallway"
+direct = true
+
+[node name="Bed" type="Sprite2D" parent="Entrance/back/hall2" unique_id=1614585065]
+position = Vector2(505.62045, 415.53796)
+scale = Vector2(0.709517, 0.8372313)
+texture = ExtResource("18_j7inc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Entrance/back/hall2" unique_id=279228150]
+position = Vector2(544.33777, 445.45605)
+scale = Vector2(0.9999998, 1)
+shape = SubResource("RectangleShape2D_f2fag")
+
+[node name="picture" type="Area2D" parent="Entrance/back" unique_id=1618009616]
+position = Vector2(-194.70808, -284.21576)
+scale = Vector2(0.387461, 0.34735754)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_1igcq"), SubResource("Resource_jmj6u"), SubResource("Resource_c7unm"), SubResource("Resource_10187")])
+
+[node name="Wires" type="Sprite2D" parent="Entrance/back/picture" unique_id=1159469070]
+position = Vector2(480.869, 684.0266)
+scale = Vector2(1.1822608, 1.4678779)
+texture = ExtResource("73_c7unm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Entrance/back/picture" unique_id=2135186029]
+position = Vector2(491.58646, 695.0028)
+scale = Vector2(0.9999998, 1)
+shape = SubResource("RectangleShape2D_628id")
+
 [node name="canvas" type="Node2D" parent="." unique_id=559737372]
 top_level = true
 z_index = 999
+
+[node name="sfx" type="AudioStreamPlayer2D" parent="canvas" unique_id=316426539]
+stream = ExtResource("14_4xyse")
 
 [node name="rotate" type="TextureButton" parent="canvas" unique_id=1174566186]
 visible = false
@@ -785,6 +1391,7 @@ vertical_alignment = 1
 script = ExtResource("16_2uuqs")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="canvas/caption" unique_id=55560851]
+volume_db = 5.0
 
 [node name="interactables" type="Sprite2D" parent="canvas" unique_id=1969986754]
 z_index = 999
@@ -804,9 +1411,6 @@ visible = false
 top_level = true
 z_index = 199
 script = ExtResource("1_378y4")
-
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="canvas/spinlock" unique_id=857694352]
-stream = ExtResource("31_ftaf3")
 
 [node name="lock" type="Sprite2D" parent="canvas/spinlock" unique_id=1787701732]
 position = Vector2(594, 341)
@@ -838,6 +1442,27 @@ offset_bottom = 418.0
 theme_override_font_sizes/font_size = 32
 text = "Reset"
 
+[node name="boombox" type="Node2D" parent="canvas" unique_id=1226770421]
+visible = false
+top_level = true
+z_index = 199
+script = ExtResource("47_02fm1")
+
+[node name="Panel" type="Panel" parent="canvas/boombox" unique_id=2063524811]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(28.784903, 16.39714)
+
+[node name="Button" type="Button" parent="canvas/boombox" unique_id=833010109]
+offset_left = 1020.0
+offset_top = 568.0
+offset_right = 1118.0
+offset_bottom = 621.0
+theme_override_font_sizes/font_size = 32
+text = "Leave"
+
+[node name="cassette" type="Node2D" parent="canvas/boombox" unique_id=1439545122]
+
 [node name="Key" type="Sprite2D" parent="canvas" unique_id=1784938723]
 position = Vector2(1089, 60.000004)
 scale = Vector2(0.25713035, 0.39624804)
@@ -854,5 +1479,16 @@ text = "x 0"
 horizontal_alignment = 2
 script = ExtResource("29_ppm0j")
 
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="canvas/Key/RichTextLabel" unique_id=1599170923]
+stream = ExtResource("69_n8djb")
+
+[node name="Ambience" type="AudioStreamPlayer2D" parent="." unique_id=586898501]
+position = Vector2(286, 318)
+stream = ExtResource("50_p5vim")
+volume_db = -5.975
+autoplay = true
+parameters/looping = true
+
 [connection signal="pressed" from="canvas/spinlock/Button" to="canvas/spinlock" method="hidenow"]
 [connection signal="pressed" from="canvas/spinlock/Button2" to="canvas/spinlock" method="reset"]
+[connection signal="pressed" from="canvas/boombox/Button" to="canvas/boombox" method="hidenow"]

@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dddc87hgkwfk2"]
+
+[ext_resource type="Texture2D" uid="uid://dkb56l5jyih2h" path="res://cassette.png" id="1_gg7u1"]
+[ext_resource type="Script" uid="uid://dxky3ih88b0y5" path="res://cassettes.gd" id="2_4uiaa"]
+
+[node name="cassettes" type="TextureButton" unique_id=1413677376]
+offset_left = 371.00003
+offset_top = 28.0
+offset_right = 1503.0
+offset_bottom = 680.0
+scale = Vector2(0.41, 0.41)
+texture_normal = ExtResource("1_gg7u1")
+script = ExtResource("2_4uiaa")

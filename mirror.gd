@@ -13,7 +13,6 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if visible:
 		if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) and (within or holdingdown):
-			
 			if not holdingdown:
 				holdingdown = true
 				Global.emit_signal("rotate", false)

@@ -3,7 +3,7 @@ extends Node2D
 @onready var lock:Sprite2D = $lock
 @onready var audio:AudioStreamMP3 = load("res://click.mp3")
 @onready var unlockaudio:AudioStreamMP3 = load("res://unlock.mp3")
-@onready var audioplayer:AudioStreamPlayer2D = $AudioStreamPlayer2D
+@onready var audioplayer:AudioStreamPlayer2D = $"../sfx"
 var holdingdown:bool
 var temp:float
 var answer:String

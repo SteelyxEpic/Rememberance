@@ -4,4 +4,7 @@ extends Node2D
 
 func _ready() -> void:
 	Global.lock = $"canvas/spinlock" 
-	Global.current = $"Bedroom" 
+	Global.boombox = $"canvas/boombox" 
+	Global.current = $"Bedroom"
+	Global.interart = load("res://interactables.png") 
+	Global.inter = $canvas/interactables
