@@ -14,6 +14,7 @@ var original: Texture2D
 @export var direct:bool
 @export var cassette:Array[Dialogue]
 var cassettecolor
+@export var note:bool
 
 func _ready() -> void:
 	answer = ""
@@ -40,6 +41,17 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int):
 		if direct:
 			Global.emit_signal("change", door,doorback)
 			return
+		if note:
+			if Global.light.visible:
+				Global.emit_signal("speech", speech)
+			else:
+				var temp:Array[Dialogue]
+				for i in Global.toodark.keys():
+					var temps = Dialogue.new()
+					temps.caption = i
+					temps.audio = Global.toodark[i]
+					temp.append(temps)
+				Global.emit_signal("speech", temp)
 		Global.emit_signal("clicked")
 			
 func click():

@@ -81,6 +81,7 @@
 [ext_resource type="AudioStream" uid="uid://vuxmr115wfsh" path="res://ambience.mp3" id="50_p5vim"]
 [ext_resource type="AudioStream" uid="uid://cxn2a1mq6dhpu" path="res://voicelines/mountains/3.mp3" id="50_s8n4o"]
 [ext_resource type="AudioStream" uid="uid://b4wxk6lshptlf" path="res://voicelines/mountains/4.mp3" id="51_mnwqs"]
+[ext_resource type="Texture2D" uid="uid://bqabyfeaa6442" path="res://note.png" id="57_jmj6u"]
 [ext_resource type="Texture2D" uid="uid://c636f65gfl547" path="res://hallentrance.png" id="69_f2fag"]
 [ext_resource type="AudioStream" uid="uid://dmkh48re5g25f" path="res://alexzavesa-clinking-coins-7-468427.mp3" id="69_n8djb"]
 [ext_resource type="Texture2D" uid="uid://dwuimrd8u832e" path="res://backhall.png" id="70_1igcq"]
@@ -325,6 +326,9 @@ script = ExtResource("14_5m0m6")
 caption = "..."
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jmj6u"]
+size = Vector2(64.56592, 55.25728)
+
 [sub_resource type="Resource" id="Resource_8dcqi"]
 script = ExtResource("14_5m0m6")
 caption = "Treasure chest?"
@@ -385,7 +389,6 @@ size = Vector2(728.24304, 570.74646)
 script = ExtResource("1_e8d8u")
 
 [node name="dark" type="Sprite2D" parent="." unique_id=1402283668]
-visible = false
 modulate = Color(1, 1, 1, 0.5137255)
 top_level = true
 position = Vector2(576, 324)
@@ -394,6 +397,7 @@ texture = ExtResource("1_sigte")
 script = ExtResource("2_6sk78")
 
 [node name="light" type="Sprite2D" parent="." unique_id=1086704719]
+visible = false
 modulate = Color(1, 1, 1, 0.5137255)
 top_level = true
 position = Vector2(572, 324)
@@ -525,6 +529,7 @@ position = Vector2(404.1595, 343.53604)
 shape = SubResource("RectangleShape2D_mti6b")
 
 [node name="Lightroom" type="Sprite2D" parent="." unique_id=1543563354]
+visible = false
 position = Vector2(573.5, 320)
 scale = Vector2(0.7160726, 0.65656567)
 texture = ExtResource("13_fft52")
@@ -825,7 +830,6 @@ position = Vector2(404.1595, 343.53604)
 shape = SubResource("RectangleShape2D_mti6b")
 
 [node name="Bedroom" type="Sprite2D" parent="." unique_id=1285169866]
-visible = false
 position = Vector2(572.5, 326)
 scale = Vector2(1.7342342, 1.5023475)
 texture = ExtResource("6_amcw0")
@@ -900,6 +904,24 @@ key = true
 
 [node name="back" type="Node2D" parent="Bedroom" unique_id=1243272265]
 
+[node name="door2" type="Area2D" parent="Bedroom/back" unique_id=905008660]
+position = Vector2(-321.82855, -238.50931)
+scale = Vector2(0.8126983, 0.795031)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_32ixd"), SubResource("Resource_r1r5v"), SubResource("Resource_uwenr"), SubResource("Resource_tgelg"), SubResource("Resource_ftaf3")])
+opentexture = ExtResource("14_vi1qt")
+note = true
+
+[node name="Note" type="Sprite2D" parent="Bedroom/back/door2" unique_id=418630093]
+position = Vector2(656.7475, 481.6792)
+scale = Vector2(0.26015627, 0.27069494)
+texture = ExtResource("57_jmj6u")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bedroom/back/door2" unique_id=1117775504]
+position = Vector2(654.2641, 480.84198)
+scale = Vector2(0.9999997, 1)
+shape = SubResource("RectangleShape2D_jmj6u")
+
 [node name="door" type="Area2D" parent="Bedroom/back" unique_id=338845586]
 position = Vector2(-321.82858, -238.50932)
 scale = Vector2(0.8126984, 0.7950311)
@@ -950,6 +972,7 @@ front = ExtResource("20_tgelg")
 back = ExtResource("20_tgelg")
 
 [node name="front" type="Node2D" parent="Hallway" unique_id=116379163]
+visible = false
 
 [node name="picture" type="Area2D" parent="Hallway/front" unique_id=1946200764]
 position = Vector2(-194.70808, -284.21576)
@@ -1073,7 +1096,6 @@ position = Vector2(404.1595, 343.53604)
 shape = SubResource("RectangleShape2D_mti6b")
 
 [node name="back" type="Node2D" parent="Hallway" unique_id=2100095282]
-visible = false
 
 [node name="door" type="Area2D" parent="Hallway/back" unique_id=1366611091]
 position = Vector2(-554.61426, -315.9392)
@@ -1086,7 +1108,7 @@ door = "Saferoom"
 [node name="Safe" type="Sprite2D" parent="Hallway/back/door" unique_id=1825341401]
 position = Vector2(400.6119, 339.34988)
 scale = Vector2(1, 1.2451648)
-texture = ExtResource("14_vi1qt")
+texture = ExtResource("14_wvrob")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hallway/back/door" unique_id=1567573662]
 position = Vector2(404.1595, 343.53604)
@@ -1103,7 +1125,7 @@ door = "Lightroom"
 [node name="Safe" type="Sprite2D" parent="Hallway/back/door2" unique_id=1207917250]
 position = Vector2(400.6119, 339.34988)
 scale = Vector2(1, 1.2451648)
-texture = ExtResource("14_wvrob")
+texture = ExtResource("14_vi1qt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hallway/back/door2" unique_id=1367739858]
 position = Vector2(404.1595, 343.53604)
@@ -1164,7 +1186,18 @@ position = Vector2(544.33777, 445.45605)
 scale = Vector2(0.9999998, 1)
 shape = SubResource("RectangleShape2D_f2fag")
 
+[node name="Key2" type="TextureButton" parent="Hallway/back" unique_id=1045496857]
+offset_left = -24.591644
+offset_top = 135.95743
+offset_right = 260.40836
+offset_bottom = 256.95743
+scale = Vector2(0.21039604, 0.31080544)
+texture_normal = ExtResource("5_parq5")
+script = ExtResource("6_pd0i2")
+key = true
+
 [node name="Entrance" type="Sprite2D" parent="." unique_id=1573213928]
+visible = false
 position = Vector2(577.5, 323)
 scale = Vector2(1.7282282, 1.544601)
 texture = ExtResource("70_1igcq")

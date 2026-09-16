@@ -8,3 +8,5 @@ func _ready() -> void:
 	Global.current = $"Bedroom"
 	Global.interart = load("res://interactables.png") 
 	Global.inter = $canvas/interactables
+	Global.light = $light
+	Global.dark = $dark

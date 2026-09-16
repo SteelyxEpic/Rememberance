@@ -3,7 +3,7 @@ extends Sprite2D
 var positions: Array[Vector2] = [Vector2(17, -55), Vector2(55, 16), Vector2(43, 107)]
 @export var front:Texture2D = load("res://weirdroom.png")
 @export var back:Texture2D = load("res://bedroom.png")
-
+@export var light:bool = false
 
 
 # Called when the node enters the scene tree for the first time.
@@ -17,6 +17,13 @@ func _ready() -> void:
 
 func change(current, direction):
 	if name == current:
+		if light:
+			Global.light.show()
+			Global.dark.hide()
+			
+		else:
+			Global.light.hide()
+			Global.dark.show()
 		Global.current = self
 		show()
 		if direction:

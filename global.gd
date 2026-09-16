@@ -9,6 +9,7 @@ var inter:Sprite2D
 var interart:Texture2D
 var locked:Dictionary = {"Locked": load("res://locked.mp3")}
 var nokey:Dictionary = {"I don't have key for this": load("res://locked.mp3")}
+var toodark:Dictionary = {"It's too dark to read anything": load("res://toodark.mp3")}
 var captions: RichTextLabel
 var inventory:Array[String]
 var object:Array
@@ -20,6 +21,8 @@ var cassettes: Dictionary[String, Array]
 @onready var current:Node2D
 @onready var lock: Node2D
 @onready var boombox: Node2D
+@onready var light: Sprite2D
+@onready var dark: Sprite2D
 
 func switch():
 	print(current.find_child("back"))
