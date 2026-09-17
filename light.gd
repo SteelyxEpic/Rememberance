@@ -40,15 +40,17 @@ func _physics_process(_delta):
 					audio.stop()
 					audio.stream = audioconnect
 					audio.play()
+					Global.emit_signal("lightchange", result.collider.get_parent().name, true)
 				sink = result.collider.get_parent()
 				result.collider.get_parent().modulate = Color8(255,255,255,255)
 				break
 			else:
 				if sink:
-					sink = null
 					audio.stop()
 					audio.stream = audiodisconnect
 					audio.play()
+					Global.emit_signal("lightchange", sink.name, false)
+					sink = null
 				break
 		else:
 			add_point(to_local(target_pos))

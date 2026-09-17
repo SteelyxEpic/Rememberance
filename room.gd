@@ -4,23 +4,27 @@ var positions: Array[Vector2] = [Vector2(17, -55), Vector2(55, 16), Vector2(43, 
 @export var front:Texture2D = load("res://weirdroom.png")
 @export var back:Texture2D = load("res://bedroom.png")
 @export var light:bool = false
+@export var sink:String
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	Global.change.connect(change)
+	Global.lightchange.connect(lightchange)
 	find_child("front").visibility_changed.connect(func():
 		if not find_child("front").visible:
 			texture = back
 		else:
 			texture = front)
 
+func lightchange(current, lights):
+	if sink == current:
+		light = lights
 func change(current, direction):
 	if name == current:
 		if light:
 			Global.light.show()
 			Global.dark.hide()
-			
 		else:
 			Global.light.hide()
 			Global.dark.show()

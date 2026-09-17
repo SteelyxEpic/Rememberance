@@ -15,6 +15,7 @@ var original: Texture2D
 @export var cassette:Array[Dialogue]
 var cassettecolor
 @export var note:bool
+@export var picture:bool
 
 func _ready() -> void:
 	answer = ""
@@ -50,6 +51,17 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int):
 					var temps = Dialogue.new()
 					temps.caption = i
 					temps.audio = Global.toodark[i]
+					temp.append(temps)
+				Global.emit_signal("speech", temp)
+		if picture:
+			if Global.light.visible:
+				Global.emit_signal("speech", speech)
+			else:
+				var temp:Array[Dialogue]
+				for i in Global.toodarkpic.keys():
+					var temps = Dialogue.new()
+					temps.caption = i
+					temps.audio = Global.toodarkpic[i]
 					temp.append(temps)
 				Global.emit_signal("speech", temp)
 		Global.emit_signal("clicked")
