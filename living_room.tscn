@@ -309,6 +309,47 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m0q5w"]
 size = Vector2(303.59488, 302.768)
 
+[sub_resource type="Resource" id="Resource_628id"]
+script = ExtResource("14_5m0m6")
+caption = "Dear [Static]"
+audio = ExtResource("44_n8djb")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_7r8lx"]
+script = ExtResource("14_5m0m6")
+caption = "You have been given 24 hours to find who you really are"
+audio = ExtResource("45_jtheq")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_gncrg"]
+script = ExtResource("14_5m0m6")
+caption = "I will allow you to be within the premise of your home"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_qp4hr"]
+script = ExtResource("14_5m0m6")
+caption = "Upon the end of time...."
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_4xinw"]
+script = ExtResource("14_5m0m6")
+caption = "You will be questioned again"
+audio = ExtResource("12_7x8n8")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_mehon"]
+script = ExtResource("14_5m0m6")
+caption = "May your faith guide you"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_ngns8"]
+script = ExtResource("14_5m0m6")
+caption = "-God"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jmj6u"]
+size = Vector2(64.56592, 55.25728)
+
 [sub_resource type="Resource" id="Resource_32ixd"]
 script = ExtResource("14_5m0m6")
 caption = "Locked"
@@ -325,9 +366,6 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 script = ExtResource("14_5m0m6")
 caption = "..."
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_jmj6u"]
-size = Vector2(64.56592, 55.25728)
 
 [sub_resource type="Resource" id="Resource_8dcqi"]
 script = ExtResource("14_5m0m6")
@@ -536,6 +574,7 @@ texture = ExtResource("13_fft52")
 script = ExtResource("12_s8sbf")
 front = ExtResource("13_fft52")
 back = ExtResource("13_fft52")
+light = true
 
 [node name="front" type="Node2D" parent="Lightroom" unique_id=106339114]
 
@@ -904,20 +943,20 @@ key = true
 
 [node name="back" type="Node2D" parent="Bedroom" unique_id=1243272265]
 
-[node name="door2" type="Area2D" parent="Bedroom/back" unique_id=905008660]
+[node name="note" type="Area2D" parent="Bedroom/back" unique_id=905008660]
 position = Vector2(-321.82855, -238.50931)
 scale = Vector2(0.8126983, 0.795031)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_32ixd"), SubResource("Resource_r1r5v"), SubResource("Resource_uwenr"), SubResource("Resource_tgelg"), SubResource("Resource_ftaf3")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_628id"), SubResource("Resource_7r8lx"), SubResource("Resource_gncrg"), SubResource("Resource_qp4hr"), SubResource("Resource_4xinw"), SubResource("Resource_mehon"), SubResource("Resource_ngns8")])
 opentexture = ExtResource("14_vi1qt")
 note = true
 
-[node name="Note" type="Sprite2D" parent="Bedroom/back/door2" unique_id=418630093]
+[node name="Note" type="Sprite2D" parent="Bedroom/back/note" unique_id=418630093]
 position = Vector2(656.7475, 481.6792)
 scale = Vector2(0.26015627, 0.27069494)
 texture = ExtResource("57_jmj6u")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Bedroom/back/door2" unique_id=1117775504]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bedroom/back/note" unique_id=1117775504]
 position = Vector2(654.2641, 480.84198)
 scale = Vector2(0.9999997, 1)
 shape = SubResource("RectangleShape2D_jmj6u")
