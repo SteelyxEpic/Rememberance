@@ -6,7 +6,6 @@ var y:float
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	y = position.y
 	mouse_entered.connect(func():
 		if tween:
 			tween.stop()

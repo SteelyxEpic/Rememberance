@@ -15,6 +15,7 @@ func _ready() -> void:
 				var temp:TextureButton = cassetteprefab.instantiate()
 				$cassette.add_child(temp)
 				temp.position = Vector2(350, y)
+				temp.y = y
 				y += 75
 				temp.speech = Global.cassettes[i][0]
 				temp.modulate = Global.cassettes[i][1]

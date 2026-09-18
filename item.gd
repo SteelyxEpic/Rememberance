@@ -16,6 +16,9 @@ var original: Texture2D
 var cassettecolor
 @export var note:bool
 @export var picture:bool
+@export var recorder:bool
+@export var bed:bool
+@onready var beep:AudioStreamMP3 = load("res://voicelines/cassette2/beep.mp3")
 
 func _ready() -> void:
 	answer = ""
@@ -23,6 +26,11 @@ func _ready() -> void:
 		answer += str(randi_range(1, 7))
 	original = get_child(0).texture
 	input_event.connect(_on_input_event)
+	if recorder:
+		var tem = Dialogue.new()
+		tem.audio =  beep
+		tem.caption = ""
+		speech.insert(0, tem)
 	mouse_entered.connect(func():
 		if (safe or container) and rewards.visible:
 			return
@@ -42,6 +50,9 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int):
 		if direct:
 			Global.emit_signal("change", door,doorback)
 			return
+		if recorder:
+			Global.emit_signal("speech", speech)
+			return
 		if note:
 			if Global.light.visible:
 				Global.emit_signal("speech", speech)
@@ -53,6 +64,7 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int):
 					temps.audio = Global.toodark[i]
 					temp.append(temps)
 				Global.emit_signal("speech", temp)
+			return
 		if picture:
 			if Global.light.visible:
 				Global.emit_signal("speech", speech)
@@ -64,6 +76,7 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int):
 					temps.audio = Global.toodarkpic[i]
 					temp.append(temps)
 				Global.emit_signal("speech", temp)
+			return
 		Global.emit_signal("clicked")
 			
 func click():

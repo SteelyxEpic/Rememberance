@@ -8,6 +8,7 @@ extends Node2D
 var index = 0
 var prev = 0
 var current
+var keyon:bool
 # Called when the node enters the scene tree for the first time
 func _ready() -> void:
 	Global.change.connect(room)
@@ -20,11 +21,13 @@ func room(door, doorback):
 	audioplayer.play()
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if Global.captions.modulate.a == 1 or safe.visible:
+	if Global.captions.modulate.a == 1 or safe.visible or Global.boombox.visible:
 		$"../interactables".texture = load("res://interactablesnot.png")
 	else:
 		$"../interactables".texture = load("res://interactables.png")
-	if len(Global.object) > 0 and not visible:
+	if keyon:
+		$"../interactables".texture = load("res://grab.png")
+	if (len(Global.object) > 0 and not visible) or keyon:
 		global_position = get_global_mouse_position()
 		$"../interactables".show()
 		$"../interactables".global_position = get_global_mouse_position()
@@ -60,10 +63,24 @@ func _input(event):
 func click():
 	if not Global.captions.modulate.a == 1:
 		get_child(2).hide()
+		get_child(0).hide()
 		current = Global.object[-1]
 		if current.door or current.container:
 			if not current.opentexture == current.sprite.texture:
 				get_child(2).show()
+		if current.door:
+			get_child(0).show()
+			get_child(0).get_child(0).text = "Enter"
+		elif current.boombox or current.safe:
+			get_child(0).show()
+			get_child(0).get_child(0).text = "Use"
+		elif current.cassette:
+			get_child(0).show()
+			get_child(0).get_child(0).text = "Take"
+		elif current.bed:
+			get_child(0).show()
+			get_child(0).get_child(0).text = "Sleep"
+			
 		show()
 		scale = Vector2(0, 0)
 		var tween:Tween = get_tree().create_tween()
