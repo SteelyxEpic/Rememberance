@@ -4,21 +4,34 @@ extends Sprite2D
 @onready var god:Sprite2D = $front/Godcon/God
 var positions: Array[Vector2] = [Vector2(17, -55), Vector2(55, 16), Vector2(43, 107)]
 @onready var front:Texture2D = load("res://weirdroom.png")
-@onready var back:Texture2D = load("res://bedroom.png")
+@onready var back:Texture2D = load("res://brokenwall.png")
+@onready var timer: Timer = $Timer
+@onready var seen: TextureProgressBar = $front/seen
+@export var ques:Array[Dialogue]
+@export var response:Array[Dialogue]
+@export var answer:Dictionary[String, String]
+var ask = false
 
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	timer.timeout.connect(time)
 	Global.change.connect(change)
+	Global.seegod.connect(func():
+		if ask:
+			askgod())
 	movearound()
 	hover()
 	
 	find_child("front").visibility_changed.connect(func():
 		if texture == front:
 			texture = back
+			timer.stop()
 		else:
-			texture = front)
+			texture = front
+			seen.value = 0
+			timer.start())
 
 func change(current, direction):
 	if name == current:
@@ -54,3 +67,12 @@ func hover():
 		hover_tween.tween_property(god, "position:y", -15, 3)
 		await get_tree().create_timer(3).timeout
 	
+func time():
+	seen.show()
+	if seen.value == 100:
+		timer.stop()
+		seen.hide()
+		Global.emit_signal("seegod")
+	seen.value += 5
+func askgod():
+	pass

@@ -6,6 +6,8 @@ signal keychange(changes)
 signal lightchange(names, state)
 signal rotate(show:bool)
 signal change(location:String, direction: bool)
+signal seegod
+signal speechfinished
 var inter:Sprite2D
 var interart:Texture2D
 var locked:Dictionary = {"Locked": load("res://locked.mp3")}

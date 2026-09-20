@@ -27,6 +27,7 @@ func texting(captions:Array[Dialogue]):
 			if i == captions[-1]:
 				tween = get_tree().create_tween()
 				tween.tween_property(self, "modulate:a", 0, 0.5)
+				Global.emit_signal("speechfinished")
 				await tween.finished
 			
 		hide()
