@@ -309,6 +309,126 @@ caption = "This looks like my house"
 audio = ExtResource("29_q7s7j")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
+[sub_resource type="Resource" id="Resource_y4c46"]
+script = ExtResource("14_5m0m6")
+caption = "...."
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_1ggcw"]
+script = ExtResource("14_5m0m6")
+caption = "[static]"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_t2fns"]
+script = ExtResource("14_5m0m6")
+caption = "You have proven yourself to be worthy"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_e7dt2"]
+script = ExtResource("14_5m0m6")
+caption = "To still have an understanding on where you stand"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_y44tu"]
+script = ExtResource("14_5m0m6")
+caption = "I only hope this path you choose isn't temporary"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_1vd7p"]
+script = ExtResource("14_5m0m6")
+caption = "...."
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_bcdrl"]
+script = ExtResource("14_5m0m6")
+caption = "Have you realized where you are in?"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_sbiym"]
+script = ExtResource("14_5m0m6")
+caption = "Yes"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_58dor"]
+script = ExtResource("14_5m0m6")
+caption = "I'm in your room"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_b2rfx"]
+script = ExtResource("14_5m0m6")
+caption = "Dr Kron's room"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_51r0y"]
+script = ExtResource("14_5m0m6")
+caption = "..."
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_8iuf1"]
+script = ExtResource("14_5m0m6")
+caption = "correct"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_tmfqh"]
+script = ExtResource("14_5m0m6")
+caption = "I- I wanted you to rid me of my memories"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_cj1ke"]
+script = ExtResource("14_5m0m6")
+caption = "but ig this was your way to stop me..."
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_qaxb1"]
+script = ExtResource("14_5m0m6")
+caption = "You forced yourself to remember your past"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_q05xx"]
+script = ExtResource("14_5m0m6")
+caption = "and as such you have chosen to live with it"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_2aybo"]
+script = ExtResource("14_5m0m6")
+caption = "Good luck"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_14fk6"]
+script = ExtResource("14_5m0m6")
+caption = "..."
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_lshks"]
+script = ExtResource("14_5m0m6")
+caption = "you do not value your life enough"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_q7s7j"]
+script = ExtResource("14_5m0m6")
+caption = "You have been too unfocused"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_6racm"]
+script = ExtResource("14_5m0m6")
+caption = "This is fine"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_8hgua"]
+script = ExtResource("14_5m0m6")
+caption = "I can fix you"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_apue5"]
+script = ExtResource("14_5m0m6")
+caption = "I can make you..."
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_pxv81"]
+script = ExtResource("14_5m0m6")
+caption = "better-"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
 [sub_resource type="Resource" id="Resource_wvrob"]
 script = ExtResource("14_5m0m6")
 caption = "A safe?"
@@ -479,7 +599,7 @@ script = ExtResource("14_5m0m6")
 caption = "but...."
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_lshks"]
+[sub_resource type="Resource" id="Resource_set2q"]
 script = ExtResource("14_5m0m6")
 caption = "What is one doing in my place right now?"
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
@@ -552,13 +672,13 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jmj6u"]
 size = Vector2(97.58057, 150.2363)
 
-[sub_resource type="Resource" id="Resource_q7s7j"]
+[sub_resource type="Resource" id="Resource_83h7l"]
 script = ExtResource("14_5m0m6")
 caption = "My wardrobe?"
 audio = ExtResource("48_o06lw")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_8hgua"]
+[sub_resource type="Resource" id="Resource_efiuq"]
 script = ExtResource("14_5m0m6")
 caption = "It's locked"
 audio = ExtResource("49_08iss")
@@ -770,7 +890,7 @@ script = ExtResource("14_5m0m6")
 caption = "Hmmm...."
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_6racm"]
+[sub_resource type="Resource" id="Resource_eyrie"]
 script = ExtResource("14_5m0m6")
 caption = "A calculative answer"
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
@@ -963,6 +1083,12 @@ script = ExtResource("1_e8d8u")
 Godspeech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_tf7f8"), SubResource("Resource_a8c5g"), SubResource("Resource_6ygs1"), SubResource("Resource_qw4g0")])
 Godspeech2 = Array[ExtResource("14_5m0m6")]([SubResource("Resource_08llg"), SubResource("Resource_yihly"), SubResource("Resource_yn6jg"), SubResource("Resource_2iqyh"), SubResource("Resource_fctyw"), SubResource("Resource_38o12"), SubResource("Resource_tb7lo"), SubResource("Resource_nt2pg"), SubResource("Resource_x7rpv"), SubResource("Resource_fnvds"), SubResource("Resource_c8gk6"), SubResource("Resource_ftari"), SubResource("Resource_vapb6"), SubResource("Resource_lnv1u"), SubResource("Resource_b4yrn"), SubResource("Resource_1bemb"), SubResource("Resource_2f0ia"), SubResource("Resource_doadl"), SubResource("Resource_esgyq"), SubResource("Resource_jk7c7"), SubResource("Resource_kokgf"), SubResource("Resource_c44jk")])
 Godspeech3 = Array[ExtResource("14_5m0m6")]([SubResource("Resource_2scrf"), SubResource("Resource_ncoq3")])
+Answers = Array[ExtResource("14_5m0m6")]([SubResource("Resource_y4c46"), SubResource("Resource_1ggcw"), SubResource("Resource_t2fns"), SubResource("Resource_e7dt2"), SubResource("Resource_y44tu"), SubResource("Resource_1vd7p"), SubResource("Resource_bcdrl"), SubResource("Resource_sbiym"), SubResource("Resource_58dor"), SubResource("Resource_b2rfx"), SubResource("Resource_51r0y"), SubResource("Resource_8iuf1"), SubResource("Resource_tmfqh"), SubResource("Resource_cj1ke"), SubResource("Resource_qaxb1"), SubResource("Resource_q05xx"), SubResource("Resource_2aybo"), SubResource("Resource_14fk6"), SubResource("Resource_lshks"), SubResource("Resource_q7s7j"), SubResource("Resource_6racm"), SubResource("Resource_8hgua"), SubResource("Resource_apue5"), SubResource("Resource_pxv81")])
+Answersindex = Dictionary[String, Vector2]({
+"bad": Vector2(17, 23),
+"ori": Vector2(0, 4),
+"secret": Vector2(5, 16)
+})
 
 [node name="dark" type="Sprite2D" parent="." unique_id=1402283668]
 visible = false
@@ -1107,7 +1233,7 @@ sink = "Sink3"
 position = Vector2(-320.2032, -202.73293)
 scale = Vector2(0.8126984, 0.7950311)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_kx38u"), SubResource("Resource_n2x20"), SubResource("Resource_nmvb0"), SubResource("Resource_lshks")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_kx38u"), SubResource("Resource_n2x20"), SubResource("Resource_nmvb0"), SubResource("Resource_set2q")])
 boombox = true
 
 [node name="Safe" type="Sprite2D" parent="Cassetteroom/front/boombox" unique_id=2098750623]
@@ -1516,7 +1642,7 @@ shape = SubResource("RectangleShape2D_mti6b")
 position = Vector2(-1119.2998, -595.5231)
 scale = Vector2(1.2026651, 1.0009799)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_q7s7j"), SubResource("Resource_8hgua")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_83h7l"), SubResource("Resource_efiuq")])
 picture = true
 
 [node name="Bed" type="Sprite2D" parent="Lightroom/back/picture" unique_id=163830256]
@@ -1710,7 +1836,7 @@ shape = SubResource("RectangleShape2D_qp4hr")
 position = Vector2(-391.23892, -263.5875)
 scale = Vector2(0.387461, 0.34735754)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_q7s7j"), SubResource("Resource_8hgua"), SubResource("Resource_6apj8")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_83h7l"), SubResource("Resource_efiuq"), SubResource("Resource_6apj8")])
 picture = true
 
 [node name="Bed" type="Sprite2D" parent="Bedroom/back/cabinent" unique_id=1875611207]
@@ -1729,7 +1855,7 @@ scale = Vector2(1.7297297, 1.5211266)
 texture = ExtResource("72_sqgh1")
 script = ExtResource("9_parq5")
 ques = Array[ExtResource("14_5m0m6")]([SubResource("Resource_bwd73"), SubResource("Resource_2t5pd"), SubResource("Resource_1dou6"), SubResource("Resource_sriil"), SubResource("Resource_nyhlb"), SubResource("Resource_fupgw")])
-response = Array[ExtResource("14_5m0m6")]([SubResource("Resource_qd8qp"), SubResource("Resource_rturl"), SubResource("Resource_6racm"), SubResource("Resource_qvof5")])
+response = Array[ExtResource("14_5m0m6")]([SubResource("Resource_qd8qp"), SubResource("Resource_rturl"), SubResource("Resource_eyrie"), SubResource("Resource_qvof5")])
 answer = Dictionary[String, String]({
 "Are you really a god": "secret",
 "God": "ori",

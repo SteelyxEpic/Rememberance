@@ -7,6 +7,7 @@ var positions: Array[Vector2] = [Vector2(17, -55), Vector2(55, 16), Vector2(43, 
 @onready var back:Texture2D = load("res://brokenwall.png")
 @onready var timer: Timer = $Timer
 @onready var seen: TextureProgressBar = $front/seen
+@export var statement:Array[Dialogue]
 @export var ques:Array[Dialogue]
 @export var response:Array[Dialogue]
 @export var answer:Dictionary[String, String]
@@ -75,4 +76,17 @@ func time():
 		Global.emit_signal("seegod")
 	seen.value += 5
 func askgod():
-	pass
+	Global.emit_signal("speech", statement)
+	await Global.speechfinished
+	await get_tree().create_timer(0.5).timeout
+	for i in ques:
+		var temp:Array = [i]
+		Global.emit_signal("speech", temp)
+		await Global.speechfinished
+		$front/answer.show()
+		await $front/answer/Button.pressed
+		temp = [response.pick_random()]
+		Global.emit_signal("speech", temp)
+		await Global.speechfinished
+	
+	
