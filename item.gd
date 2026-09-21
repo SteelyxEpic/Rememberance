@@ -102,6 +102,8 @@ func click():
 	elif cassette:
 		Global.cassettes[name] = [cassette, cassettecolor]
 		hide()
+	elif bed:
+		Global.emit_signal("change", "Weirdroom", true)
 
 func use():
 	if safe:

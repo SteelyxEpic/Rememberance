@@ -850,6 +850,16 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dlkxf"]
 size = Vector2(546.9173, 881.47644)
 
+[sub_resource type="Resource" id="Resource_5mqdy"]
+script = ExtResource("14_5m0m6")
+caption = "Are you ready to begin?"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_4k7js"]
+script = ExtResource("14_5m0m6")
+caption = "Y-yes"
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
 [sub_resource type="Resource" id="Resource_bwd73"]
 script = ExtResource("14_5m0m6")
 caption = "What is your name?"
@@ -1854,21 +1864,27 @@ position = Vector2(576, 325)
 scale = Vector2(1.7297297, 1.5211266)
 texture = ExtResource("72_sqgh1")
 script = ExtResource("9_parq5")
+statement = Array[ExtResource("14_5m0m6")]([SubResource("Resource_5mqdy"), SubResource("Resource_4k7js")])
 ques = Array[ExtResource("14_5m0m6")]([SubResource("Resource_bwd73"), SubResource("Resource_2t5pd"), SubResource("Resource_1dou6"), SubResource("Resource_sriil"), SubResource("Resource_nyhlb"), SubResource("Resource_fupgw")])
 response = Array[ExtResource("14_5m0m6")]([SubResource("Resource_qd8qp"), SubResource("Resource_rturl"), SubResource("Resource_eyrie"), SubResource("Resource_qvof5")])
 answer = Dictionary[String, String]({
-"Are you really a god": "secret",
-"God": "ori",
-"Gordy": "ori",
-"Horcus": "ori",
-"Kron": "secret",
+"are you really a god": "secret",
 "blue": "secret",
-"car": "ori",
+"car": "secret",
+"god": "ori",
+"gordy": "ori",
+"horcus": "ori",
+"kron": "secret",
 "mountain": "ori",
 "red": "ori"
 })
+safekeeping = Dictionary[String, int]({
+"ori": 0,
+"secret": 0
+})
 
 [node name="front" type="Node2D" parent="Weirdroom" unique_id=1358478855]
+visible = false
 
 [node name="Godcon" type="Node2D" parent="Weirdroom/front" unique_id=2091198225]
 show_behind_parent = true
@@ -1908,7 +1924,6 @@ offset_bottom = 31.0
 text = "Answer"
 
 [node name="back" type="Node2D" parent="Weirdroom" unique_id=996740822]
-visible = false
 
 [node name="Enlighted end" type="Sprite2D" parent="Weirdroom/back" unique_id=452906531]
 modulate = Color(0, 0, 0, 1)

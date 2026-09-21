@@ -47,3 +47,6 @@ func _on_voices_value_changed(value: float) -> void:
 	var bus_index = AudioServer.get_bus_index("SFX")
 	var db_val = linear_to_db(value)
 	AudioServer.set_bus_volume_db(bus_index, db_val)
+
+func trigger(ending):
+	Global.emit_signal("speech", Answers.slice(Answersindex[ending].x, Answersindex[ending].y))

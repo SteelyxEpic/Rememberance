@@ -11,6 +11,7 @@ var positions: Array[Vector2] = [Vector2(17, -55), Vector2(55, 16), Vector2(43, 
 @export var ques:Array[Dialogue]
 @export var response:Array[Dialogue]
 @export var answer:Dictionary[String, String]
+@export var safekeeping:Dictionary[String, int]
 var ask = false
 
 
@@ -85,8 +86,17 @@ func askgod():
 		await Global.speechfinished
 		$front/answer.show()
 		await $front/answer/Button.pressed
+		if $front/answer.text.to_lower() in answer:
+			safekeeping[answer[$front/answer.text.to_lower()]] += 1
 		temp = [response.pick_random()]
 		Global.emit_signal("speech", temp)
-		await Global.speechfinished
+		await Global.speechfinished 
+		await get_tree().create_timer(0.5).timeout
+	if safekeeping["ori"] >= 4:
+		$"..".trigger("ori")
+	elif safekeeping["secret"] >= 3:
+		$"..".trigger("secret")
+	else:
+		$"..".trigger("bad")
 	
 	
