@@ -33,6 +33,8 @@ func _ready() -> void:
 		await get_tree().create_timer(0.6).timeout
 		Global.emit_signal("speech", Godspeech3)
 		$Weirdroom.ask = true
+		$canvas/time.show()
+		$canvas/time/Timer.start()
 		)
 		
 

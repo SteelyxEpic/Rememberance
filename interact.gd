@@ -21,7 +21,7 @@ func room(door, doorback):
 	audioplayer.play()
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if Global.captions.modulate.a == 1 or safe.visible or Global.boombox.visible:
+	if Global.captions.modulate.a == 1 or safe.visible or Global.boombox.visible or $"../time".timeminute == 1440:
 		$"../interactables".texture = load("res://interactablesnot.png")
 	else:
 		$"../interactables".texture = load("res://interactables.png")

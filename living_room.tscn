@@ -140,6 +140,7 @@
 [ext_resource type="AudioStream" uid="uid://b35j40n2hgv18" path="res://voicelines/cassette4/8.mp3" id="80_dehtp"]
 [ext_resource type="Texture2D" uid="uid://j1swqfybesv3" path="res://candleburn.png" id="86_acrcj"]
 [ext_resource type="Texture2D" uid="uid://jmpqm6pf8su1" path="res://dogbowl.png" id="90_dlkxf"]
+[ext_resource type="Script" uid="uid://d4cmf0sm53cgk" path="res://time.gd" id="140_lshks"]
 
 [sub_resource type="Resource" id="Resource_tf7f8"]
 script = ExtResource("14_5m0m6")
@@ -2678,6 +2679,21 @@ script = ExtResource("29_ppm0j")
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="canvas/Key/RichTextLabel" unique_id=1599170923]
 stream = ExtResource("69_n8djb")
 bus = &"SFX"
+
+[node name="time" type="RichTextLabel" parent="canvas" unique_id=1165841569]
+visible = false
+offset_left = 474.0
+offset_top = 18.0
+offset_right = 650.0
+offset_bottom = 90.0
+theme_override_font_sizes/normal_font_size = 50
+text = "00:00"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("140_lshks")
+
+[node name="Timer" type="Timer" parent="canvas/time" unique_id=1216085768]
+wait_time = 0.2
 
 [node name="Ambience" type="AudioStreamPlayer2D" parent="." unique_id=586898501]
 position = Vector2(286, 318)
