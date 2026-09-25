@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://3vugps2wm1vi"
+path="res://.godot/imported/3.mp3-d725b8d05677d76f43c7daac18c13c66.mp3str"
+
+[deps]
+
+source_file="res://voicelines/red car/3.mp3"
+dest_files=["res://.godot/imported/3.mp3-d725b8d05677d76f43c7daac18c13c66.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -19,6 +19,7 @@ var ask = false
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	timer.timeout.connect(time)
+	Global.texts = $front/answer
 	Global.change.connect(change)
 	Global.seegod.connect(func():
 		if ask:
@@ -34,9 +35,19 @@ func _ready() -> void:
 			texture = front
 			seen.value = 0
 			timer.start())
+	await get_tree().process_frame
+	var temp = Global.load_game_settings()
+	if temp.get_value("player", "awaken", false):
+		$"back/Freedom end".modulate = Color(1.0, 1.0, 1.0, 1.0)
+	if temp.get_value("player", "end", false):
+		$"back/Enlighted end".modulate = Color(1.0, 1.0, 1.0, 1.0)
+	if temp.get_value("player", "bad", false):
+		$"back/bad end".modulate = Color(1.0, 1.0, 1.0, 1.0)
+	
 
 func change(current, direction):
 	if name == current:
+		$"../canvas/time".hide()
 		Global.current = self
 		show()
 		if direction:
@@ -81,7 +92,7 @@ func askgod():
 	await Global.speechfinished
 	await get_tree().create_timer(0.5).timeout
 	for i in ques:
-		var temp:Array = [i]
+		var temp:Array[Dialogue] = [i]
 		Global.emit_signal("speech", temp)
 		await Global.speechfinished
 		$front/answer.show()
@@ -94,9 +105,18 @@ func askgod():
 		await get_tree().create_timer(0.5).timeout
 	if safekeeping["ori"] >= 4:
 		$"..".trigger("ori")
+		var temp = Global.load_game_settings()
+		temp.set_value("player", "end", true)
+		Global.save_game_settings(temp)
 	elif safekeeping["secret"] >= 3:
 		$"..".trigger("secret")
+		var temp = Global.load_game_settings()
+		temp.set_value("player", "awaken", true)
+		Global.save_game_settings(temp)
 	else:
 		$"..".trigger("bad")
+		var temp = Global.load_game_settings()
+		temp.set_value("player", "bad", true)
+		Global.save_game_settings(temp)
 	
 	

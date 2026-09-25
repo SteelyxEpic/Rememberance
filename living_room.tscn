@@ -103,20 +103,29 @@
 [ext_resource type="AudioStream" uid="uid://4ikaesapngpg" path="res://voicelines/bed/2.mp3" id="44_tcxto"]
 [ext_resource type="AudioStream" uid="uid://duu8osbgnji3y" path="res://voicelines/bed/3.mp3" id="45_eq6vi"]
 [ext_resource type="AudioStream" uid="uid://cc07ngx83rcro" path="res://voicelines/lockeddoor/2.mp3" id="45_jtheq"]
+[ext_resource type="AudioStream" uid="uid://b33xcd6humme" path="res://voicelines/tape/1.mp3" id="46_kokgf"]
 [ext_resource type="AudioStream" uid="uid://dpsxoylyv0lut" path="res://voicelines/bed/4.mp3" id="46_muxel"]
 [ext_resource type="Script" uid="uid://dmvhb657u5df6" path="res://boombox.gd" id="47_02fm1"]
+[ext_resource type="AudioStream" uid="uid://iwed3q0o66x8" path="res://voicelines/tape/2.mp3" id="47_c44jk"]
 [ext_resource type="AudioStream" uid="uid://cahay8xd5bl77" path="res://voicelines/mountains/1.mp3" id="48_o06lw"]
 [ext_resource type="AudioStream" uid="uid://c4nq2hgo4odc6" path="res://voicelines/mountains/2.mp3" id="49_08iss"]
 [ext_resource type="AudioStream" uid="uid://b2mgflsti6wed" path="res://static.mp3" id="49_628id"]
 [ext_resource type="AudioStream" uid="uid://vuxmr115wfsh" path="res://ambience.mp3" id="50_p5vim"]
 [ext_resource type="AudioStream" uid="uid://cxn2a1mq6dhpu" path="res://voicelines/mountains/3.mp3" id="50_s8n4o"]
 [ext_resource type="AudioStream" uid="uid://b4wxk6lshptlf" path="res://voicelines/mountains/4.mp3" id="51_mnwqs"]
+[ext_resource type="AudioStream" uid="uid://bditvwd4uv8pp" path="res://voicelines/darkdoor/1.mp3" id="55_fupgw"]
+[ext_resource type="AudioStream" uid="uid://bo6fraccfljxq" path="res://voicelines/darkdoor/2.mp3" id="56_qd8qp"]
 [ext_resource type="Texture2D" uid="uid://bqabyfeaa6442" path="res://note.png" id="57_jmj6u"]
+[ext_resource type="AudioStream" uid="uid://co1ll3r7qcup6" path="res://voicelines/boombox/1.mp3" id="58_pxv81"]
 [ext_resource type="Texture2D" uid="uid://ccecpcm8x4vsf" path="res://car.png" id="59_dnhvm"]
 [ext_resource type="Texture2D" uid="uid://dkjjb87ju5x6x" path="res://volpainting.png" id="59_qp4hr"]
+[ext_resource type="AudioStream" uid="uid://dox67laq1xbg7" path="res://voicelines/boombox/2.mp3" id="59_set2q"]
+[ext_resource type="AudioStream" uid="uid://4mgnt6hibn0o" path="res://voicelines/boombox/3.mp3" id="60_83h7l"]
+[ext_resource type="AudioStream" uid="uid://bu44rscksx3ul" path="res://voicelines/boombox/4.mp3" id="61_efiuq"]
 [ext_resource type="Texture2D" uid="uid://bfpjmp3dx4ih" path="res://recorder.png" id="62_4xinw"]
 [ext_resource type="Texture2D" uid="uid://cgo48qjbpoqfv" path="res://paintingred.png" id="62_7r8lx"]
 [ext_resource type="Texture2D" uid="uid://dhkblpnclku67" path="res://flower.png" id="63_gncrg"]
+[ext_resource type="AudioStream" uid="uid://srqqh1bwpo85" path="res://voicelines/lockeddoor/3.mp3" id="64_ftari"]
 [ext_resource type="Texture2D" uid="uid://ka20p60pv6sb" path="res://clothe.png" id="69_ah7oo"]
 [ext_resource type="Texture2D" uid="uid://c636f65gfl547" path="res://hallentrance.png" id="69_f2fag"]
 [ext_resource type="AudioStream" uid="uid://dmkh48re5g25f" path="res://alexzavesa-clinking-coins-7-468427.mp3" id="69_n8djb"]
@@ -138,9 +147,48 @@
 [ext_resource type="AudioStream" uid="uid://cs667kkvxlv4d" path="res://voicelines/cassette4/6.mp3" id="78_ah7oo"]
 [ext_resource type="AudioStream" uid="uid://0uunfau3v3e1" path="res://voicelines/cassette4/7.mp3" id="79_dlkxf"]
 [ext_resource type="AudioStream" uid="uid://b35j40n2hgv18" path="res://voicelines/cassette4/8.mp3" id="80_dehtp"]
+[ext_resource type="AudioStream" uid="uid://c8bkb22x5x1bg" path="res://voicelines/divine light/1.mp3" id="80_eyrie"]
+[ext_resource type="AudioStream" uid="uid://hfhls37rxp72" path="res://voicelines/wardrobe/1.mp3" id="81_2t5pd"]
+[ext_resource type="AudioStream" uid="uid://b4yks1pdal0lo" path="res://voicelines/divine light/2.mp3" id="81_5mqdy"]
+[ext_resource type="AudioStream" uid="uid://c3klp8vw85jca" path="res://voicelines/wardrobe/2.mp3" id="82_1dou6"]
+[ext_resource type="AudioStream" uid="uid://dyuwwsmi37a37" path="res://voicelines/divine light/3.mp3" id="82_4k7js"]
 [ext_resource type="Texture2D" uid="uid://j1swqfybesv3" path="res://candleburn.png" id="86_acrcj"]
 [ext_resource type="Texture2D" uid="uid://jmpqm6pf8su1" path="res://dogbowl.png" id="90_dlkxf"]
+[ext_resource type="AudioStream" uid="uid://dxtfickf30xru" path="res://voicelines/red car/1.mp3" id="93_2scrf"]
+[ext_resource type="AudioStream" uid="uid://d11v86ixbida5" path="res://voicelines/light/1.mp3" id="93_4k7js"]
+[ext_resource type="AudioStream" uid="uid://dmgrvbutxu70f" path="res://voicelines/introcassette/1.mp3" id="93_c8gk6"]
+[ext_resource type="AudioStream" uid="uid://edaccui31y2i" path="res://voicelines/introcassette/2.mp3" id="94_ftari"]
+[ext_resource type="AudioStream" uid="uid://c4tn5831tgtjh" path="res://voicelines/light/2.mp3" id="94_gdrmo"]
+[ext_resource type="AudioStream" uid="uid://chnvfrsw1dxjp" path="res://voicelines/red car/2.mp3" id="94_nmvb0"]
+[ext_resource type="AudioStream" uid="uid://3vugps2wm1vi" path="res://voicelines/red car/3.mp3" id="95_bwd73"]
+[ext_resource type="AudioStream" uid="uid://c66ajr1nf3eey" path="res://voicelines/introcassette/3.mp3" id="95_vapb6"]
+[ext_resource type="AudioStream" uid="uid://dw0g18qehyaw" path="res://voicelines/light/3.mp3" id="95_yfyv1"]
+[ext_resource type="AudioStream" uid="uid://cfdfboygawo6a" path="res://voicelines/light/4.mp3" id="96_dlfr8"]
+[ext_resource type="AudioStream" uid="uid://c8u4p1jsggvag" path="res://voicelines/introcassette/4.mp3" id="96_lnv1u"]
+[ext_resource type="AudioStream" uid="uid://s5kh2g5p2rrr" path="res://voicelines/volcano/1.mp3" id="97_2t5pd"]
+[ext_resource type="AudioStream" uid="uid://dst6owpqtmi7g" path="res://voicelines/introcassette/5.mp3" id="97_b4yrn"]
+[ext_resource type="AudioStream" uid="uid://fchngq84srso" path="res://voicelines/introcassette/6.mp3" id="98_1bemb"]
+[ext_resource type="AudioStream" uid="uid://dwxljqteujmtx" path="res://voicelines/volcano/2.mp3" id="98_1dou6"]
+[ext_resource type="AudioStream" uid="uid://dbcsgijfnbg7f" path="res://voicelines/red/1.mp3" id="98_72nst"]
+[ext_resource type="AudioStream" uid="uid://ikmoalehfuu3" path="res://voicelines/red/2.mp3" id="99_e7oql"]
+[ext_resource type="AudioStream" uid="uid://rr12u8idadpe" path="res://voicelines/volcano/3.mp3" id="99_sriil"]
+[ext_resource type="AudioStream" uid="uid://b7i33bf0k42dn" path="res://voicelines/volcano/4.mp3" id="100_nyhlb"]
+[ext_resource type="AudioStream" uid="uid://cmidw8k1semb2" path="res://voicelines/dying flower/1.mp3" id="122_sriil"]
+[ext_resource type="AudioStream" uid="uid://kf25nk37s0dh" path="res://voicelines/dying flower/2.mp3" id="123_nyhlb"]
+[ext_resource type="AudioStream" uid="uid://dgficobfce0pu" path="res://voicelines/wardrobe/3.mp3" id="125_fupgw"]
+[ext_resource type="Texture2D" uid="uid://btyk633fxi8gw" path="res://freedom.png" id="133_1dou6"]
+[ext_resource type="Texture2D" uid="uid://bbf8vs4wxgx48" path="res://badend.png" id="134_sriil"]
 [ext_resource type="Script" uid="uid://d4cmf0sm53cgk" path="res://time.gd" id="140_lshks"]
+[ext_resource type="Texture2D" uid="uid://drqfkbn6ro2f6" path="res://timer.png" id="140_q7s7j"]
+[ext_resource type="AudioStream" uid="uid://25m2lnvh5hf1" path="res://voicelines/room/cassette/1.mp3" id="155_yfyv1"]
+[ext_resource type="AudioStream" uid="uid://bcnjqvrxre06y" path="res://voicelines/room/cassette/2.mp3" id="156_dlfr8"]
+[ext_resource type="AudioStream" uid="uid://bcp4msainpp5n" path="res://voicelines/room/safe/1.mp3" id="158_e7oql"]
+[ext_resource type="AudioStream" uid="uid://gix2o6s5fxxr" path="res://voicelines/room/safe/2.mp3" id="159_3wjgf"]
+[ext_resource type="AudioStream" uid="uid://dnv667nm6ccfw" path="res://voicelines/room/candl/1.mp3" id="160_aqyc2"]
+[ext_resource type="AudioStream" uid="uid://c3dfteqwa06mi" path="res://voicelines/darkpainting/1.mp3" id="161_1cyu0"]
+[ext_resource type="AudioStream" uid="uid://fthwjqp0vusi" path="res://voicelines/darkpainting/2.mp3" id="162_proln"]
+[ext_resource type="AudioStream" uid="uid://d1gwssntsi4ww" path="res://voicelines/darkpainting/3.mp3" id="163_xafed"]
+[ext_resource type="AudioStream" uid="uid://dk7r8g7tboov2" path="res://voicelines/darkpainting/4.mp3" id="164_now5g"]
 
 [sub_resource type="Resource" id="Resource_tf7f8"]
 script = ExtResource("14_5m0m6")
@@ -460,12 +508,86 @@ size = Vector2(318, 250.00002)
 [sub_resource type="Resource" id="Resource_ikajj"]
 script = ExtResource("14_5m0m6")
 caption = "A tape?"
+audio = ExtResource("46_kokgf")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_dnhvm"]
 script = ExtResource("14_5m0m6")
 caption = "What is it doing here?"
+audio = ExtResource("47_c44jk")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p5vim"]
+size = Vector2(258.6726, 155)
+
+[sub_resource type="Resource" id="Resource_ihhs5"]
+script = ExtResource("14_5m0m6")
+caption = "A cabinet..."
+audio = ExtResource("48_o06lw")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_gbv42"]
+script = ExtResource("14_5m0m6")
+caption = "Locked"
+audio = ExtResource("49_08iss")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_8lf7i"]
+script = ExtResource("14_5m0m6")
+caption = "I...."
+audio = ExtResource("50_s8n4o")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_xvirx"]
+script = ExtResource("14_5m0m6")
+caption = "Why is everything locked!?"
+audio = ExtResource("51_mnwqs")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fft52"]
+size = Vector2(273.28894, 404.45172)
+
+[sub_resource type="Resource" id="Resource_nofeu"]
+script = ExtResource("14_5m0m6")
+caption = "The door looks so dark"
+audio = ExtResource("55_fupgw")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_fimnx"]
+script = ExtResource("14_5m0m6")
+caption = "I can't see the other side"
+audio = ExtResource("56_qd8qp")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mti6b"]
+size = Vector2(205.75992, 304.7522)
+
+[sub_resource type="Resource" id="Resource_kx38u"]
+script = ExtResource("14_5m0m6")
+caption = "A boombox?"
+audio = ExtResource("58_pxv81")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_n2x20"]
+script = ExtResource("14_5m0m6")
+caption = "I haven't seen these in years"
+audio = ExtResource("59_set2q")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_nmvb0"]
+script = ExtResource("14_5m0m6")
+caption = "but...."
+audio = ExtResource("60_83h7l")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_set2q"]
+script = ExtResource("14_5m0m6")
+caption = "What is one doing in my place right now?"
+audio = ExtResource("61_efiuq")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_amo6q"]
+size = Vector2(301, 155)
 
 [sub_resource type="Resource" id="Resource_1lqyu"]
 script = ExtResource("14_5m0m6")
@@ -568,59 +690,22 @@ caption = "to had a life I didn't get..."
 audio = ExtResource("29_66q48")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_p5vim"]
-size = Vector2(258.6726, 155)
-
-[sub_resource type="Resource" id="Resource_tgelg"]
-script = ExtResource("14_5m0m6")
-caption = "Why do I not lock my doors?"
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_ftaf3"]
-script = ExtResource("14_5m0m6")
-caption = "And why is this one locked?"
-audio = ExtResource("12_7x8n8")
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_mti6b"]
-size = Vector2(205.75992, 304.7522)
-
-[sub_resource type="Resource" id="Resource_kx38u"]
-script = ExtResource("14_5m0m6")
-caption = "A boombox?"
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_n2x20"]
-script = ExtResource("14_5m0m6")
-caption = "I haven't seen these in years"
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_nmvb0"]
-script = ExtResource("14_5m0m6")
-caption = "but...."
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_set2q"]
-script = ExtResource("14_5m0m6")
-caption = "What is one doing in my place right now?"
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_amo6q"]
-size = Vector2(318, 155)
-
 [sub_resource type="Resource" id="Resource_t3ncs"]
 script = ExtResource("14_5m0m6")
 caption = "\"Divine light\""
+audio = ExtResource("80_eyrie")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_t0h84"]
 script = ExtResource("14_5m0m6")
 caption = "H-how do I know that?"
+audio = ExtResource("81_5mqdy")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_u8ulo"]
 script = ExtResource("14_5m0m6")
 caption = "What is this painting?"
+audio = ExtResource("82_4k7js")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x3fot"]
@@ -647,21 +732,25 @@ size = Vector2(1601.468, 181.2461)
 [sub_resource type="Resource" id="Resource_4kxuq"]
 script = ExtResource("14_5m0m6")
 caption = "The energy bills have been getting higher and higher..."
+audio = ExtResource("93_4k7js")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_mti6b"]
 script = ExtResource("14_5m0m6")
 caption = "Gotta find a way to save on power"
+audio = ExtResource("94_gdrmo")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_mm1bc"]
 script = ExtResource("14_5m0m6")
 caption = "Maybe I can just have one room lit...."
+audio = ExtResource("95_yfyv1")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_62yky"]
 script = ExtResource("14_5m0m6")
 caption = "yea, that should do it!"
+audio = ExtResource("96_dlfr8")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_qwqyf"]
@@ -673,16 +762,16 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jmj6u"]
 size = Vector2(97.58057, 150.2363)
 
-[sub_resource type="Resource" id="Resource_83h7l"]
+[sub_resource type="Resource" id="Resource_06w7j"]
 script = ExtResource("14_5m0m6")
-caption = "My wardrobe?"
-audio = ExtResource("48_o06lw")
+caption = "It's just red"
+audio = ExtResource("98_72nst")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_efiuq"]
+[sub_resource type="Resource" id="Resource_3x2l2"]
 script = ExtResource("14_5m0m6")
-caption = "It's locked"
-audio = ExtResource("49_08iss")
+caption = "why red?"
+audio = ExtResource("99_e7oql")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gncrg"]
@@ -745,19 +834,19 @@ size = Vector2(337.82376, 314.2656)
 [sub_resource type="Resource" id="Resource_gdrmo"]
 script = ExtResource("14_5m0m6")
 caption = "A red car?"
-audio = ExtResource("48_o06lw")
+audio = ExtResource("93_2scrf")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_yfyv1"]
 script = ExtResource("14_5m0m6")
 caption = "It looks broken"
-audio = ExtResource("49_08iss")
+audio = ExtResource("94_nmvb0")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_dlfr8"]
 script = ExtResource("14_5m0m6")
 caption = "The wheels aren't connected to anything"
-audio = ExtResource("50_s8n4o")
+audio = ExtResource("95_bwd73")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qk1et"]
@@ -766,54 +855,109 @@ size = Vector2(422.65173, 329.59552)
 [sub_resource type="Resource" id="Resource_cl015"]
 script = ExtResource("14_5m0m6")
 caption = "A volcano"
+audio = ExtResource("97_2t5pd")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_77gts"]
 script = ExtResource("14_5m0m6")
 caption = "The label says"
+audio = ExtResource("98_1dou6")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_s0ts5"]
 script = ExtResource("14_5m0m6")
 caption = "The final disaster"
+audio = ExtResource("99_sriil")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_jx55y"]
 script = ExtResource("14_5m0m6")
 caption = "Malaysia"
+audio = ExtResource("100_nyhlb")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_fupgw"]
+script = ExtResource("14_5m0m6")
+caption = "How does anybody..."
+audio = ExtResource("73_ikajj")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_qd8qp"]
+script = ExtResource("14_5m0m6")
+caption = "deal with grief..."
+audio = ExtResource("74_dnhvm")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_rturl"]
+script = ExtResource("14_5m0m6")
+caption = "I never understood it..."
+audio = ExtResource("75_qk1et")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_qvof5"]
+script = ExtResource("14_5m0m6")
+caption = "It's...horrible"
+audio = ExtResource("76_a2rgk")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_pnghn"]
+script = ExtResource("14_5m0m6")
+caption = "I don't want-"
+audio = ExtResource("77_ymrkx")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_3r013"]
+script = ExtResource("14_5m0m6")
+caption = "to continue this anymore"
+audio = ExtResource("78_ah7oo")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_21un8"]
+script = ExtResource("14_5m0m6")
+caption = "I-"
+audio = ExtResource("79_dlkxf")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_0m8jq"]
+script = ExtResource("14_5m0m6")
+caption = "I want a solution"
+audio = ExtResource("80_dehtp")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_628id"]
 script = ExtResource("14_5m0m6")
 caption = "Dear [Static]"
-audio = ExtResource("44_n8djb")
+audio = ExtResource("93_c8gk6")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_7r8lx"]
 script = ExtResource("14_5m0m6")
 caption = "You have been given 24 hours to find who you really are"
-audio = ExtResource("45_jtheq")
+audio = ExtResource("94_ftari")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_gncrg"]
 script = ExtResource("14_5m0m6")
 caption = "I will allow you to be within the premise of your home"
+audio = ExtResource("95_vapb6")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_qp4hr"]
 script = ExtResource("14_5m0m6")
 caption = "Upon the end of time...."
+audio = ExtResource("96_lnv1u")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_4xinw"]
 script = ExtResource("14_5m0m6")
 caption = "You will be questioned again"
-audio = ExtResource("12_7x8n8")
+audio = ExtResource("97_b4yrn")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_mehon"]
 script = ExtResource("14_5m0m6")
 caption = "May your faith guide you"
+audio = ExtResource("98_1bemb")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_ngns8"]
@@ -841,29 +985,54 @@ script = ExtResource("14_5m0m6")
 caption = "..."
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
+[sub_resource type="Resource" id="Resource_tgelg"]
+script = ExtResource("14_5m0m6")
+caption = "Why don't I lock my doors?"
+audio = ExtResource("64_ftari")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_ftaf3"]
+script = ExtResource("14_5m0m6")
+caption = "And why is this one locked?"
+audio = ExtResource("12_7x8n8")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
 [sub_resource type="Resource" id="Resource_a2rgk"]
 script = ExtResource("14_5m0m6")
 caption = "A yellow flower"
-audio = ExtResource("48_o06lw")
+audio = ExtResource("122_sriil")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_ymrkx"]
 script = ExtResource("14_5m0m6")
 caption = "...."
-audio = ExtResource("49_08iss")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_qk1et"]
 script = ExtResource("14_5m0m6")
 caption = "It looks like it's dying...."
+audio = ExtResource("123_nyhlb")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qp4hr"]
 size = Vector2(197.80304, 314.2656)
 
+[sub_resource type="Resource" id="Resource_83h7l"]
+script = ExtResource("14_5m0m6")
+caption = "My wardrobe?"
+audio = ExtResource("81_2t5pd")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_efiuq"]
+script = ExtResource("14_5m0m6")
+caption = "It's locked"
+audio = ExtResource("82_1dou6")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
 [sub_resource type="Resource" id="Resource_6apj8"]
 script = ExtResource("14_5m0m6")
 caption = "Why?"
+audio = ExtResource("125_fupgw")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dlkxf"]
@@ -904,17 +1073,17 @@ script = ExtResource("14_5m0m6")
 caption = "What is your hobby?"
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_fupgw"]
+[sub_resource type="Resource" id="Resource_ycrso"]
 script = ExtResource("14_5m0m6")
 caption = "Do you have any comments"
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_qd8qp"]
+[sub_resource type="Resource" id="Resource_l8qt1"]
 script = ExtResource("14_5m0m6")
 caption = "Interesting choice"
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_rturl"]
+[sub_resource type="Resource" id="Resource_bjx1f"]
 script = ExtResource("14_5m0m6")
 caption = "Hmmm...."
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
@@ -924,7 +1093,7 @@ script = ExtResource("14_5m0m6")
 caption = "A calculative answer"
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_qvof5"]
+[sub_resource type="Resource" id="Resource_rx8mn"]
 script = ExtResource("14_5m0m6")
 caption = "Very well"
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
@@ -956,39 +1125,12 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f2fag"]
 size = Vector2(315.10358, 264.66434)
 
-[sub_resource type="Resource" id="Resource_ihhs5"]
-script = ExtResource("14_5m0m6")
-caption = "A cabinet..."
-audio = ExtResource("48_o06lw")
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_gbv42"]
-script = ExtResource("14_5m0m6")
-caption = "Locked"
-audio = ExtResource("49_08iss")
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_8lf7i"]
-script = ExtResource("14_5m0m6")
-caption = "I...."
-audio = ExtResource("50_s8n4o")
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_xvirx"]
-script = ExtResource("14_5m0m6")
-caption = "Why is everything locked!?"
-audio = ExtResource("51_mnwqs")
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_fft52"]
-size = Vector2(273.28894, 404.45172)
-
 [sub_resource type="Resource" id="Resource_38hkc"]
 script = ExtResource("14_5m0m6")
 caption = "This tape looks...."
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_pnghn"]
+[sub_resource type="Resource" id="Resource_bk47y"]
 script = ExtResource("14_5m0m6")
 caption = "old..."
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
@@ -1044,63 +1186,61 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="Resource" id="Resource_ov1v4"]
 script = ExtResource("14_5m0m6")
 caption = "A door to the...."
+audio = ExtResource("155_yfyv1")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_xamtn"]
 script = ExtResource("14_5m0m6")
 caption = "cassette room?"
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_72nst"]
-script = ExtResource("14_5m0m6")
-caption = "The door to my bedroom"
-audio = ExtResource("10_8dcqi")
+audio = ExtResource("156_dlfr8")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_3wjgf"]
 script = ExtResource("14_5m0m6")
 caption = "A door to a safe?"
+audio = ExtResource("158_e7oql")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_e7oql"]
 script = ExtResource("14_5m0m6")
 caption = "When did I have that?"
+audio = ExtResource("159_3wjgf")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_xxxnh"]
 script = ExtResource("14_5m0m6")
 caption = "A door to a..."
-audio = ExtResource("10_8dcqi")
+audio = ExtResource("155_yfyv1")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_sr280"]
 script = ExtResource("14_5m0m6")
 caption = "Candle room?"
-audio = ExtResource("11_u7g2v")
+audio = ExtResource("160_aqyc2")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_dapfk"]
 script = ExtResource("14_5m0m6")
 caption = "This one looks..."
-audio = ExtResource("48_o06lw")
+audio = ExtResource("161_1cyu0")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_e2b7s"]
 script = ExtResource("14_5m0m6")
 caption = "Dark...."
-audio = ExtResource("49_08iss")
+audio = ExtResource("162_proln")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_ykc85"]
 script = ExtResource("14_5m0m6")
 caption = "Really dark...."
-audio = ExtResource("50_s8n4o")
+audio = ExtResource("163_xafed")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_qe0jc"]
 script = ExtResource("14_5m0m6")
 caption = "Like it's missing something"
-audio = ExtResource("51_mnwqs")
+audio = ExtResource("164_now5g")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_ud8rj"]
@@ -1320,28 +1460,67 @@ visible = false
 position = Vector2(400, 291)
 
 [node name="Key" type="TextureButton" parent="Saferoom/front/safe/Rewards" unique_id=1103730891]
-offset_left = -85.0
-offset_top = -67.0
-offset_right = 200.0
-offset_bottom = 54.0
-scale = Vector2(0.44840068, 0.5847995)
+offset_left = 3.9999924
+offset_top = -54.0
+offset_right = 289.0
+offset_bottom = 67.0
+scale = Vector2(0.31757906, 0.42799056)
 texture_normal = ExtResource("5_parq5")
 script = ExtResource("6_pd0i2")
 key = true
 
-[node name="cassette" type="Area2D" parent="Saferoom/front/safe/Rewards" unique_id=1348361773]
-position = Vector2(-123, -111.00002)
-scale = Vector2(0.43145517, 0.5363334)
+[node name="cassette2" type="Area2D" parent="Saferoom/front/safe/Rewards" unique_id=1348361773]
+position = Vector2(-89, -74.00001)
+scale = Vector2(0.37453732, 0.41732952)
 script = ExtResource("12_mogh0")
 speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_ikajj"), SubResource("Resource_dnhvm")])
-cassette = Array[ExtResource("14_5m0m6")]([SubResource("Resource_1lqyu"), SubResource("Resource_c3dvt"), SubResource("Resource_orte0"), SubResource("Resource_e6l81"), SubResource("Resource_xfhfs"), SubResource("Resource_n8djb"), SubResource("Resource_4xyse"), SubResource("Resource_72cii"), SubResource("Resource_f6usa"), SubResource("Resource_fktf3"), SubResource("Resource_utkak"), SubResource("Resource_evf0l"), SubResource("Resource_tq8wt"), SubResource("Resource_ywf86"), SubResource("Resource_op65r"), SubResource("Resource_crfap"), SubResource("Resource_7x8n8")])
+cassette = Array[ExtResource("14_5m0m6")]([null])
 
-[node name="Safe" type="Sprite2D" parent="Saferoom/front/safe/Rewards/cassette" unique_id=1878947322]
+[node name="Safe" type="Sprite2D" parent="Saferoom/front/safe/Rewards/cassette2" unique_id=1878947322]
 position = Vector2(401, 284)
 scale = Vector2(0.26172608, 0.26161617)
 texture = ExtResource("14_xstq6")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Saferoom/front/safe/Rewards/cassette" unique_id=288871030]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Saferoom/front/safe/Rewards/cassette2" unique_id=288871030]
+position = Vector2(401.3871, 282.31378)
+shape = SubResource("RectangleShape2D_p5vim")
+
+[node name="drawer" type="Area2D" parent="Saferoom/front/safe/Rewards" unique_id=1279742479]
+position = Vector2(-251, -131.99998)
+scale = Vector2(0.387461, 0.34735754)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_ihhs5"), SubResource("Resource_gbv42"), SubResource("Resource_8lf7i"), SubResource("Resource_xvirx")])
+opentexture = ExtResource("22_bo7r3")
+container = true
+
+[node name="Bed" type="Sprite2D" parent="Saferoom/front/safe/Rewards/drawer" unique_id=1000828884]
+position = Vector2(392.75946, 402.58795)
+scale = Vector2(0.89, 1.052)
+texture = ExtResource("23_ipsaa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Saferoom/front/safe/Rewards/drawer" unique_id=395144555]
+position = Vector2(502.523, 424.02197)
+scale = Vector2(0.9999998, 1)
+shape = SubResource("RectangleShape2D_fft52")
+
+[node name="Rewards" type="Node2D" parent="Saferoom/front/safe/Rewards/drawer" unique_id=1461417097]
+visible = false
+position = Vector2(400, 291)
+
+[node name="cassette3" type="Area2D" parent="Saferoom/front/safe/Rewards/drawer/Rewards" unique_id=1576989688]
+position = Vector2(-219.33665, 503.57034)
+rotation = -1.5987055
+scale = Vector2(0.96664524, 1.2014409)
+script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_ikajj"), SubResource("Resource_dnhvm")])
+cassette = Array[ExtResource("14_5m0m6")]([null])
+
+[node name="Safe" type="Sprite2D" parent="Saferoom/front/safe/Rewards/drawer/Rewards/cassette3" unique_id=1336335142]
+position = Vector2(401, 284)
+scale = Vector2(0.26172608, 0.26161617)
+texture = ExtResource("14_xstq6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Saferoom/front/safe/Rewards/drawer/Rewards/cassette3" unique_id=949037491]
 position = Vector2(401.3871, 282.31378)
 shape = SubResource("RectangleShape2D_p5vim")
 
@@ -1352,7 +1531,7 @@ visible = false
 position = Vector2(-558.3238, -391.95032)
 scale = Vector2(1.4530126, 1.3285084)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_wvrob"), SubResource("Resource_vi1qt"), SubResource("Resource_e8d8u"), SubResource("Resource_ppm0j"), SubResource("Resource_tgelg"), SubResource("Resource_ftaf3")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_nofeu"), SubResource("Resource_fimnx")])
 opentexture = ExtResource("14_vi1qt")
 door = "Hallway"
 
@@ -1390,7 +1569,7 @@ scale = Vector2(0.26172608, 0.26161617)
 texture = ExtResource("13_rwr8x")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Cassetteroom/front/boombox" unique_id=637591558]
-position = Vector2(398, 282.5)
+position = Vector2(406.5, 282.5)
 shape = SubResource("RectangleShape2D_amo6q")
 
 [node name="cassette" type="Area2D" parent="Cassetteroom/front" unique_id=1420115736]
@@ -1433,6 +1612,7 @@ visible = false
 position = Vector2(-558.3238, -391.95032)
 scale = Vector2(1.4530126, 1.3285084)
 script = ExtResource("12_mogh0")
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_nofeu"), SubResource("Resource_fimnx")])
 opentexture = ExtResource("14_vi1qt")
 door = "Hallway"
 doorback = true
@@ -1773,7 +1953,7 @@ visible = false
 position = Vector2(-967.0807, -665.5846)
 scale = Vector2(2.3987634, 2.4040534)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_wvrob"), SubResource("Resource_vi1qt"), SubResource("Resource_e8d8u"), SubResource("Resource_ppm0j"), SubResource("Resource_tgelg"), SubResource("Resource_ftaf3")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_nofeu"), SubResource("Resource_fimnx")])
 opentexture = ExtResource("14_vi1qt")
 door = "Hallway"
 
@@ -1790,7 +1970,7 @@ shape = SubResource("RectangleShape2D_mti6b")
 position = Vector2(-1119.2998, -595.5231)
 scale = Vector2(1.2026651, 1.0009799)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_83h7l"), SubResource("Resource_efiuq")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_06w7j"), SubResource("Resource_3x2l2")])
 picture = true
 
 [node name="Bed" type="Sprite2D" parent="Lightroom/back/picture" unique_id=163830256]
@@ -1909,6 +2089,7 @@ position = Vector2(-108.11688, -187.0406)
 scale = Vector2(0.23259185, 0.25558877)
 script = ExtResource("12_mogh0")
 speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_ikajj"), SubResource("Resource_dnhvm")])
+cassette = Array[ExtResource("14_5m0m6")]([SubResource("Resource_fupgw"), SubResource("Resource_qd8qp"), SubResource("Resource_rturl"), SubResource("Resource_qvof5"), SubResource("Resource_pnghn"), SubResource("Resource_3r013"), SubResource("Resource_21un8"), SubResource("Resource_0m8jq")])
 
 [node name="Safe" type="Sprite2D" parent="Bedroom/front/cassette" unique_id=810433259]
 position = Vector2(401, 284)
@@ -2002,8 +2183,8 @@ scale = Vector2(1.7297297, 1.5211266)
 texture = ExtResource("72_sqgh1")
 script = ExtResource("9_parq5")
 statement = Array[ExtResource("14_5m0m6")]([SubResource("Resource_5mqdy"), SubResource("Resource_4k7js")])
-ques = Array[ExtResource("14_5m0m6")]([SubResource("Resource_bwd73"), SubResource("Resource_2t5pd"), SubResource("Resource_1dou6"), SubResource("Resource_sriil"), SubResource("Resource_nyhlb"), SubResource("Resource_fupgw")])
-response = Array[ExtResource("14_5m0m6")]([SubResource("Resource_qd8qp"), SubResource("Resource_rturl"), SubResource("Resource_eyrie"), SubResource("Resource_qvof5")])
+ques = Array[ExtResource("14_5m0m6")]([SubResource("Resource_bwd73"), SubResource("Resource_2t5pd"), SubResource("Resource_1dou6"), SubResource("Resource_sriil"), SubResource("Resource_nyhlb"), SubResource("Resource_ycrso")])
+response = Array[ExtResource("14_5m0m6")]([SubResource("Resource_l8qt1"), SubResource("Resource_bjx1f"), SubResource("Resource_eyrie"), SubResource("Resource_rx8mn")])
 answer = Dictionary[String, String]({
 "are you really a god": "secret",
 "blue": "secret",
@@ -2062,11 +2243,23 @@ text = "Answer"
 
 [node name="back" type="Node2D" parent="Weirdroom" unique_id=996740822]
 
+[node name="Freedom end" type="Sprite2D" parent="Weirdroom/back" unique_id=1327072459]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(252.06255, 24.981483)
+scale = Vector2(0.108092494, 0.120846964)
+texture = ExtResource("133_1dou6")
+
 [node name="Enlighted end" type="Sprite2D" parent="Weirdroom/back" unique_id=452906531]
 modulate = Color(0, 0, 0, 1)
 position = Vector2(251.4844, -88.75)
 scale = Vector2(0.11633103, 0.15504102)
 texture = ExtResource("40_p08ej")
+
+[node name="bad end" type="Sprite2D" parent="Weirdroom/back" unique_id=1925926893]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(253.21878, 126.222244)
+scale = Vector2(0.11633103, 0.15504102)
+texture = ExtResource("134_sriil")
 
 [node name="mainscreen" type="Node2D" parent="Weirdroom/back" unique_id=1277596048]
 
@@ -2269,7 +2462,7 @@ key = true
 position = Vector2(-81.9097, -80.3869)
 scale = Vector2(0.49319494, 0.63759035)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_38hkc"), SubResource("Resource_pnghn")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_38hkc"), SubResource("Resource_bk47y")])
 cassette = Array[ExtResource("14_5m0m6")]([SubResource("Resource_sqgh1"), SubResource("Resource_x3fot"), SubResource("Resource_pfmjr"), SubResource("Resource_nhh05"), SubResource("Resource_2pmk2"), SubResource("Resource_6vnta"), SubResource("Resource_r8qnq"), SubResource("Resource_yvsax")])
 
 [node name="Safe" type="Sprite2D" parent="Hallway/front/drawer/Rewards/cassette1" unique_id=1063371608]
@@ -2302,7 +2495,7 @@ shape = SubResource("RectangleShape2D_mti6b")
 position = Vector2(-231.74023, -312.05472)
 scale = Vector2(0.9726187, 0.9462862)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_72nst")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_nofeu"), SubResource("Resource_fimnx")])
 opentexture = ExtResource("14_vi1qt")
 door = "Bedroom"
 
@@ -2615,6 +2808,7 @@ scale = Vector2(0.9999998, 1)
 shape = SubResource("RectangleShape2D_628id")
 
 [node name="canvas" type="Node2D" parent="." unique_id=559737372]
+visible = false
 top_level = true
 z_index = 999
 
@@ -2819,10 +3013,11 @@ bus = &"SFX"
 
 [node name="time" type="RichTextLabel" parent="canvas" unique_id=1165841569]
 visible = false
-offset_left = 474.0
-offset_top = 18.0
-offset_right = 650.0
-offset_bottom = 90.0
+offset_left = 421.0
+offset_top = 2.0
+offset_right = 717.0
+offset_bottom = 107.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/normal_font_size = 50
 text = "00:00"
 horizontal_alignment = 1
@@ -2831,6 +3026,15 @@ script = ExtResource("140_lshks")
 
 [node name="Timer" type="Timer" parent="canvas/time" unique_id=1216085768]
 wait_time = 0.2
+
+[node name="time2" type="TextureRect" parent="canvas/time" unique_id=1741623615]
+show_behind_parent = true
+layout_mode = 0
+offset_left = 42.0
+offset_right = 982.0
+offset_bottom = 529.0
+scale = Vector2(0.22813195, 0.2029948)
+texture = ExtResource("140_q7s7j")
 
 [node name="Ambience" type="AudioStreamPlayer2D" parent="." unique_id=586898501]
 position = Vector2(286, 318)
