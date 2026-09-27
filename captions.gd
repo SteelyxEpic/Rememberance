@@ -4,6 +4,7 @@ var tween:Tween
 @onready var audioplayer:AudioStreamPlayer2D = $AudioStreamPlayer2D
 
 
+
 func _ready() -> void:
 	Global.speech.connect(texting)
 	Global.captions = self
@@ -31,3 +32,7 @@ func texting(captions:Array[Dialogue]):
 				await tween.finished
 			
 		hide()
+
+func skipping():
+	audioplayer.stop()
+	audioplayer.emit_signal("finished")

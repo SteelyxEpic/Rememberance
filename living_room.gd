@@ -63,4 +63,7 @@ func _on_voices_value_changed(value: float) -> void:
 func trigger(ending):
 	Global.emit_signal("speech", Answers.slice(Answersindex[ending].x, Answersindex[ending].y))
 	await Global.speechfinished
+	var tween = create_tween()
+	tween.tween_property($Weirdroom, "modulate", Color(0.0, 0.0, 0.0, 1.0), 2)
+	await tween.finished
 	get_tree().reload_current_scene()

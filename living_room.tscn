@@ -1,4 +1,4 @@
-[gd_scene format=4 uid="uid://bth741it2xcee"]
+[gd_scene format=3 uid="uid://bth741it2xcee"]
 
 [ext_resource type="Script" uid="uid://b8wh2rp5fw56g" path="res://spinlock.gd" id="1_378y4"]
 [ext_resource type="Script" uid="uid://cgg4qojhw3aro" path="res://living_room.gd" id="1_e8d8u"]
@@ -89,30 +89,56 @@
 [ext_resource type="AudioStream" uid="uid://bvmxbfpoybtcu" path="res://voicelines/cassette1/16.mp3" id="29_66q48"]
 [ext_resource type="Script" uid="uid://no7qb7nev305" path="res://keys.gd" id="29_ppm0j"]
 [ext_resource type="AudioStream" uid="uid://chwqtlhe5yhxy" path="res://voicelines/intro/27.mp3" id="29_q7s7j"]
+[ext_resource type="AudioStream" uid="uid://d3s0qk6xeqshi" path="res://voicelines/ending/good/1.mp3" id="30_f6as8"]
+[ext_resource type="AudioStream" uid="uid://dfdnwgrus8sug" path="res://voicelines/ending/good/2.mp3" id="31_eajpi"]
+[ext_resource type="AudioStream" uid="uid://yam1ekssk0mn" path="res://voicelines/ending/good/3.mp3" id="32_a3hsp"]
+[ext_resource type="AudioStream" uid="uid://bkhib11tuyr8b" path="res://voicelines/ending/true/1.mp3" id="33_307kb"]
 [ext_resource type="Texture2D" uid="uid://botbvruts0hgo" path="res://rotate.png" id="33_wscf1"]
 [ext_resource type="Script" uid="uid://6wugto33vlf2" path="res://rotateinteract.gd" id="34_2bbgs"]
+[ext_resource type="AudioStream" uid="uid://cxb71dts0t0p0" path="res://voicelines/ending/true/2.mp3" id="34_guael"]
+[ext_resource type="AudioStream" uid="uid://cori76tkajcsp" path="res://voicelines/ending/true/3.mp3" id="35_2o2dp"]
+[ext_resource type="AudioStream" uid="uid://dthajdjj25sdy" path="res://voicelines/ending/true/4.mp3" id="36_1cwmu"]
 [ext_resource type="Script" uid="uid://bii5tc0n55sk4" path="res://light.gd" id="36_ipsaa"]
+[ext_resource type="AudioStream" uid="uid://fe12mv0cxm15" path="res://voicelines/ending/true/5.mp3" id="37_e541g"]
+[ext_resource type="AudioStream" uid="uid://c4dsusr6bvkb6" path="res://voicelines/ending/true/6.mp3" id="38_477eu"]
 [ext_resource type="Texture2D" uid="uid://dj3vr4adjoaq7" path="res://mirrorstand.png" id="38_fos1y"]
+[ext_resource type="AudioStream" uid="uid://btipu3qy5yu8u" path="res://voicelines/ending/true/7.mp3" id="39_ainb1"]
 [ext_resource type="Texture2D" uid="uid://bbweor2egc2e1" path="res://mirror.png" id="39_jt01b"]
+[ext_resource type="AudioStream" uid="uid://cuw02ujde70pr" path="res://voicelines/ending/true/8.mp3" id="40_g4fve"]
 [ext_resource type="Script" uid="uid://diw1ikke3n770" path="res://mirror.gd" id="40_jt01b"]
 [ext_resource type="Texture2D" uid="uid://btw6sjl56mjj6" path="res://ligth.png" id="40_p08ej"]
+[ext_resource type="AudioStream" uid="uid://bnpepcxic0xbi" path="res://voicelines/ending/true/9.mp3" id="41_dekhu"]
 [ext_resource type="Texture2D" uid="uid://x6v31nkrfsae" path="res://darkfog.png" id="41_ud8rj"]
 [ext_resource type="Script" uid="uid://b651bgslxvmtj" path="res://mirrorcollision.gd" id="42_2bbgs"]
+[ext_resource type="AudioStream" uid="uid://dcdhx526eygcb" path="res://voicelines/ending/true/10.mp3" id="42_ssppb"]
 [ext_resource type="AudioStream" uid="uid://28mt8h8j7d0n" path="res://voicelines/bed/1.mp3" id="43_ku0k8"]
+[ext_resource type="AudioStream" uid="uid://bdeskprxvpm0f" path="res://voicelines/ending/bad/1.mp3" id="43_xegmb"]
 [ext_resource type="AudioStream" uid="uid://bh21pjp5ygmbm" path="res://voicelines/lockeddoor/locked.mp3" id="44_n8djb"]
 [ext_resource type="AudioStream" uid="uid://4ikaesapngpg" path="res://voicelines/bed/2.mp3" id="44_tcxto"]
+[ext_resource type="AudioStream" uid="uid://o1buohd3kpml" path="res://voicelines/ending/bad/2.mp3" id="44_ywsdf"]
 [ext_resource type="AudioStream" uid="uid://duu8osbgnji3y" path="res://voicelines/bed/3.mp3" id="45_eq6vi"]
+[ext_resource type="AudioStream" uid="uid://bf8h0segcbqag" path="res://voicelines/ending/bad/3.mp3" id="45_i6qix"]
 [ext_resource type="AudioStream" uid="uid://cc07ngx83rcro" path="res://voicelines/lockeddoor/2.mp3" id="45_jtheq"]
+[ext_resource type="AudioStream" uid="uid://cfjyl0kapv8h2" path="res://voicelines/ending/bad/4.mp3" id="46_56eal"]
 [ext_resource type="AudioStream" uid="uid://b33xcd6humme" path="res://voicelines/tape/1.mp3" id="46_kokgf"]
 [ext_resource type="AudioStream" uid="uid://dpsxoylyv0lut" path="res://voicelines/bed/4.mp3" id="46_muxel"]
 [ext_resource type="Script" uid="uid://dmvhb657u5df6" path="res://boombox.gd" id="47_02fm1"]
 [ext_resource type="AudioStream" uid="uid://iwed3q0o66x8" path="res://voicelines/tape/2.mp3" id="47_c44jk"]
+[ext_resource type="AudioStream" uid="uid://b827ax4fcuep8" path="res://voicelines/ending/bad/5.mp3" id="47_je8cr"]
+[ext_resource type="AudioStream" uid="uid://cu04p47lk73ja" path="res://voicelines/cassette3/1.mp3" id="48_21un8"]
+[ext_resource type="AudioStream" uid="uid://cf0m03ovi1p4p" path="res://voicelines/ending/bad/6.mp3" id="48_dxv7q"]
 [ext_resource type="AudioStream" uid="uid://cahay8xd5bl77" path="res://voicelines/mountains/1.mp3" id="48_o06lw"]
+[ext_resource type="AudioStream" uid="uid://cggql25dkywxw" path="res://voicelines/cassette3/2.mp3" id="49_0m8jq"]
 [ext_resource type="AudioStream" uid="uid://c4nq2hgo4odc6" path="res://voicelines/mountains/2.mp3" id="49_08iss"]
 [ext_resource type="AudioStream" uid="uid://b2mgflsti6wed" path="res://static.mp3" id="49_628id"]
 [ext_resource type="AudioStream" uid="uid://vuxmr115wfsh" path="res://ambience.mp3" id="50_p5vim"]
 [ext_resource type="AudioStream" uid="uid://cxn2a1mq6dhpu" path="res://voicelines/mountains/3.mp3" id="50_s8n4o"]
+[ext_resource type="AudioStream" uid="uid://b1r2b0l5vldh8" path="res://voicelines/cassette3/3.mp3" id="50_ycrso"]
+[ext_resource type="AudioStream" uid="uid://bioqta130xcuh" path="res://voicelines/cassette3/4.mp3" id="51_l8qt1"]
 [ext_resource type="AudioStream" uid="uid://b4wxk6lshptlf" path="res://voicelines/mountains/4.mp3" id="51_mnwqs"]
+[ext_resource type="AudioStream" uid="uid://ci3gxd8eeuxul" path="res://voicelines/cassette3/5.mp3" id="52_bjx1f"]
+[ext_resource type="AudioStream" uid="uid://c0kwonaxbql4c" path="res://voicelines/cassette3/6.mp3" id="53_rx8mn"]
+[ext_resource type="AudioStream" uid="uid://b662nhg0b4yv8" path="res://voicelines/cassette3/7.mp3" id="54_bk47y"]
 [ext_resource type="AudioStream" uid="uid://bditvwd4uv8pp" path="res://voicelines/darkdoor/1.mp3" id="55_fupgw"]
 [ext_resource type="AudioStream" uid="uid://bo6fraccfljxq" path="res://voicelines/darkdoor/2.mp3" id="56_qd8qp"]
 [ext_resource type="Texture2D" uid="uid://bqabyfeaa6442" path="res://note.png" id="57_jmj6u"]
@@ -124,19 +150,32 @@
 [ext_resource type="AudioStream" uid="uid://bu44rscksx3ul" path="res://voicelines/boombox/4.mp3" id="61_efiuq"]
 [ext_resource type="Texture2D" uid="uid://bfpjmp3dx4ih" path="res://recorder.png" id="62_4xinw"]
 [ext_resource type="Texture2D" uid="uid://cgo48qjbpoqfv" path="res://paintingred.png" id="62_7r8lx"]
+[ext_resource type="AudioStream" uid="uid://c17riup2u4yg5" path="res://voicelines/cassette5/1.mp3" id="62_bjx1f"]
 [ext_resource type="Texture2D" uid="uid://dhkblpnclku67" path="res://flower.png" id="63_gncrg"]
+[ext_resource type="AudioStream" uid="uid://bkledhv011b25" path="res://voicelines/cassette5/2.mp3" id="63_rx8mn"]
+[ext_resource type="AudioStream" uid="uid://bldas656ctfhm" path="res://voicelines/cassette5/3.mp3" id="64_bk47y"]
 [ext_resource type="AudioStream" uid="uid://srqqh1bwpo85" path="res://voicelines/lockeddoor/3.mp3" id="64_ftari"]
+[ext_resource type="AudioStream" uid="uid://f0jp78qrjl4d" path="res://voicelines/cassette5/4.mp3" id="65_06w7j"]
+[ext_resource type="AudioStream" uid="uid://yle68skedn8o" path="res://voicelines/cassette5/5.mp3" id="66_rx8mn"]
+[ext_resource type="AudioStream" uid="uid://cm82dfwhygwma" path="res://voicelines/cassette5/6.mp3" id="67_rihfw"]
+[ext_resource type="AudioStream" uid="uid://c3napsmcr3r8r" path="res://voicelines/cassette5/7.mp3" id="68_4lx63"]
 [ext_resource type="Texture2D" uid="uid://ka20p60pv6sb" path="res://clothe.png" id="69_ah7oo"]
 [ext_resource type="Texture2D" uid="uid://c636f65gfl547" path="res://hallentrance.png" id="69_f2fag"]
+[ext_resource type="AudioStream" uid="uid://c5mlii572ohvg" path="res://voicelines/cassette5/8.mp3" id="69_n0bt1"]
 [ext_resource type="AudioStream" uid="uid://dmkh48re5g25f" path="res://alexzavesa-clinking-coins-7-468427.mp3" id="69_n8djb"]
 [ext_resource type="Texture2D" uid="uid://dwuimrd8u832e" path="res://backhall.png" id="70_1igcq"]
+[ext_resource type="AudioStream" uid="uid://cs456onbyxh2y" path="res://voicelines/cassette5/9.mp3" id="70_lt78p"]
+[ext_resource type="AudioStream" uid="uid://cdrf1tranl1hv" path="res://voicelines/cassette5/10.mp3" id="71_5tqeu"]
 [ext_resource type="Texture2D" uid="uid://b8xpglxgsrliw" path="res://dooropen.png" id="71_jmj6u"]
+[ext_resource type="AudioStream" uid="uid://borbf0a6c32yv" path="res://voicelines/cassette5/11.mp3" id="72_a62gg"]
 [ext_resource type="Texture2D" uid="uid://b23nq0td6651n" path="res://weirdroom.png" id="72_p08ej"]
 [ext_resource type="Texture2D" uid="uid://dmkxdla5ewlef" path="res://brokenwall.png" id="72_sqgh1"]
 [ext_resource type="Texture2D" uid="uid://d2q680d7n82ta" path="res://wires.png" id="73_c7unm"]
+[ext_resource type="AudioStream" uid="uid://cdsnqm8r0ht23" path="res://voicelines/cassette5/12.mp3" id="73_dcya5"]
 [ext_resource type="AudioStream" uid="uid://3c5rw3pnejj" path="res://voicelines/cassette4/1.mp3" id="73_ikajj"]
 [ext_resource type="Texture2D" uid="uid://q4r47i0ke2sv" path="res://title.png" id="74_dehtp"]
 [ext_resource type="AudioStream" uid="uid://4bv1inw6ltqh" path="res://voicelines/cassette4/2.mp3" id="74_dnhvm"]
+[ext_resource type="AudioStream" uid="uid://b4s84fp38b1co" path="res://voicelines/cassette5/13.mp3" id="74_tjo2d"]
 [ext_resource type="AudioStream" uid="uid://bym3vnvhe5ia4" path="res://voicelines/cassette4/3.mp3" id="75_qk1et"]
 [ext_resource type="Texture2D" uid="uid://bp64p6lpbylox" path="res://see.png" id="75_sqgh1"]
 [ext_resource type="Script" uid="uid://cjuodlhj4ut17" path="res://see.gd" id="76_10187"]
@@ -180,15 +219,60 @@
 [ext_resource type="Texture2D" uid="uid://bbf8vs4wxgx48" path="res://badend.png" id="134_sriil"]
 [ext_resource type="Script" uid="uid://d4cmf0sm53cgk" path="res://time.gd" id="140_lshks"]
 [ext_resource type="Texture2D" uid="uid://drqfkbn6ro2f6" path="res://timer.png" id="140_q7s7j"]
+[ext_resource type="AudioStream" uid="uid://dpt22cenxlicd" path="res://voicelines/cassette2/1.mp3" id="155_xxxnh"]
 [ext_resource type="AudioStream" uid="uid://25m2lnvh5hf1" path="res://voicelines/room/cassette/1.mp3" id="155_yfyv1"]
 [ext_resource type="AudioStream" uid="uid://bcnjqvrxre06y" path="res://voicelines/room/cassette/2.mp3" id="156_dlfr8"]
+[ext_resource type="AudioStream" uid="uid://bcttxvmnunq6o" path="res://voicelines/cassette2/2.mp3" id="156_sr280"]
+[ext_resource type="AudioStream" uid="uid://dqssmwmfcs6f4" path="res://voicelines/cassette2/3.mp3" id="157_b84h1"]
 [ext_resource type="AudioStream" uid="uid://bcp4msainpp5n" path="res://voicelines/room/safe/1.mp3" id="158_e7oql"]
+[ext_resource type="AudioStream" uid="uid://bsdhj8mw3otbp" path="res://voicelines/cassette2/4.mp3" id="158_upct2"]
+[ext_resource type="AudioStream" uid="uid://di1uub6nuga3b" path="res://voicelines/cassette2/5.mp3" id="159_3r013"]
 [ext_resource type="AudioStream" uid="uid://gix2o6s5fxxr" path="res://voicelines/room/safe/2.mp3" id="159_3wjgf"]
 [ext_resource type="AudioStream" uid="uid://dnv667nm6ccfw" path="res://voicelines/room/candl/1.mp3" id="160_aqyc2"]
+[ext_resource type="AudioStream" uid="uid://cbyk4l68s4el2" path="res://voicelines/cassette2/6.mp3" id="160_j6mbu"]
 [ext_resource type="AudioStream" uid="uid://c3dfteqwa06mi" path="res://voicelines/darkpainting/1.mp3" id="161_1cyu0"]
+[ext_resource type="AudioStream" uid="uid://cnbdhkyhg8hkq" path="res://voicelines/cassette2/7.mp3" id="161_2v6mp"]
+[ext_resource type="AudioStream" uid="uid://lyf5syyq67wp" path="res://voicelines/cassette2/8.mp3" id="162_21un8"]
 [ext_resource type="AudioStream" uid="uid://fthwjqp0vusi" path="res://voicelines/darkpainting/2.mp3" id="162_proln"]
 [ext_resource type="AudioStream" uid="uid://d1gwssntsi4ww" path="res://voicelines/darkpainting/3.mp3" id="163_xafed"]
 [ext_resource type="AudioStream" uid="uid://dk7r8g7tboov2" path="res://voicelines/darkpainting/4.mp3" id="164_now5g"]
+[ext_resource type="AudioStream" uid="uid://d2p8wglfkj5qc" path="res://voicelines/ending/intro/1.mp3" id="165_26eu2"]
+[ext_resource type="AudioStream" uid="uid://b3m286cwq828v" path="res://voicelines/ending/intro/2.mp3" id="166_i176a"]
+[ext_resource type="AudioStream" uid="uid://bkhbji5ibnkc0" path="res://voicelines/ending/questions/1.mp3" id="167_sc0d4"]
+[ext_resource type="AudioStream" uid="uid://dtw8k66ilhn83" path="res://voicelines/ending/questions/2.mp3" id="168_0yttj"]
+[ext_resource type="AudioStream" uid="uid://dq566m4khc40b" path="res://voicelines/ending/questions/3.mp3" id="169_oss2v"]
+[ext_resource type="AudioStream" uid="uid://cjeokvoo8kir4" path="res://voicelines/ending/questions/4.mp3" id="170_etnq7"]
+[ext_resource type="AudioStream" uid="uid://bbrplbasubm0v" path="res://voicelines/ending/questions/5.mp3" id="171_m0068"]
+[ext_resource type="AudioStream" uid="uid://dusxvgpepe23q" path="res://voicelines/ending/questions/6.mp3" id="172_l6p07"]
+[ext_resource type="AudioStream" uid="uid://dkidncnc8dtkq" path="res://voicelines/ending/questions/7.mp3" id="173_ek3mr"]
+[ext_resource type="AudioStream" uid="uid://dyfs5x31iguv6" path="res://voicelines/ending/questions/8.mp3" id="174_bdya2"]
+[ext_resource type="AudioStream" uid="uid://c3ga4nhbopv5n" path="res://voicelines/ending/questions/9.mp3" id="175_k0iwq"]
+[ext_resource type="AudioStream" uid="uid://dp6ovbmfydg07" path="res://voicelines/ending/questions/10.mp3" id="176_t4diq"]
+[ext_resource type="Texture2D" uid="uid://cjo8jytme4im0" path="res://secret.png" id="182_a3hsp"]
+[ext_resource type="Texture2D" uid="uid://b737fxs5jbpww" path="res://sky.png" id="196_a3hsp"]
+[ext_resource type="Texture2D" uid="uid://b8glr5i16psem" path="res://badending.png" id="196_eajpi"]
+[ext_resource type="AudioStream" uid="uid://cn3862ec506h2" path="res://voicelines/treasure/1.mp3" id="207_g4fve"]
+[ext_resource type="AudioStream" uid="uid://cv1skr7ec7scm" path="res://voicelines/treasure/2.mp3" id="208_dekhu"]
+[ext_resource type="AudioStream" uid="uid://kmwpa8dq1wrx" path="res://voicelines/treasure/3.mp3" id="209_ssppb"]
+[ext_resource type="AudioStream" uid="uid://qji7pfw25ixs" path="res://voicelines/treasure/4.mp3" id="210_xegmb"]
+[ext_resource type="AudioStream" uid="uid://cpi5cgrxwl2r7" path="res://voicelines/kron/1.mp3" id="235_ywsdf"]
+[ext_resource type="AudioStream" uid="uid://io0tex6t2uqr" path="res://voicelines/kron/2.mp3" id="236_i6qix"]
+[ext_resource type="AudioStream" uid="uid://bdjvp6ua775yx" path="res://voicelines/kron/3.mp3" id="237_56eal"]
+[ext_resource type="AudioStream" uid="uid://c1t4fng0316wh" path="res://voicelines/dog bowl/1.mp3" id="239_ywsdf"]
+[ext_resource type="AudioStream" uid="uid://b0u7kg022l4a0" path="res://voicelines/dog bowl/2.mp3" id="240_i6qix"]
+[ext_resource type="AudioStream" uid="uid://c1bxscp2uc4o2" path="res://voicelines/dog bowl/3.mp3" id="241_56eal"]
+[ext_resource type="AudioStream" uid="uid://7d4fwy4q6uik" path="res://voicelines/dog bowl/4.mp3" id="242_je8cr"]
+[ext_resource type="AudioStream" uid="uid://bq03bt12pwr2c" path="res://voicelines/note/1.mp3" id="244_esejd"]
+[ext_resource type="AudioStream" uid="uid://clkf3xsk2bm1y" path="res://voicelines/note/2.mp3" id="245_g5b6u"]
+[ext_resource type="AudioStream" uid="uid://c7k6g6uh1w0of" path="res://voicelines/note/3.mp3" id="246_fstms"]
+[ext_resource type="AudioStream" uid="uid://2ancxsbg2lu" path="res://voicelines/note/4.mp3" id="247_uh5rt"]
+[ext_resource type="AudioStream" uid="uid://cioo6a6u1hvnp" path="res://voicelines/note/5.mp3" id="248_8xtpj"]
+[ext_resource type="AudioStream" uid="uid://foyh1osurwr1" path="res://voicelines/note/6.mp3" id="249_e814f"]
+[ext_resource type="AudioStream" uid="uid://cc4k3enqg5d8m" path="res://voicelines/note/7.mp3" id="250_xf0ig"]
+[ext_resource type="AudioStream" uid="uid://bm0jxlwps5kb3" path="res://voicelines/wires/1.mp3" id="252_4rk18"]
+[ext_resource type="AudioStream" uid="uid://bgua1tuvw0gpt" path="res://voicelines/wires/2.mp3" id="253_4v2n4"]
+[ext_resource type="AudioStream" uid="uid://d1n2043b1taup" path="res://voicelines/wires/3.mp3" id="254_yrvqo"]
+[ext_resource type="AudioStream" uid="uid://6u7soh1ewmaj" path="res://voicelines/wires/4.mp3" id="255_m4sjh"]
 
 [sub_resource type="Resource" id="Resource_tf7f8"]
 script = ExtResource("14_5m0m6")
@@ -366,21 +450,25 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="Resource" id="Resource_1ggcw"]
 script = ExtResource("14_5m0m6")
 caption = "[static]"
+audio = ExtResource("49_628id")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_t2fns"]
 script = ExtResource("14_5m0m6")
 caption = "You have proven yourself to be worthy"
+audio = ExtResource("30_f6as8")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_e7dt2"]
 script = ExtResource("14_5m0m6")
 caption = "To still have an understanding on where you stand"
+audio = ExtResource("31_eajpi")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_y44tu"]
 script = ExtResource("14_5m0m6")
 caption = "I only hope this path you choose isn't temporary"
+audio = ExtResource("32_a3hsp")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_1vd7p"]
@@ -391,21 +479,25 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="Resource" id="Resource_bcdrl"]
 script = ExtResource("14_5m0m6")
 caption = "Have you realized where you are in?"
+audio = ExtResource("33_307kb")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_sbiym"]
 script = ExtResource("14_5m0m6")
-caption = "Yes"
+caption = "Y- yea"
+audio = ExtResource("34_guael")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_58dor"]
 script = ExtResource("14_5m0m6")
 caption = "I'm in your room"
+audio = ExtResource("35_2o2dp")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_b2rfx"]
 script = ExtResource("14_5m0m6")
 caption = "Dr Kron's room"
+audio = ExtResource("36_1cwmu")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_51r0y"]
@@ -416,31 +508,37 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="Resource" id="Resource_8iuf1"]
 script = ExtResource("14_5m0m6")
 caption = "correct"
+audio = ExtResource("37_e541g")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_tmfqh"]
 script = ExtResource("14_5m0m6")
 caption = "I- I wanted you to rid me of my memories"
+audio = ExtResource("38_477eu")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_cj1ke"]
 script = ExtResource("14_5m0m6")
-caption = "but ig this was your way to stop me..."
+caption = "but I guess this was your way to stop me..."
+audio = ExtResource("39_ainb1")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_qaxb1"]
 script = ExtResource("14_5m0m6")
 caption = "You forced yourself to remember your past"
+audio = ExtResource("40_g4fve")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_q05xx"]
 script = ExtResource("14_5m0m6")
 caption = "and as such you have chosen to live with it"
+audio = ExtResource("41_dekhu")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_2aybo"]
 script = ExtResource("14_5m0m6")
-caption = "Good luck"
+caption = "Good luck~"
+audio = ExtResource("42_ssppb")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_14fk6"]
@@ -451,31 +549,37 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="Resource" id="Resource_lshks"]
 script = ExtResource("14_5m0m6")
 caption = "you do not value your life enough"
+audio = ExtResource("43_xegmb")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_q7s7j"]
 script = ExtResource("14_5m0m6")
 caption = "You have been too unfocused"
+audio = ExtResource("44_ywsdf")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_6racm"]
 script = ExtResource("14_5m0m6")
 caption = "This is fine"
+audio = ExtResource("45_i6qix")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_8hgua"]
 script = ExtResource("14_5m0m6")
 caption = "I can fix you"
+audio = ExtResource("46_56eal")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_apue5"]
 script = ExtResource("14_5m0m6")
 caption = "I can make you..."
+audio = ExtResource("47_je8cr")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_pxv81"]
 script = ExtResource("14_5m0m6")
 caption = "better-"
+audio = ExtResource("48_dxv7q")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_wvrob"]
@@ -517,6 +621,59 @@ caption = "What is it doing here?"
 audio = ExtResource("47_c44jk")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
+[sub_resource type="Resource" id="Resource_1lqyu"]
+script = ExtResource("14_5m0m6")
+audio = ExtResource("14_4xyse")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_7jfkt"]
+script = ExtResource("14_5m0m6")
+caption = "[static]"
+audio = ExtResource("49_628id")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_0m8jq"]
+script = ExtResource("14_5m0m6")
+caption = "but uh"
+audio = ExtResource("48_21un8")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_ycrso"]
+script = ExtResource("14_5m0m6")
+caption = "psychological reason..."
+audio = ExtResource("49_0m8jq")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_l8qt1"]
+script = ExtResource("14_5m0m6")
+caption = "can truly.."
+audio = ExtResource("50_ycrso")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_bjx1f"]
+script = ExtResource("14_5m0m6")
+caption = "help those in disguise"
+audio = ExtResource("51_l8qt1")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_rx8mn"]
+script = ExtResource("14_5m0m6")
+caption = "to help them with...."
+audio = ExtResource("52_bjx1f")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_bk47y"]
+script = ExtResource("14_5m0m6")
+caption = "whatever..."
+audio = ExtResource("53_rx8mn")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_06w7j"]
+script = ExtResource("14_5m0m6")
+caption = "they are......"
+audio = ExtResource("54_bk47y")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_p5vim"]
 size = Vector2(258.6726, 155)
 
@@ -546,6 +703,89 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fft52"]
 size = Vector2(273.28894, 404.45172)
+
+[sub_resource type="Resource" id="Resource_a62gg"]
+script = ExtResource("14_5m0m6")
+caption = "What is it that you want?"
+audio = ExtResource("62_bjx1f")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_dcya5"]
+script = ExtResource("14_5m0m6")
+caption = "I- I want to be free"
+audio = ExtResource("63_rx8mn")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_tjo2d"]
+script = ExtResource("14_5m0m6")
+caption = "Free?"
+audio = ExtResource("64_bk47y")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_mxvh7"]
+script = ExtResource("14_5m0m6")
+caption = "No one is free..."
+audio = ExtResource("65_06w7j")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_3x2l2"]
+script = ExtResource("14_5m0m6")
+caption = "I- I want it to go away"
+audio = ExtResource("66_rx8mn")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_ig6kq"]
+script = ExtResource("14_5m0m6")
+caption = "Your actions caused the consequences..."
+audio = ExtResource("67_rihfw")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_uomwn"]
+script = ExtResource("14_5m0m6")
+caption = "for it to go away...."
+audio = ExtResource("68_4lx63")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_26eu2"]
+script = ExtResource("14_5m0m6")
+caption = "Your memories will be discarded"
+audio = ExtResource("69_n0bt1")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_i176a"]
+script = ExtResource("14_5m0m6")
+caption = "I don't care!"
+audio = ExtResource("70_lt78p")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_sc0d4"]
+script = ExtResource("14_5m0m6")
+caption = "I want to be free"
+audio = ExtResource("71_5tqeu")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_0yttj"]
+script = ExtResource("14_5m0m6")
+caption = "and I want it to go away"
+audio = ExtResource("72_a62gg")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_oss2v"]
+script = ExtResource("14_5m0m6")
+caption = "now!"
+audio = ExtResource("73_dcya5")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_rihfw"]
+script = ExtResource("14_5m0m6")
+caption = "..."
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_etnq7"]
+script = ExtResource("14_5m0m6")
+caption = "So be it"
+audio = ExtResource("74_tjo2d")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_nofeu"]
 script = ExtResource("14_5m0m6")
@@ -588,11 +828,6 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_amo6q"]
 size = Vector2(301, 155)
-
-[sub_resource type="Resource" id="Resource_1lqyu"]
-script = ExtResource("14_5m0m6")
-audio = ExtResource("14_4xyse")
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_c3dvt"]
 script = ExtResource("14_5m0m6")
@@ -762,13 +997,13 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jmj6u"]
 size = Vector2(97.58057, 150.2363)
 
-[sub_resource type="Resource" id="Resource_06w7j"]
+[sub_resource type="Resource" id="Resource_0h3jb"]
 script = ExtResource("14_5m0m6")
 caption = "It's just red"
 audio = ExtResource("98_72nst")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_3x2l2"]
+[sub_resource type="Resource" id="Resource_j6i8r"]
 script = ExtResource("14_5m0m6")
 caption = "why red?"
 audio = ExtResource("99_e7oql")
@@ -918,7 +1153,7 @@ caption = "I-"
 audio = ExtResource("79_dlkxf")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_0m8jq"]
+[sub_resource type="Resource" id="Resource_t43ic"]
 script = ExtResource("14_5m0m6")
 caption = "I want a solution"
 audio = ExtResource("80_dehtp")
@@ -1041,85 +1276,97 @@ size = Vector2(546.9173, 881.47644)
 [sub_resource type="Resource" id="Resource_5mqdy"]
 script = ExtResource("14_5m0m6")
 caption = "Are you ready to begin?"
+audio = ExtResource("165_26eu2")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_4k7js"]
 script = ExtResource("14_5m0m6")
 caption = "Y-yes"
+audio = ExtResource("166_i176a")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_bwd73"]
 script = ExtResource("14_5m0m6")
 caption = "What is your name?"
+audio = ExtResource("167_sc0d4")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_2t5pd"]
 script = ExtResource("14_5m0m6")
 caption = "What is your pets name?"
+audio = ExtResource("168_0yttj")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_1dou6"]
 script = ExtResource("14_5m0m6")
 caption = "What is my name?"
+audio = ExtResource("169_oss2v")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_sriil"]
 script = ExtResource("14_5m0m6")
 caption = "What is your favourite color?"
+audio = ExtResource("170_etnq7")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_nyhlb"]
 script = ExtResource("14_5m0m6")
 caption = "What is your hobby?"
+audio = ExtResource("171_m0068")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_ycrso"]
+[sub_resource type="Resource" id="Resource_m0068"]
 script = ExtResource("14_5m0m6")
 caption = "Do you have any comments"
+audio = ExtResource("172_l6p07")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_l8qt1"]
+[sub_resource type="Resource" id="Resource_4lx63"]
 script = ExtResource("14_5m0m6")
 caption = "Interesting choice"
+audio = ExtResource("173_ek3mr")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_bjx1f"]
+[sub_resource type="Resource" id="Resource_n0bt1"]
 script = ExtResource("14_5m0m6")
 caption = "Hmmm...."
+audio = ExtResource("174_bdya2")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_eyrie"]
 script = ExtResource("14_5m0m6")
 caption = "A calculative answer"
+audio = ExtResource("175_k0iwq")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_rx8mn"]
+[sub_resource type="Resource" id="Resource_lt78p"]
 script = ExtResource("14_5m0m6")
 caption = "Very well"
+audio = ExtResource("176_t4diq")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_8dcqi"]
 script = ExtResource("14_5m0m6")
 caption = "Treasure chest?"
-audio = ExtResource("48_o06lw")
+audio = ExtResource("207_g4fve")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_u7g2v"]
 script = ExtResource("14_5m0m6")
 caption = "It looks..."
-audio = ExtResource("49_08iss")
+audio = ExtResource("208_dekhu")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_takd2"]
 script = ExtResource("14_5m0m6")
 caption = "Wrong..."
-audio = ExtResource("50_s8n4o")
+audio = ExtResource("209_ssppb")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_lhtmp"]
 script = ExtResource("14_5m0m6")
 caption = "Did I draw this?"
-audio = ExtResource("51_mnwqs")
+audio = ExtResource("210_xegmb")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f2fag"]
@@ -1130,57 +1377,57 @@ script = ExtResource("14_5m0m6")
 caption = "This tape looks...."
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_bk47y"]
+[sub_resource type="Resource" id="Resource_5tqeu"]
 script = ExtResource("14_5m0m6")
 caption = "old..."
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_sqgh1"]
+[sub_resource type="Resource" id="Resource_efgnk"]
 script = ExtResource("14_5m0m6")
-caption = "How does anybody...."
-audio = ExtResource("73_ikajj")
+caption = "There's..."
+audio = ExtResource("155_xxxnh")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_x3fot"]
+[sub_resource type="Resource" id="Resource_abg6b"]
 script = ExtResource("14_5m0m6")
-caption = "deal with grief...."
-audio = ExtResource("74_dnhvm")
+caption = "a story I heard"
+audio = ExtResource("156_sr280")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_pfmjr"]
+[sub_resource type="Resource" id="Resource_x1qfx"]
 script = ExtResource("14_5m0m6")
-caption = "I never understood it"
-audio = ExtResource("75_qk1et")
+caption = "something about..."
+audio = ExtResource("157_b84h1")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_nhh05"]
+[sub_resource type="Resource" id="Resource_58e21"]
 script = ExtResource("14_5m0m6")
-caption = "It's horrible..."
-audio = ExtResource("76_a2rgk")
+caption = "God"
+audio = ExtResource("158_upct2")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_2pmk2"]
+[sub_resource type="Resource" id="Resource_16m78"]
 script = ExtResource("14_5m0m6")
-caption = "I don't want...."
-audio = ExtResource("77_ymrkx")
+caption = "helping the lost ones..."
+audio = ExtResource("159_3r013")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_6vnta"]
+[sub_resource type="Resource" id="Resource_jp016"]
 script = ExtResource("14_5m0m6")
-caption = "To continue this anymore...."
-audio = ExtResource("78_ah7oo")
+caption = "I truly think that is not..."
+audio = ExtResource("160_j6mbu")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_r8qnq"]
+[sub_resource type="Resource" id="Resource_wewws"]
 script = ExtResource("14_5m0m6")
-caption = "I-"
-audio = ExtResource("79_dlkxf")
+caption = "A true case"
+audio = ExtResource("161_2v6mp")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
-[sub_resource type="Resource" id="Resource_yvsax"]
+[sub_resource type="Resource" id="Resource_e2818"]
 script = ExtResource("14_5m0m6")
-caption = "I want a solution"
-audio = ExtResource("80_dehtp")
+caption = "Nothing can really help those that have lost their way..."
+audio = ExtResource("162_21un8")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_ov1v4"]
@@ -1256,45 +1503,48 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 [sub_resource type="Resource" id="Resource_ah7oo"]
 script = ExtResource("14_5m0m6")
 caption = "It's a painting?"
-audio = ExtResource("48_o06lw")
+audio = ExtResource("235_ywsdf")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_dlkxf"]
 script = ExtResource("14_5m0m6")
 caption = "The label reads \"To all that is will return to Kron\""
-audio = ExtResource("49_08iss")
+audio = ExtResource("236_i6qix")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_dehtp"]
 script = ExtResource("14_5m0m6")
 caption = "...."
-audio = ExtResource("50_s8n4o")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_acrcj"]
 script = ExtResource("14_5m0m6")
 caption = "Who the hell is Kron?"
-audio = ExtResource("51_mnwqs")
+audio = ExtResource("237_56eal")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_aqyc2"]
 script = ExtResource("14_5m0m6")
 caption = "A dog bowl...."
+audio = ExtResource("239_ywsdf")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_gwibc"]
 script = ExtResource("14_5m0m6")
 caption = "for \"Gordy\"..."
+audio = ExtResource("240_i6qix")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_1cyu0"]
 script = ExtResource("14_5m0m6")
 caption = "Is that my pet?"
+audio = ExtResource("241_56eal")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_proln"]
 script = ExtResource("14_5m0m6")
 caption = "I- I don't remember owning one..."
+audio = ExtResource("242_je8cr")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dehtp"]
@@ -1303,38 +1553,43 @@ size = Vector2(273.2889, 108.10241)
 [sub_resource type="Resource" id="Resource_b84h1"]
 script = ExtResource("14_5m0m6")
 caption = "It's a note:"
-audio = ExtResource("48_o06lw")
+audio = ExtResource("244_esejd")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_upct2"]
 script = ExtResource("14_5m0m6")
 caption = "\"Dear diary,..."
-audio = ExtResource("49_08iss")
+audio = ExtResource("245_g5b6u")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="AudioStreamMP3" id="AudioStreamMP3_3r013"]
-data = PackedByteArray("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")
 
 [sub_resource type="Resource" id="Resource_j6mbu"]
 script = ExtResource("14_5m0m6")
 caption = "I heard there's someone one who can help me in my problem"
-audio = SubResource("AudioStreamMP3_3r013")
+audio = ExtResource("246_fstms")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_2v6mp"]
 script = ExtResource("14_5m0m6")
 caption = "I'm not the type to trust in therapy "
-audio = ExtResource("51_mnwqs")
+audio = ExtResource("247_uh5rt")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_xafed"]
 script = ExtResource("14_5m0m6")
 caption = "but it's all I have..."
+audio = ExtResource("248_8xtpj")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_now5g"]
 script = ExtResource("14_5m0m6")
 caption = "-Horcus\""
+audio = ExtResource("249_e814f")
+metadata/_custom_type_script = "uid://cpahbsfacxfqc"
+
+[sub_resource type="Resource" id="Resource_dxv7q"]
+script = ExtResource("14_5m0m6")
+caption = "D-did I write this note?"
+audio = ExtResource("250_xf0ig")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_a2rgk"]
@@ -1343,24 +1598,25 @@ size = Vector2(185.339, 212.47693)
 [sub_resource type="Resource" id="Resource_1igcq"]
 script = ExtResource("14_5m0m6")
 caption = "Why is this wall exposed?"
-audio = ExtResource("48_o06lw")
+audio = ExtResource("252_4rk18")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_jmj6u"]
 script = ExtResource("14_5m0m6")
 caption = "Wires?"
-audio = ExtResource("49_08iss")
+audio = ExtResource("253_4v2n4")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_c7unm"]
 script = ExtResource("14_5m0m6")
 caption = "There's so many wires in there...."
-audio = ExtResource("50_s8n4o")
+audio = ExtResource("254_yrvqo")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_10187"]
 script = ExtResource("14_5m0m6")
 caption = "White, red, blue, yellow?"
+audio = ExtResource("255_m4sjh")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_628id"]
@@ -1474,7 +1730,7 @@ position = Vector2(-89, -74.00001)
 scale = Vector2(0.37453732, 0.41732952)
 script = ExtResource("12_mogh0")
 speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_ikajj"), SubResource("Resource_dnhvm")])
-cassette = Array[ExtResource("14_5m0m6")]([null])
+cassette = Array[ExtResource("14_5m0m6")]([SubResource("Resource_1lqyu"), SubResource("Resource_7jfkt"), SubResource("Resource_0m8jq"), SubResource("Resource_ycrso"), SubResource("Resource_l8qt1"), SubResource("Resource_bjx1f"), SubResource("Resource_rx8mn"), SubResource("Resource_bk47y"), SubResource("Resource_06w7j")])
 
 [node name="Safe" type="Sprite2D" parent="Saferoom/front/safe/Rewards/cassette2" unique_id=1878947322]
 position = Vector2(401, 284)
@@ -1513,7 +1769,7 @@ rotation = -1.5987055
 scale = Vector2(0.96664524, 1.2014409)
 script = ExtResource("12_mogh0")
 speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_ikajj"), SubResource("Resource_dnhvm")])
-cassette = Array[ExtResource("14_5m0m6")]([null])
+cassette = Array[ExtResource("14_5m0m6")]([SubResource("Resource_1lqyu"), SubResource("Resource_a62gg"), SubResource("Resource_dcya5"), SubResource("Resource_tjo2d"), SubResource("Resource_mxvh7"), SubResource("Resource_3x2l2"), SubResource("Resource_ig6kq"), SubResource("Resource_uomwn"), SubResource("Resource_26eu2"), SubResource("Resource_i176a"), SubResource("Resource_sc0d4"), SubResource("Resource_0yttj"), SubResource("Resource_oss2v"), SubResource("Resource_rihfw"), SubResource("Resource_etnq7")])
 
 [node name="Safe" type="Sprite2D" parent="Saferoom/front/safe/Rewards/drawer/Rewards/cassette3" unique_id=1336335142]
 position = Vector2(401, 284)
@@ -1970,7 +2226,7 @@ shape = SubResource("RectangleShape2D_mti6b")
 position = Vector2(-1119.2998, -595.5231)
 scale = Vector2(1.2026651, 1.0009799)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_06w7j"), SubResource("Resource_3x2l2")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_0h3jb"), SubResource("Resource_j6i8r")])
 picture = true
 
 [node name="Bed" type="Sprite2D" parent="Lightroom/back/picture" unique_id=163830256]
@@ -2084,19 +2340,19 @@ texture_normal = ExtResource("5_parq5")
 script = ExtResource("6_pd0i2")
 key = true
 
-[node name="cassette" type="Area2D" parent="Bedroom/front" unique_id=1040382866]
+[node name="cassette4" type="Area2D" parent="Bedroom/front" unique_id=1040382866]
 position = Vector2(-108.11688, -187.0406)
 scale = Vector2(0.23259185, 0.25558877)
 script = ExtResource("12_mogh0")
 speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_ikajj"), SubResource("Resource_dnhvm")])
-cassette = Array[ExtResource("14_5m0m6")]([SubResource("Resource_fupgw"), SubResource("Resource_qd8qp"), SubResource("Resource_rturl"), SubResource("Resource_qvof5"), SubResource("Resource_pnghn"), SubResource("Resource_3r013"), SubResource("Resource_21un8"), SubResource("Resource_0m8jq")])
+cassette = Array[ExtResource("14_5m0m6")]([SubResource("Resource_1lqyu"), SubResource("Resource_fupgw"), SubResource("Resource_qd8qp"), SubResource("Resource_rturl"), SubResource("Resource_qvof5"), SubResource("Resource_pnghn"), SubResource("Resource_3r013"), SubResource("Resource_21un8"), SubResource("Resource_t43ic")])
 
-[node name="Safe" type="Sprite2D" parent="Bedroom/front/cassette" unique_id=810433259]
+[node name="Safe" type="Sprite2D" parent="Bedroom/front/cassette4" unique_id=810433259]
 position = Vector2(401, 284)
 scale = Vector2(0.26172608, 0.26161617)
 texture = ExtResource("14_xstq6")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Bedroom/front/cassette" unique_id=664134998]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bedroom/front/cassette4" unique_id=664134998]
 position = Vector2(401.3871, 282.31378)
 shape = SubResource("RectangleShape2D_p5vim")
 
@@ -2183,8 +2439,8 @@ scale = Vector2(1.7297297, 1.5211266)
 texture = ExtResource("72_sqgh1")
 script = ExtResource("9_parq5")
 statement = Array[ExtResource("14_5m0m6")]([SubResource("Resource_5mqdy"), SubResource("Resource_4k7js")])
-ques = Array[ExtResource("14_5m0m6")]([SubResource("Resource_bwd73"), SubResource("Resource_2t5pd"), SubResource("Resource_1dou6"), SubResource("Resource_sriil"), SubResource("Resource_nyhlb"), SubResource("Resource_ycrso")])
-response = Array[ExtResource("14_5m0m6")]([SubResource("Resource_l8qt1"), SubResource("Resource_bjx1f"), SubResource("Resource_eyrie"), SubResource("Resource_rx8mn")])
+ques = Array[ExtResource("14_5m0m6")]([SubResource("Resource_bwd73"), SubResource("Resource_2t5pd"), SubResource("Resource_1dou6"), SubResource("Resource_sriil"), SubResource("Resource_nyhlb"), SubResource("Resource_m0068")])
+response = Array[ExtResource("14_5m0m6")]([SubResource("Resource_4lx63"), SubResource("Resource_n0bt1"), SubResource("Resource_eyrie"), SubResource("Resource_lt78p")])
 answer = Dictionary[String, String]({
 "are you really a god": "secret",
 "blue": "secret",
@@ -2199,6 +2455,11 @@ answer = Dictionary[String, String]({
 safekeeping = Dictionary[String, int]({
 "ori": 0,
 "secret": 0
+})
+image = Dictionary[String, Texture2D]({
+"bad": ExtResource("196_eajpi"),
+"ori": ExtResource("196_a3hsp"),
+"secret": ExtResource("182_a3hsp")
 })
 
 [node name="front" type="Node2D" parent="Weirdroom" unique_id=1358478855]
@@ -2462,8 +2723,8 @@ key = true
 position = Vector2(-81.9097, -80.3869)
 scale = Vector2(0.49319494, 0.63759035)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_38hkc"), SubResource("Resource_bk47y")])
-cassette = Array[ExtResource("14_5m0m6")]([SubResource("Resource_sqgh1"), SubResource("Resource_x3fot"), SubResource("Resource_pfmjr"), SubResource("Resource_nhh05"), SubResource("Resource_2pmk2"), SubResource("Resource_6vnta"), SubResource("Resource_r8qnq"), SubResource("Resource_yvsax")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_38hkc"), SubResource("Resource_5tqeu")])
+cassette = Array[ExtResource("14_5m0m6")]([SubResource("Resource_1lqyu"), SubResource("Resource_efgnk"), SubResource("Resource_abg6b"), SubResource("Resource_x1qfx"), SubResource("Resource_58e21"), SubResource("Resource_16m78"), SubResource("Resource_jp016"), SubResource("Resource_7jfkt"), SubResource("Resource_wewws"), SubResource("Resource_7jfkt"), SubResource("Resource_e2818"), SubResource("Resource_7jfkt")])
 
 [node name="Safe" type="Sprite2D" parent="Hallway/front/drawer/Rewards/cassette1" unique_id=1063371608]
 position = Vector2(401, 284)
@@ -2736,7 +2997,7 @@ shape = SubResource("RectangleShape2D_dehtp")
 position = Vector2(31.53518, 19.4225)
 scale = Vector2(0.387461, 0.34735754)
 script = ExtResource("12_mogh0")
-speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_b84h1"), SubResource("Resource_upct2"), SubResource("Resource_j6mbu"), SubResource("Resource_2v6mp"), SubResource("Resource_xafed"), SubResource("Resource_now5g")])
+speech = Array[ExtResource("14_5m0m6")]([SubResource("Resource_b84h1"), SubResource("Resource_upct2"), SubResource("Resource_j6mbu"), SubResource("Resource_2v6mp"), SubResource("Resource_xafed"), SubResource("Resource_now5g"), SubResource("Resource_dxv7q")])
 note = true
 
 [node name="Bed" type="Sprite2D" parent="Entrance/front/note" unique_id=1312191870]
@@ -2903,7 +3164,6 @@ fit_content = true
 horizontal_alignment = 2
 
 [node name="caption" type="RichTextLabel" parent="canvas" unique_id=304538904]
-visible = false
 modulate = Color(1, 1, 1, 0)
 top_level = true
 z_index = 12
@@ -2920,6 +3180,15 @@ script = ExtResource("16_2uuqs")
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="canvas/caption" unique_id=55560851]
 volume_db = 5.0
 bus = &"SFX"
+
+[node name="skip" type="Button" parent="canvas/caption" unique_id=365988879]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 5.0
+offset_right = 127.0
+offset_bottom = 66.0
+theme_override_font_sizes/font_size = 40
+text = "skip"
 
 [node name="interactables" type="Sprite2D" parent="canvas" unique_id=1969986754]
 z_index = 999
@@ -3046,6 +3315,7 @@ parameters/looping = true
 
 [connection signal="value_changed" from="Weirdroom/back/mainscreen/voices" to="." method="_on_voices_value_changed"]
 [connection signal="value_changed" from="Weirdroom/back/mainscreen/ambience" to="." method="_on_ambience_value_changed"]
+[connection signal="pressed" from="canvas/caption/skip" to="canvas/caption" method="skipping"]
 [connection signal="pressed" from="canvas/spinlock/Button" to="canvas/spinlock" method="hidenow"]
 [connection signal="pressed" from="canvas/spinlock/Button2" to="canvas/spinlock" method="reset"]
 [connection signal="pressed" from="canvas/boombox/Button" to="canvas/boombox" method="hidenow"]

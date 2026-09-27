@@ -12,7 +12,9 @@ var positions: Array[Vector2] = [Vector2(17, -55), Vector2(55, 16), Vector2(43, 
 @export var response:Array[Dialogue]
 @export var answer:Dictionary[String, String]
 @export var safekeeping:Dictionary[String, int]
+@export var image:Dictionary[String, Texture2D]
 var ask = false
+var tempkeeping:Array[String]
 
 
 
@@ -47,6 +49,8 @@ func _ready() -> void:
 
 func change(current, direction):
 	if name == current:
+		Global.light.show()
+		Global.dark.hide()
 		$"../canvas/time".hide()
 		Global.current = self
 		show()
@@ -97,24 +101,31 @@ func askgod():
 		await Global.speechfinished
 		$front/answer.show()
 		await $front/answer/Button.pressed
-		if $front/answer.text.to_lower() in answer:
+		if $front/answer.text.to_lower() in answer and not $front/answer.text.to_lower() in tempkeeping:
 			safekeeping[answer[$front/answer.text.to_lower()]] += 1
+		tempkeeping.append($front/answer.text.to_lower())
+		$front/answer.text = ""
 		temp = [response.pick_random()]
 		Global.emit_signal("speech", temp)
 		await Global.speechfinished 
 		await get_tree().create_timer(0.5).timeout
+	$front.hide()
+	$"../light".hide()
 	if safekeeping["ori"] >= 4:
 		$"..".trigger("ori")
+		texture = image["ori"]
 		var temp = Global.load_game_settings()
 		temp.set_value("player", "end", true)
 		Global.save_game_settings(temp)
 	elif safekeeping["secret"] >= 3:
 		$"..".trigger("secret")
+		texture = image["secret"]
 		var temp = Global.load_game_settings()
 		temp.set_value("player", "awaken", true)
 		Global.save_game_settings(temp)
 	else:
 		$"..".trigger("bad")
+		texture = image["bad"]
 		var temp = Global.load_game_settings()
 		temp.set_value("player", "bad", true)
 		Global.save_game_settings(temp)
