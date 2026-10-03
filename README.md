@@ -1,3 +1,6 @@
+# Rememberance!
+Welcome to rememberance! A game about finding clues and answering mystical questions! Answer them right and reach enlightenment, answer them wrong and you fall into the abyss of the unknown~
+
 # remember who you are!
 
 Find clues hidden around your house(?) and piece together your name, your life and your deepest secrets!
@@ -18,4 +21,22 @@ I'm putting the full story here so if you want no spoilers, here be dragons!~
 BANG
 
 A loud thump sound was heard and everything went dark for Horcus, locking himself away in his room for days. That was until he got a commercial ad from someone named Mr kron that was known to help with grief in creative ways. They decided they will try his method of therapy for the sake of their late puppy, Gordy
+</details>
+
+
+<details>
+  <summary>Answers for the questions!</summary>
+  
+What is your name? - Horcus
+What is your pets name? - Gordy
+What is my name? - God
+What is your favourite color? - Red
+What is your hobby? - mountain
+Do you have any comments - none
+</details>
+
+<details>
+  <summary>Secret ending?</summary>
+  
+If you answer blue, car and kron at least once with the questions, you will unlock the secret true ending!~
 </details>
