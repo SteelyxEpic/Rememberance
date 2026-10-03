@@ -1,15 +1,19 @@
 # Rememberance!
 Welcome to rememberance! A game about finding clues and answering mystical questions! Answer them right and reach enlightenment, answer them wrong and you fall into the abyss of the unknown~
+<img width="1146" height="635" alt="image" src="https://github.com/user-attachments/assets/c2e34ed0-8fe5-4fa0-af6b-abf7a0787218" />
 
 # remember who you are!
 
-Find clues hidden around your house(?) and piece together your name, your life and your deepest secrets!
+Find clues hidden around your house(?) and piece together your name, your life and your deepest secrets before the time runs out!
 
 This game was made because of a dream I had of this exact scenario and I wanted to bring it to life as best as I can
 
 ngl I burnt out in the middle of making the game so some parts were a bit underwhelming compared to how I envisioned it but it's still a win in my heart!
 
 I'm putting the full story here so if you want no spoilers, here be dragons!~
+
+try it here!:
+https://tyoepic.itch.io/rememberance
 
 <details>
   <summary>I'm ready!</summary>
