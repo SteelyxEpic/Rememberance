@@ -30,6 +30,7 @@ var cassettes: Dictionary[String, Array]
 @onready var dark: Sprite2D
 @onready var interact:Node2D
 @onready var texts:LineEdit
+var data
 
 func _ready() -> void:
 	var config = ConfigFile.new()
@@ -40,7 +41,13 @@ func _ready() -> void:
 	config.set_value("player", "bad", config.get_value("player", "bad", false))
 	config.set_value("player", "end", config.get_value("player", "end", false))
 	save_game_settings(config)
-	
+	var file = FileAccess.open("res://texts.json", FileAccess.READ)
+	var json_text = file.get_as_text()
+	var json = JSON.new()
+	json.parse(json_text)
+	data = json.data
+
+
 func save_game_settings(file: ConfigFile):
 	var error = file.save(SAVE_PATH)
 	if error != OK:

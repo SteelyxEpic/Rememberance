@@ -1345,6 +1345,12 @@ caption = "Very well"
 audio = ExtResource("176_t4diq")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_esejd"]
+border_width_right = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g5b6u"]
+border_width_right = 15
+
 [sub_resource type="Resource" id="Resource_8dcqi"]
 script = ExtResource("14_5m0m6")
 caption = "Treasure chest?"
@@ -2525,8 +2531,8 @@ texture = ExtResource("134_sriil")
 [node name="mainscreen" type="Node2D" parent="Weirdroom/back" unique_id=1277596048]
 
 [node name="Titler" type="Sprite2D" parent="Weirdroom/back/mainscreen" unique_id=1386507503]
-position = Vector2(-2.3125, -129.50928)
-scale = Vector2(0.2983089, 0.41742703)
+position = Vector2(-4.046877, -143.31482)
+scale = Vector2(0.34326637, 0.41742703)
 texture = ExtResource("77_tf7f8")
 
 [node name="Button" type="Button" parent="Weirdroom/back/mainscreen" unique_id=1918884735]
@@ -2550,6 +2556,7 @@ offset_left = -302.3594
 offset_top = -51.93519
 offset_right = -286.3594
 offset_bottom = 179.47226
+theme_override_styles/slider = SubResource("StyleBoxFlat_esejd")
 max_value = 1.0
 step = 0.01
 value = 1.0
@@ -2570,6 +2577,7 @@ offset_left = -251.48439
 offset_top = -51.277782
 offset_right = -235.48439
 offset_bottom = 180.12965
+theme_override_styles/slider = SubResource("StyleBoxFlat_g5b6u")
 max_value = 1.0
 step = 0.01
 value = 1.0
