@@ -1,19 +1,46 @@
+# Rememberance!
+Welcome to rememberance! A game about finding clues and answering mystical questions! Answer them right and reach enlightenment, answer them wrong and you fall into the abyss of the unknown~
+<img width="1146" height="635" alt="image" src="https://github.com/user-attachments/assets/c2e34ed0-8fe5-4fa0-af6b-abf7a0787218" />
+
 # remember who you are!
 
-???
+Find clues hidden around your house(?) and piece together your name, your life and your deepest secrets before the time runs out!
 
-safe (rng) find password (find clues) book with a title (second to be hers, fourth in the cry department) spine of the book will have a design that can be reformed with 3 books
+This game was made because of a dream I had of this exact scenario and I wanted to bring it to life as best as I can
 
-goal find the code for the safe to find code find the books scattered to find books solve puzzles
+ngl I burnt out in the middle of making the game so some parts were a bit underwhelming compared to how I envisioned it but it's still a win in my heart!
 
-light puzzle
+I'm putting the full story here so if you want no spoilers, here be dragons!~
 
-you have a flashlight and you can move mirrors to reflect the light onto other places there are mirrors already in that room that have special gems affixed at the top that needs to be reflected on and cannot be moved but can be rotated
+try it here!:
+https://tyoepic.itch.io/rememberance
 
-the flash light has a battery and if it runs out, it needs to be recharged by doing a puzzle
+<details>
+  <summary>I'm ready!</summary>
+  
+  You are Horcus, a normal single person living in their single story home. The world was getting lonely so you decided to adopt a little puppy and named him Gordy! You two spent months together, playing, walking and everything else in between! One day however, while walking back from the park, a speeding red car was seen at the highway. "Look!" exclaimed Horcus. "That's my favourite colour~".
 
-charging
+"Woof!" the puppy barked almost as if he understood Horcus' speech. The puppy then bolted to the red car Horcus was pointing at as the car was traveling faster and faster on the highway.
 
-you have to find a charging station where you can place your old batteries and replace it with new ones. The old batteries will get recharged and become new batteries
+BANG
 
-Blackout, sometimes the house will experience a blackout, you have to turn on the generator until the blackout subsides or continue the puzzles without light or electricity which might be useful in other puzzles
+A loud thump sound was heard and everything went dark for Horcus, locking himself away in his room for days. That was until he got a commercial ad from someone named Mr kron that was known to help with grief in creative ways. They decided they will try his method of therapy for the sake of their late puppy, Gordy
+</details>
+
+
+<details>
+  <summary>Answers for the questions!</summary>
+  
+What is your name? - Horcus
+What is your pets name? - Gordy
+What is my name? - God
+What is your favourite color? - Red
+What is your hobby? - mountain
+Do you have any comments - none
+</details>
+
+<details>
+  <summary>Secret ending?</summary>
+  
+If you answer blue, car and kron at least once with the questions, you will unlock the secret true ending!~
+</details>
