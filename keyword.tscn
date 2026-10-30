@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://b2rjy5c8711h3"]
+
+[node name="keyword" type="Button" unique_id=330478965]
+text = "Test"

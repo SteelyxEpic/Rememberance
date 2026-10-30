@@ -15,6 +15,13 @@ func texting(captions:Array[Dialogue]):
 		modulate.a = 1
 		for i in captions:
 			var caption = i.caption
+			if not Global.texts.visible:
+				var found_words = Global.text.filter(func(word): return word.to_lower() in caption.to_lower())
+				for x in found_words:
+					if Global.found.has(x):
+						Global.found[x].append(i)
+					else:
+						Global.found[x] = [i]
 			var audio:AudioStreamMP3 = i.audio
 			if tween:
 				tween.stop()

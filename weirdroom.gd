@@ -3,8 +3,11 @@ extends Sprite2D
 @onready var godcon:Node2D = $front/Godcon
 @onready var god:Sprite2D = $front/Godcon/God
 var positions: Array[Vector2] = [Vector2(17, -55), Vector2(55, 16), Vector2(43, 107)]
-@onready var front:Texture2D = load("res://weirdroom.png")
+@onready var front:Texture2D = load("res://darkness.png")
 @onready var back:Texture2D = load("res://brokenwall.png")
+@onready var keyword:PackedScene = load("res://voice.tscn")
+@onready var voice:PackedScene = load("res://keyword.tscn")
+
 @onready var timer: Timer = $Timer
 @onready var seen: TextureProgressBar = $front/seen
 @export var statement:Array[Dialogue]
@@ -14,7 +17,7 @@ var positions: Array[Vector2] = [Vector2(17, -55), Vector2(55, 16), Vector2(43, 
 var ask = false
 var tempkeeping:Array[String]
 
-
+signal text(tex:String)
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -26,7 +29,7 @@ func _ready() -> void:
 			askgod())
 	movearound()
 	hover()
-	
+	text.connect(texter)
 	find_child("front").visibility_changed.connect(func():
 		if texture == front:
 			texture = back
@@ -44,7 +47,17 @@ func _ready() -> void:
 	if temp.get_value("player", "bad", false):
 		$"back/bad end".modulate = Color(1.0, 1.0, 1.0, 1.0)
 	
-
+func texter(s:String):
+	$front/answer.text = s
+	for i in $front/answer/window/ScrollContainer/VBoxContainer.get_children():
+		i.queue_free()
+	for x in Global.found[s]:
+		var voicetemp = keyword.instantiate()
+		$front/answer/window/ScrollContainer/VBoxContainer.add_child(voicetemp)
+		voicetemp.text = x.caption
+		voicetemp.pressed.connect(func():
+			var te:Array[Dialogue] = [x]
+			Global.emit_signal("speech",te))
 func change(current, direction):
 	if name == current:
 		Global.light.show()
@@ -101,9 +114,15 @@ func askgod():
 		Global.emit_signal("speech", temp)
 		await Global.speechfinished
 		$front/answer.show()
+		for x in Global.found.keys():
+			var voicetemp = voice.instantiate()
+			$front/answer/Answers/VBoxContainer.add_child(voicetemp)
+			voicetemp.text = x
+			voicetemp.pressed.connect(func():
+				emit_signal("text", x))
 		await $front/answer/Button.pressed
 		for x in Global.data[key]["answers"].keys():
-			if $front/answer.text.to_lower() in Global.data[key]["answers"][x]:
+			if $front/answer.text.to_lower() in Global.data[key]["answers"][x].map(func(word): return word.to_lower()):
 				safekeeping[x] += 1
 		$front/answer.text = ""
 		temp = [response.pick_random()]

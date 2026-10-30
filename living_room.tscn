@@ -131,6 +131,7 @@
 [ext_resource type="AudioStream" uid="uid://cggql25dkywxw" path="res://voicelines/cassette3/2.mp3" id="49_0m8jq"]
 [ext_resource type="AudioStream" uid="uid://c4nq2hgo4odc6" path="res://voicelines/mountains/2.mp3" id="49_08iss"]
 [ext_resource type="AudioStream" uid="uid://b2mgflsti6wed" path="res://static.mp3" id="49_628id"]
+[ext_resource type="Texture2D" uid="uid://cn14n8f26xso8" path="res://darkness.png" id="49_nhiwm"]
 [ext_resource type="AudioStream" uid="uid://vuxmr115wfsh" path="res://ambience.mp3" id="50_p5vim"]
 [ext_resource type="AudioStream" uid="uid://cxn2a1mq6dhpu" path="res://voicelines/mountains/3.mp3" id="50_s8n4o"]
 [ext_resource type="AudioStream" uid="uid://b1r2b0l5vldh8" path="res://voicelines/cassette3/3.mp3" id="50_ycrso"]
@@ -1598,6 +1599,10 @@ Answersindex = Dictionary[String, Vector2]({
 "secret": Vector2(5, 16)
 })
 
+[node name="Darkness" type="Sprite2D" parent="." unique_id=10883228]
+position = Vector2(596, 343)
+texture = ExtResource("49_nhiwm")
+
 [node name="dark" type="Sprite2D" parent="." unique_id=1402283668]
 visible = false
 modulate = Color(1, 1, 1, 0.5137255)
@@ -2427,8 +2432,8 @@ scale = Vector2(0.58267707, 0.65337425)
 texture = ExtResource("10_pd0i2")
 
 [node name="Weirdroom2" type="Sprite2D" parent="Weirdroom/front" unique_id=654844704]
-position = Vector2(26.593714, -0.98611164)
-scale = Vector2(1.0698786, 1.0324074)
+position = Vector2(23.486328, 1.3148103)
+scale = Vector2(1.1035157, 1.0324074)
 texture = ExtResource("72_p08ej")
 
 [node name="seen" type="TextureProgressBar" parent="Weirdroom/front" unique_id=1760837895]
@@ -2453,6 +2458,41 @@ offset_left = 339.3594
 offset_right = 405.3594
 offset_bottom = 31.0
 text = "Answer"
+
+[node name="Answers" type="ScrollContainer" parent="Weirdroom/front/answer" unique_id=1320886822]
+layout_mode = 0
+offset_top = 31.555557
+offset_right = 328.9532
+offset_bottom = 207.74075
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Weirdroom/front/answer/Answers" unique_id=1468316600]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 10
+
+[node name="window" type="TextureRect" parent="Weirdroom/front/answer" unique_id=1026966553]
+self_modulate = Color(1, 1, 1, 0.38431373)
+layout_mode = 0
+offset_left = 9.249998
+offset_top = -179.47224
+offset_right = 1562.25
+offset_bottom = 722.5278
+scale = Vector2(0.24434002, 0.18174252)
+texture = ExtResource("49_nhiwm")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Weirdroom/front/answer/window" unique_id=1516388823]
+layout_mode = 0
+offset_left = -2.861023e-05
+offset_top = -3.6172485
+offset_right = 1552.1404
+offset_bottom = 900.6942
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Weirdroom/front/answer/window/ScrollContainer" unique_id=1461597178]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 20
 
 [node name="back" type="Node2D" parent="Weirdroom" unique_id=996740822]
 

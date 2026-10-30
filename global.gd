@@ -31,6 +31,8 @@ var cassettes: Dictionary[String, Array]
 @onready var interact:Node2D
 @onready var texts:LineEdit
 var data
+var text
+var found: Dictionary
 
 func _ready() -> void:
 	var config = ConfigFile.new()
@@ -45,7 +47,10 @@ func _ready() -> void:
 	var json_text = file.get_as_text()
 	var json = JSON.new()
 	json.parse(json_text)
-	data = json.data
+	var temp = json.data
+	text = temp["Text"]
+	temp.erase("Text")
+	data = temp
 
 
 func save_game_settings(file: ConfigFile):
@@ -66,6 +71,7 @@ func load_game_settings() -> ConfigFile:
 	return config
 	
 func switch():
+	print(texts.visible)
 	if not interact.visible and not texts.visible:
 		if not current.find_child("back").visible:
 			current.find_child("back").show()
