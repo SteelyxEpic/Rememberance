@@ -238,12 +238,6 @@
 [ext_resource type="AudioStream" uid="uid://dk7r8g7tboov2" path="res://voicelines/darkpainting/4.mp3" id="164_now5g"]
 [ext_resource type="AudioStream" uid="uid://d2p8wglfkj5qc" path="res://voicelines/ending/intro/1.mp3" id="165_26eu2"]
 [ext_resource type="AudioStream" uid="uid://b3m286cwq828v" path="res://voicelines/ending/intro/2.mp3" id="166_i176a"]
-[ext_resource type="AudioStream" uid="uid://bkhbji5ibnkc0" path="res://voicelines/ending/questions/1.mp3" id="167_sc0d4"]
-[ext_resource type="AudioStream" uid="uid://dtw8k66ilhn83" path="res://voicelines/ending/questions/2.mp3" id="168_0yttj"]
-[ext_resource type="AudioStream" uid="uid://dq566m4khc40b" path="res://voicelines/ending/questions/3.mp3" id="169_oss2v"]
-[ext_resource type="AudioStream" uid="uid://cjeokvoo8kir4" path="res://voicelines/ending/questions/4.mp3" id="170_etnq7"]
-[ext_resource type="AudioStream" uid="uid://bbrplbasubm0v" path="res://voicelines/ending/questions/5.mp3" id="171_m0068"]
-[ext_resource type="AudioStream" uid="uid://dusxvgpepe23q" path="res://voicelines/ending/questions/6.mp3" id="172_l6p07"]
 [ext_resource type="AudioStream" uid="uid://dkidncnc8dtkq" path="res://voicelines/ending/questions/7.mp3" id="173_ek3mr"]
 [ext_resource type="AudioStream" uid="uid://dyfs5x31iguv6" path="res://voicelines/ending/questions/8.mp3" id="174_bdya2"]
 [ext_resource type="AudioStream" uid="uid://c3ga4nhbopv5n" path="res://voicelines/ending/questions/9.mp3" id="175_k0iwq"]
@@ -1283,42 +1277,6 @@ metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 script = ExtResource("14_5m0m6")
 caption = "Y-yes"
 audio = ExtResource("166_i176a")
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_bwd73"]
-script = ExtResource("14_5m0m6")
-caption = "What is your name?"
-audio = ExtResource("167_sc0d4")
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_2t5pd"]
-script = ExtResource("14_5m0m6")
-caption = "What is your pets name?"
-audio = ExtResource("168_0yttj")
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_1dou6"]
-script = ExtResource("14_5m0m6")
-caption = "What is my name?"
-audio = ExtResource("169_oss2v")
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_sriil"]
-script = ExtResource("14_5m0m6")
-caption = "What is your favourite color?"
-audio = ExtResource("170_etnq7")
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_nyhlb"]
-script = ExtResource("14_5m0m6")
-caption = "What is your hobby?"
-audio = ExtResource("171_m0068")
-metadata/_custom_type_script = "uid://cpahbsfacxfqc"
-
-[sub_resource type="Resource" id="Resource_m0068"]
-script = ExtResource("14_5m0m6")
-caption = "Do you have any comments"
-audio = ExtResource("172_l6p07")
 metadata/_custom_type_script = "uid://cpahbsfacxfqc"
 
 [sub_resource type="Resource" id="Resource_4lx63"]
@@ -2445,19 +2403,7 @@ scale = Vector2(1.7297297, 1.5211266)
 texture = ExtResource("72_sqgh1")
 script = ExtResource("9_parq5")
 statement = Array[ExtResource("14_5m0m6")]([SubResource("Resource_5mqdy"), SubResource("Resource_4k7js")])
-ques = Array[ExtResource("14_5m0m6")]([SubResource("Resource_bwd73"), SubResource("Resource_2t5pd"), SubResource("Resource_1dou6"), SubResource("Resource_sriil"), SubResource("Resource_nyhlb"), SubResource("Resource_m0068")])
 response = Array[ExtResource("14_5m0m6")]([SubResource("Resource_4lx63"), SubResource("Resource_n0bt1"), SubResource("Resource_eyrie"), SubResource("Resource_lt78p")])
-answer = Dictionary[String, String]({
-"are you really a god": "secret",
-"blue": "secret",
-"car": "secret",
-"god": "ori",
-"gordy": "ori",
-"horcus": "ori",
-"kron": "secret",
-"mountain": "ori",
-"red": "ori"
-})
 safekeeping = Dictionary[String, int]({
 "ori": 0,
 "secret": 0

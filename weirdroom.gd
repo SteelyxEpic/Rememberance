@@ -8,9 +8,7 @@ var positions: Array[Vector2] = [Vector2(17, -55), Vector2(55, 16), Vector2(43, 
 @onready var timer: Timer = $Timer
 @onready var seen: TextureProgressBar = $front/seen
 @export var statement:Array[Dialogue]
-@export var ques:Array[Dialogue]
 @export var response:Array[Dialogue]
-@export var answer:Dictionary[String, String]
 @export var safekeeping:Dictionary[String, int]
 @export var image:Dictionary[String, Texture2D]
 var ask = false
@@ -95,15 +93,18 @@ func askgod():
 	Global.emit_signal("speech", statement)
 	await Global.speechfinished
 	await get_tree().create_timer(0.5).timeout
-	for i in ques:
+	for key in Global.data.keys():
+		var i = Dialogue.new()
+		i.caption = key
+		i.audio = load(Global.data[key]["voice"])
 		var temp:Array[Dialogue] = [i]
 		Global.emit_signal("speech", temp)
 		await Global.speechfinished
 		$front/answer.show()
 		await $front/answer/Button.pressed
-		if $front/answer.text.to_lower() in answer and not $front/answer.text.to_lower() in tempkeeping:
-			safekeeping[answer[$front/answer.text.to_lower()]] += 1
-		tempkeeping.append($front/answer.text.to_lower())
+		for x in Global.data[key]["answers"].keys():
+			if $front/answer.text.to_lower() in Global.data[key]["answers"][x]:
+				safekeeping[x] += 1
 		$front/answer.text = ""
 		temp = [response.pick_random()]
 		Global.emit_signal("speech", temp)
@@ -111,13 +112,14 @@ func askgod():
 		await get_tree().create_timer(0.5).timeout
 	$front.hide()
 	$"../light".hide()
+	
 	if safekeeping["ori"] >= 4:
 		$"..".trigger("ori")
 		texture = image["ori"]
 		var temp = Global.load_game_settings()
 		temp.set_value("player", "end", true)
 		Global.save_game_settings(temp)
-	elif safekeeping["secret"] >= 3:
+	elif safekeeping["secret"] >= 5:
 		$"..".trigger("secret")
 		texture = image["secret"]
 		var temp = Global.load_game_settings()

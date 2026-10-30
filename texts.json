@@ -1,4 +1,38 @@
 {
-	"ori": ["god", "gordy", "horcus", "mountain", "red"],
-	"secret": ["blue"]
+	"What is your name?":{
+		"voice": "res://voicelines/ending/questions/1.mp3",
+		"answers":{
+		"ori": ["gordy"],
+		"secret": ["grim"]}
+	},
+	"What is your pets name?":{
+		"voice": "res://voicelines/ending/questions/2.mp3",
+		"answers":{
+		"ori": ["horcus"],
+		"secret": ["canopy"]}
+	},
+	"What is my name?":{
+		"voice": "res://voicelines/ending/questions/3.mp3",
+		"answers":{
+		"ori": ["god"],
+		"secret": ["cron"]}
+	},
+	"What is your favourite color?":{
+		"voice": "res://voicelines/ending/questions/4.mp3",
+		"answers":{
+		"ori": ["red"],
+		"secret": ["blue"]}
+	},
+	"What is your hobby?":{
+		"voice": "res://voicelines/ending/questions/5.mp3",
+		"answers":{
+		"ori": ["mountain"],
+		"secret": ["car"]}
+	},
+	"Do you have any comments":{
+		"voice": "res://voicelines/ending/questions/6.mp3",
+		"answers":{
+		"ori": [],
+		"secret": ["ready", "not anymore"]}
+	}
 }
