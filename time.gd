@@ -11,6 +11,7 @@ func next():
 	timeminute += 1
 	var hour = floor(timeminute/60)
 	text = "%02d" % hour + ":%02d" % (timeminute - (hour * 60))
+	#Global.emit_signal("staticchange", (timeminute/1440)/2 + 0.2)
 	if hour == 24:
 		timer.stop()
 		$"../sfx".stream = audio

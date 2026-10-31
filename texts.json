@@ -15,7 +15,7 @@
 		"voice": "res://voicelines/ending/questions/3.mp3",
 		"answers":{
 		"ori": ["god"],
-		"secret": ["cron"]}
+		"secret": ["kron"]}
 	},
 	"What is your favourite color?":{
 		"voice": "res://voicelines/ending/questions/4.mp3",
@@ -35,5 +35,5 @@
 		"ori": [],
 		"secret": ["ready", "not anymore"]}
 	},
-	"Text": ["gordy", "horcus", "god", "kron", "red", "mountain"]
+	"Text": ["gordy", "horcus", "god", "kron", "red", "mountain", "car", "volcano", "grief", "story", "yellow", "flower", "faith"]
 }

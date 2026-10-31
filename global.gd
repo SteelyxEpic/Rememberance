@@ -8,6 +8,8 @@ signal rotate(show:bool)
 signal change(location:String, direction: bool)
 signal seegod
 signal speechfinished
+signal statics
+signal staticchange(intensity:float)
 const SAVE_PATH = "user://settings.cfg"
 var inter:Sprite2D
 var interart:Texture2D

@@ -18,9 +18,14 @@ var ask = false
 var tempkeeping:Array[String]
 
 signal text(tex:String)
+signal user_responded
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	$front/answer/Button.pressed.connect(func():
+		user_responded.emit())
+	$front/answer.text_submitted.connect(func(submittedtext):
+		user_responded.emit())
 	timer.timeout.connect(time)
 	Global.texts = $front/answer
 	Global.change.connect(change)
@@ -114,16 +119,22 @@ func askgod():
 		Global.emit_signal("speech", temp)
 		await Global.speechfinished
 		$front/answer.show()
+		for x in $front/answer/Answers/VBoxContainer.get_children():
+			x.queue_free()
 		for x in Global.found.keys():
 			var voicetemp = voice.instantiate()
 			$front/answer/Answers/VBoxContainer.add_child(voicetemp)
 			voicetemp.text = x
 			voicetemp.pressed.connect(func():
 				emit_signal("text", x))
-		await $front/answer/Button.pressed
+		await user_responded
+		$front/answer.hide()
 		for x in Global.data[key]["answers"].keys():
 			if $front/answer.text.to_lower() in Global.data[key]["answers"][x].map(func(word): return word.to_lower()):
 				safekeeping[x] += 1
+				if x == "secret":
+					Global.emit_signal("statics")
+					await get_tree().create_timer(1.3).timeout
 		$front/answer.text = ""
 		temp = [response.pick_random()]
 		Global.emit_signal("speech", temp)

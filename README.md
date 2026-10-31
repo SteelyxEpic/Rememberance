@@ -42,5 +42,13 @@ Do you have any comments - none
 <details>
   <summary>Secret ending?</summary>
   
-If you answer blue, car and kron at least once with the questions, you will unlock the secret true ending!~
+
+What is your name? - grim
+What is your pets name? - canopy
+What is my name? - kron
+What is your favourite color? - blue
+What is your hobby? - car
+Do you have any comments - ready OR not anymore
+
+Why are these the answers? I don't know~ figure that out yourself!
 </details>
